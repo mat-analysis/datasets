@@ -1,0 +1,3 @@
+Raw trajectories of three different animal species: elk, deer and cattle. It has a total of 253 trajectories, and 287, 136 trajectory points. We used the entire dataset, as it has a low number of trajectories but that are long in size.
+
+Thee dataset is related to animals movement generated during the Starkey project (http://www.fs.fed.us/pnw/starkey/data/tables/), and contains trajectories of three species observed in June 1995: elk, deer, and cattle. The number of trajectories for each species is 38 (7,117 points), 30 (4,333 points), and 34(3,540 points), respectively.

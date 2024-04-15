@@ -1,0 +1,465 @@
+--------------------------------------------------------------------
+Descriptive Statistics for Animals/run1
+Number of Classes:     => 3
+Number of Attributes:  => 5
+Number of Trajs:       => 102 total / 81 train + 21 test
+Number of Points:      => 14990 total / 11589 train + 3401 test
+Avg Size of Trajs:     => 146.96  / ± 144.9607843137255
+Longest Size:          => 291 train / 239 test
+Shortest Size:         => 2 train / 73 test
+Train / Test hold-out: => 81 - 79.41% .. 21 - 20.59%
+
+--------------------------------------------------------------------
+Attributes: 
+['time', 'lat', 'lon', 'tid', 'label']
+
+Features Selection (by Variance): 
+            mean     Std.Dev           Var
+time  328.785913  211.764293  44844.115857
+tid    46.889119   26.618682    708.554239
+lat    50.123750    0.033187      0.001101
+lon     3.772182    0.018235      0.000333
+
+Classes: 
+['D' 'E' 'C'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 81
+Samples by Class:
+[E]    30
+[C]    27
+[D]    24
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 21
+Samples by Class:
+[E]    8
+[C]    7
+[D]    6
+dtype: int64
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+--------------------------------------------------------------------
+Descriptive Statistics for Geolife/run1
+Number of Classes:     => 6
+Number of Attributes:  => 5
+Number of Trajs:       => 5434
+Number of Points:      => 650940 - 519276 / 131664
+Avg Size of Trajs:     => 119.79
+Longest Size:          => 250 / 250
+Shortest Size:         => 31 / 31
+Train / Test hold-out: => 4346 - 79.98% .. 1088 - 20.02%
+
+--------------------------------------------------------------------
+Attributes: 
+['time', 'lat', 'lon', 'tid', 'label']
+
+Features Selection (by Variance): 
+              mean       Std.Dev           Var
+time  1.227491e+09  2.487597e+07  6.188140e+14
+tid   7.139513e+03  4.065580e+03  1.652894e+07
+lon   1.153696e+02  1.463239e+01  2.141067e+02
+lat   3.967506e+01  2.167040e+00  4.696061e+00
+
+Classes: 
+['train' 'taxibus' 'walk' 'subway' 'bike' 'car'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 4346
+Samples by Class:
+[walk]       2544
+[taxibus]     791
+[bike]        433
+[car]         311
+[subway]      220
+[train]        47
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 1088
+Samples by Class:
+[walk]       636
+[taxibus]    198
+[bike]       109
+[car]         78
+[subway]      55
+[train]       12
+dtype: int64
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+--------------------------------------------------------------------
+Descriptive Statistics for GoTrack/run1
+Number of Classes:     => 2
+Number of Attributes:  => 5
+Number of Trajs:       => 163 total / 129 train + 34 test
+Number of Points:      => 18107 total / 14115 train + 3992 test
+Avg Size of Trajs:     => 111.09  / ± 534.9141104294479
+Longest Size:          => 646 train / 646 test
+Shortest Size:         => 1 train / 1 test
+Train / Test hold-out: => 129 - 79.14% .. 34 - 20.86%
+
+--------------------------------------------------------------------
+Attributes: 
+['time', 'lat', 'lon', 'tid', 'label']
+
+Features Selection (by Variance): 
+              mean       Std.Dev           Var
+tid   12820.247113  17896.773502  3.202945e+08
+time    686.044775    279.126704  7.791172e+04
+lat     -11.041301      1.500102  2.250307e+00
+lon     -37.143369      1.057426  1.118150e+00
+
+Classes: 
+['car' 'bus'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 129
+Samples by Class:
+[car]    69
+[bus]    60
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 34
+Samples by Class:
+[car]    18
+[bus]    16
+dtype: int64
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+--------------------------------------------------------------------
+Descriptive Statistics for Vehicles/run1
+Number of Classes:     => 2
+Number of Attributes:  => 5
+Number of Trajs:       => 381 total / 304 train + 77 test
+Number of Points:      => 178299 total / 142807 train + 35492 test
+Avg Size of Trajs:     => 467.98  / ± 627.0236220472441
+Longest Size:          => 1095 train / 964 test
+Shortest Size:         => 29 train / 76 test
+Train / Test hold-out: => 304 - 79.79% .. 77 - 20.21%
+
+--------------------------------------------------------------------
+Attributes: 
+['time', 'lat', 'lon', 'tid', 'label']
+
+Features Selection (by Variance): 
+              mean       Std.Dev           Var
+tid   7.477175e+04  37265.609355  1.388726e+09
+time  2.142144e+04  14556.064875  2.118790e+08
+lon   4.845783e+05   8464.395503  7.164599e+07
+lat   4.208819e+06   7638.476551  5.834632e+07
+
+Classes: 
+['B' 'T'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 304
+Samples by Class:
+[T]    218
+[B]     86
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 77
+Samples by Class:
+[T]    55
+[B]    22
+dtype: int64
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+--------------------------------------------------------------------
+Descriptive Statistics for Vessels/run1
+Number of Classes:     => 3
+Number of Attributes:  => 5
+Number of Trajs:       => 38 total / 29 train + 9 test
+Number of Points:      => 76455 total / 56937 train + 19518 test
+Avg Size of Trajs:     => 2011.97  / ± 1989.9736842105262
+Longest Size:          => 3872 train / 3579 test
+Shortest Size:         => 22 train / 1191 test
+Train / Test hold-out: => 29 - 76.32% .. 9 - 23.68%
+
+--------------------------------------------------------------------
+Attributes: 
+['time', 'lat', 'lon', 'tid', 'label']
+
+Features Selection (by Variance): 
+              mean        Std.Dev           Var
+time  9.669206e+08  619515.408359  3.837993e+11
+tid   3.022903e+03      11.091658  1.230249e+02
+lon  -1.220931e+02       0.198472  3.939114e-02
+lat   3.684603e+01       0.158971  2.527187e-02
+
+Classes: 
+['ventana' 'NewHorizon' 'PointLobos'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 29
+Samples by Class:
+[NewHorizon]    11
+[PointLobos]     9
+[ventana]        9
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 9
+Samples by Class:
+[PointLobos]    3
+[ventana]       3
+[NewHorizon]    3
+dtype: int64
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+--------------------------------------------------------------------
+Descriptive Statistics for GoTrack
+Number of Classes:     => 2
+Number of Attributes:  => 5
+Number of Trajs:       => 100
+Number of Points:      => 10458 - 5229 / 5229
+Avg Size of Trajs:     => 104.58
+Longest Size:          => 646 / 646
+Shortest Size:         => 1 / 1
+Train / Test hold-out: => 50 - 50.00% .. 50 - 50.00%
+
+--------------------------------------------------------------------
+Attributes: 
+['time', 'lat', 'lon', 'tid', 'label']
+
+Features Selection (by Variance): 
+              mean       Std.Dev           Var
+tid   15253.438898  18529.696217  3.433496e+08
+time    749.746223    250.087498  6.254376e+04
+lat     -11.033616      1.687192  2.846618e+00
+lon     -37.137941      1.192270  1.421507e+00
+
+Classes: 
+['car' 'bus'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 50
+Samples by Class:
+[car]    27
+[bus]    23
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 50
+Samples by Class:
+[car]    27
+[bus]    23
+dtype: int64
+
+--------------------------------------------------------------------
+Descriptive Statistics for Geolife
+Number of Classes:     => 6
+Number of Attributes:  => 5
+Number of Trajs:       => 5434
+Number of Points:      => 650940 - 456102 / 194838
+Avg Size of Trajs:     => 119.79
+Longest Size:          => 250 / 250
+Shortest Size:         => 31 / 31
+Train / Test hold-out: => 3802 - 69.97% .. 1632 - 30.03%
+
+--------------------------------------------------------------------
+Attributes: 
+['time', 'lat', 'lon', 'tid', 'label']
+
+Features Selection (by Variance): 
+              mean       Std.Dev           Var
+time  1.227705e+09  2.528169e+07  6.391639e+14
+tid   7.165107e+03  4.111162e+03  1.690165e+07
+lon   1.152154e+02  1.589998e+01  2.528093e+02
+lat   3.969811e+01  2.076336e+00  4.311173e+00
+
+Classes: 
+['train' 'taxibus' 'walk' 'subway' 'bike' 'car'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 3802
+Samples by Class:
+[walk]       2226
+[taxibus]     692
+[bike]        379
+[car]         272
+[subway]      192
+[train]        41
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 1632
+Samples by Class:
+[walk]       954
+[taxibus]    297
+[bike]       163
+[car]        117
+[subway]      83
+[train]       18
+dtype: int64
+
+--------------------------------------------------------------------
+Descriptive Statistics for Animals
+Number of Classes:     => 3
+Number of Attributes:  => 5
+Number of Trajs:       => 102
+Number of Points:      => 14990 - 10468 / 4522
+Avg Size of Trajs:     => 146.96
+Longest Size:          => 291 / 282
+Shortest Size:         => 2 / 10
+Train / Test hold-out: => 70 - 68.63% .. 32 - 31.37%
+
+--------------------------------------------------------------------
+Attributes: 
+['time', 'lat', 'lon', 'tid', 'label']
+
+Features Selection (by Variance): 
+            mean     Std.Dev           Var
+time  334.621265  215.160023  46293.835376
+tid    48.901318   26.713689    713.621196
+lat    50.127665    0.031688      0.001004
+lon     3.771185    0.018192      0.000331
+
+Classes: 
+['D' 'E' 'C'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 70
+Samples by Class:
+[E]    26
+[C]    23
+[D]    21
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 32
+Samples by Class:
+[E]    12
+[C]    11
+[D]     9
+dtype: int64
+
+--------------------------------------------------------------------
+Descriptive Statistics for Vehicles
+Number of Classes:     => 2
+Number of Attributes:  => 5
+Number of Trajs:       => 381
+Number of Points:      => 178299 - 107550 / 70749
+Avg Size of Trajs:     => 467.98
+Longest Size:          => 1016 / 1095
+Shortest Size:         => 29 / 45
+Train / Test hold-out: => 227 - 59.58% .. 154 - 40.42%
+
+--------------------------------------------------------------------
+Attributes: 
+['time', 'lat', 'lon', 'tid', 'label']
+
+Features Selection (by Variance): 
+              mean       Std.Dev           Var
+tid   7.819041e+04  50937.432682  2.594622e+09
+time  2.170758e+04  14881.226452  2.214509e+08
+lon   4.840411e+05   9250.409548  8.557008e+07
+lat   4.208994e+06   8109.440111  6.576302e+07
+
+Classes: 
+['B' 'T'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 227
+Samples by Class:
+[T]    163
+[B]     64
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 154
+Samples by Class:
+[T]    110
+[B]     44
+dtype: int64
+
+--------------------------------------------------------------------
+Descriptive Statistics for Vessels
+Number of Classes:     => 3
+Number of Attributes:  => 5
+Number of Trajs:       => 38
+Number of Points:      => 76455 - 49992 / 26463
+Avg Size of Trajs:     => 2011.97
+Longest Size:          => 3872 / 3374
+Shortest Size:         => 22 / 706
+Train / Test hold-out: => 25 - 65.79% .. 13 - 34.21%
+
+--------------------------------------------------------------------
+Attributes: 
+['time', 'lat', 'lon', 'tid', 'label']
+
+Features Selection (by Variance): 
+              mean        Std.Dev           Var
+time  9.668231e+08  729122.268013  5.316193e+11
+tid   3.022844e+03      11.882695  1.411984e+02
+lon  -1.220965e+02       0.208369  4.341751e-02
+lat   3.684633e+01       0.161358  2.603644e-02
+
+Classes: 
+['ventana' 'NewHorizon' 'PointLobos'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 25
+Samples by Class:
+[NewHorizon]    9
+[PointLobos]    8
+[ventana]       8
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 13
+Samples by Class:
+[NewHorizon]    5
+[PointLobos]    4
+[ventana]       4
+dtype: int64

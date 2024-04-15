@@ -1,0 +1,95 @@
+{
+   "input": {
+          "train": ["train"],
+          "test": ["test"],
+          "format": "CZIP",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 1,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 2,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 1,
+	          "type": "numeric",
+	          "text": "time",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 2,
+	          "type": "space2d",
+	          "text": "space",
+	          "comparator": {
+	            "distance": "euclidean",
+	            "maxValue": -1
+	          }
+	    }
+	],
+   "features": [
+	    {
+	          "order": 1,
+	          "type": "speed",
+	          "text": "space",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 2,
+	          "type": "acceleration",
+	          "text": "space",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 3,
+	          "type": "traveleddistance",
+	          "text": "space",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 4,
+	          "type": "elapsedtime",
+	          "text": "time",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 5,
+	          "type": "staytime",
+	          "text": "time",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 6,
+	          "type": "sinuosity",
+	          "text": "space",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 7,
+	          "type": "turnangle",
+	          "text": "space",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    }
+	]
+}

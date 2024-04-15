@@ -1,0 +1,1 @@
+The dataset contains two categories of vehicles moving around the Athens metropolitan area (http://www.chorochronos.org/). The trajectories were collected by school buses and trucks, and the number of trajectories for each class is 145 (66,096 points) and 276 (112,203 points), respectively.

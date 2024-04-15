@@ -1,0 +1,1 @@
+The hurricanes are labeled in six classes where the class is the strength of the hurricane (0 to 5). It consists of 996 trajectories, and we used the entire dataset, as the trajectories are not dense in number of points.

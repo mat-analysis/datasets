@@ -1,0 +1,14 @@
+{
+   "readsDesc": [
+        {
+          "order": 1,
+          "type": "space2d",
+          "text": "space"
+        },
+        {
+          "order": 2,
+          "type": "datetime",
+          "text": "time"
+        }
+      ]
+}
