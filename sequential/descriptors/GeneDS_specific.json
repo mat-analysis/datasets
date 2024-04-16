@@ -1,0 +1,43 @@
+{
+   "readsDesc": [	
+        {
+          "order": 1,
+          "type": "nominal",
+          "text": "sequence"
+        },
+        {
+          "order": 2,
+          "type": "nominal",
+          "text": "name"
+        }
+      ],
+    "pointFeaturesDesc": [
+      ],
+    "subtrajectoryFeaturesDesc": [
+	  ],
+    "trajectoryFeaturesDesc": [
+      ],
+    "pointComparisonDesc": {
+      "pointDistance": "euclidean",
+      "featureComparisonDesc":
+		[
+			{
+			  "distance": "equals",
+			  "text": "sequence"
+			},
+			{
+			  "distance": "equals",
+			  "text": "name"
+			}
+		]
+    },
+    "subtrajectoryComparisonDesc": {
+      "subtrajectoryDistance": "euclidean",
+      "featureComparisonDesc": [
+			{
+			  "distance": "euclidean",
+			  "text": "points"
+			}
+		]
+    }   	
+}

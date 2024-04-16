@@ -1,0 +1,83 @@
+--------------------------------------------------------------------
+Descriptive Statistics for Promoters/run1
+Number of Classes:     => 2
+Number of Attributes:  => 4
+Number of Trajs:       => 106 total / 84 train + 22 test
+Number of Points:      => 6042 total / 4788 train + 1254 test
+Avg Size of Trajs:     => 57.00  / ± 0.0
+Longest Size:          => 57 train / 57 test
+Shortest Size:         => 57 train / 57 test
+Train / Test hold-out: => 84 - 79.25% .. 22 - 20.75%
+
+--------------------------------------------------------------------
+Attributes: 
+['sequence', 'name', 'tid', 'label']
+
+Features Selection (by Variance): 
+          mean    Std.Dev         Var
+tid  52.238095  30.574195  934.781402
+
+Classes: 
+['+' '-'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 84
+Samples by Class:
+[-]    42
+[+]    42
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 22
+Samples by Class:
+[-]    11
+[+]    11
+dtype: int64
+
+# -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+
+--------------------------------------------------------------------
+Descriptive Statistics for SJGS/run1
+Number of Classes:     => 3
+Number of Attributes:  => 4
+Number of Trajs:       => 3190
+Number of Points:      => 191400 - 153060 / 38340
+Avg Size of Trajs:     => 60.00
+Longest Size:          => 60 / 60
+Shortest Size:         => 60 / 60
+Train / Test hold-out: => 2551 - 79.97% .. 639 - 20.03%
+
+--------------------------------------------------------------------
+Attributes: 
+['sequence', 'name', 'tid', 'label']
+
+Features Selection (by Variance): 
+            mean     Std.Dev            Var
+tid  1593.909447  920.949525  848148.027394
+
+Classes: 
+['EI' 'IE' 'N'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 2551
+Samples by Class:
+[N]     1324
+[IE]     614
+[EI]     613
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 639
+Samples by Class:
+[N]     331
+[IE]    154
+[EI]    154
+dtype: int64
