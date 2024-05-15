@@ -1,0 +1,100 @@
+{
+   "input": {
+          "train": ["all_train"],
+          "test": ["all_test"],
+          "format": "CZIP",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 11,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 12,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 1,
+	          "type": "nominal",
+	          "text": "Formation",
+	          "comparator": {
+	            "distance": "equals"
+	          }
+	    },
+	    {
+	          "order": 2,
+	          "type": "nominal",
+	          "text": "well_name",
+	          "comparator": {
+	            "distance": "equals"
+	          }
+	    },
+	    {
+	          "order": 3,
+	          "type": "numeric",
+	          "text": "Depth",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 4,
+	          "type": "numeric",
+	          "text": "GR",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 5,
+	          "type": "numeric",
+	          "text": "ILD_log10",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 6,
+	          "type": "numeric",
+	          "text": "DeltaPHI",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 7,
+	          "type": "numeric",
+	          "text": "PHIND",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 8,
+	          "type": "numeric",
+	          "text": "PE",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 9,
+	          "type": "numeric",
+	          "text": "NM_M",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 10,
+	          "type": "numeric",
+	          "text": "RELPOS",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    }
+	]
+}

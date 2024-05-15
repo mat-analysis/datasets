@@ -1,0 +1,64 @@
+{
+   "input": {
+          "train": ["train"],
+          "test": ["test"],
+          "format": "CZIP",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 1,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 2,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 2,
+	          "type": "nominal",
+	          "text": "day",
+	          "comparator": {
+	            "distance": "equals",
+	            "maxValue": -1
+	          }
+	    },
+	    {
+	          "order": 3,
+	          "type": "time",
+	          "text": "hour",
+	          "comparator": {
+	            "distance": "difference",
+	            "maxValue": -1
+	          }
+	    },
+	    {
+	          "order": 5,
+	          "type": "nominal",
+	          "text": "category",
+	          "comparator": {
+	            "distance": "equals"
+	          }
+	    },
+	    {
+	          "order": 6,
+	          "type": "numeric",
+	          "text": "price",
+	          "comparator": {
+	            "distance": "difference",
+	            "maxValue": -1
+	          }
+	    },
+	    {
+	          "order": 7,
+	          "type": "numeric",
+	          "text": "rating",
+	          "comparator": {
+	            "distance": "difference",
+	            "maxValue": -1
+	          }
+	    }
+	]
+}

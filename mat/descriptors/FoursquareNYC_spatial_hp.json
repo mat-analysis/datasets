@@ -1,0 +1,29 @@
+{
+   "input": {
+          "train": ["train"],
+          "test": ["test"],
+          "format": "CZIP",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 1,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 2,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 1,
+	          "type": "space2d",
+	          "text": "lat_lon",
+	          "comparator": {
+	            "distance": "euclidean",
+	            "maxValue": -1
+	          }
+	    }
+	]
+}

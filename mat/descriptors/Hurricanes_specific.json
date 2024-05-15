@@ -1,0 +1,100 @@
+{
+   "readsDesc": [
+        {
+          "order": 1,
+          "type": "numeric",
+          "text": "time"
+        },
+        {
+          "order": 2,
+          "type": "space2d",
+          "text": "space"
+        },
+        {
+          "order": 3,
+          "type": "numeric",
+          "text": "windspeed"
+        },
+        {
+          "order": 4,
+          "type": "numeric",
+          "text": "pressure"
+        },
+        {
+          "order": 5,
+          "type": "numeric",
+          "text": "year"
+        },
+        {
+          "order": 6,
+          "type": "numeric",
+          "text": "month"
+        },
+        {
+          "order": 7,
+          "type": "numeric",
+          "text": "day"
+        },
+        {
+          "order": 8,
+          "type": "numeric",
+          "text": "hour"
+        }
+      ],
+    "pointFeaturesDesc": [
+      ],
+    "subtrajectoryFeaturesDesc": [
+		],
+    "trajectoryFeaturesDesc": [
+		"timeduration",	
+        "traveledDistance",
+        "averageSpeed"
+      ],
+    "pointComparisonDesc": {
+      "pointDistance": "euclidean",
+      "featureComparisonDesc": [
+			{
+			  "distance": "difference",
+			  "text": "time"
+			},
+			{
+			  "distance": "euclidean",
+			  "maxValue": -1,
+			  "text": "space"
+			},
+			{
+			  "distance": "difference",
+			  "text": "windspeed"
+			},
+			{
+			  "distance": "difference",
+			  "text": "pressure"
+			},
+			{
+			  "distance": "difference",
+			  "text": "year"
+			},
+			{
+			  "distance": "difference",
+			  "text": "month"
+			},
+			{
+			  "distance": "difference",
+			  "text": "day"
+			},
+			{
+			  "distance": "difference",
+			  "text": "hour"
+			}
+      ]
+    },
+    "subtrajectoryComparisonDesc": {
+      "subtrajectoryDistance": "euclidean",
+      "featureComparisonDesc": [
+			{
+			  "distance": "euclidean",
+			  "text": "points"
+			}
+		]
+    }  
+}

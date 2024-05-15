@@ -1,0 +1,28 @@
+{
+   "input": {
+          "train": ["train"],
+          "test": ["test"],
+          "format": "CZIP",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 1,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 2,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 4,
+	          "type": "nominal",
+	          "text": "poi",
+	          "comparator": {
+	            "distance": "equals"
+	          }
+	    }
+	]
+}

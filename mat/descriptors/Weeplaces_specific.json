@@ -1,0 +1,106 @@
+{
+   "readsDesc": [
+    {
+          "order": 1,
+          "type": "nominal",
+          "text": "placeid"
+    },
+    {
+          "order": 2,
+          "type": "datetime",
+          "text": "datetime"
+    },
+    {
+          "order": 3,
+          "type": "nominal",
+          "text": "space"
+    },
+    {
+          "order": 4,
+          "type": "nominal",
+          "text": "city"
+    },
+    {
+          "order": 5,
+          "type": "nominal",
+          "text": "category"
+    },
+    {
+          "order": 6,
+          "type": "nominal",
+          "text": "category2"
+    },
+    {
+          "order": 7,
+          "type": "nominal",
+          "text": "category3"
+    },
+    {
+          "order": 8,
+          "type": "nominal",
+          "text": "friends"
+    },
+    {
+          "order": 9,
+          "type": "nominal",
+          "text": "tid"
+    },
+    {
+          "order": 10,
+          "type": "nominal",
+          "text": "label"
+    }
+    ],
+    "pointFeaturesDesc": [],
+    "subtrajectoryFeaturesDesc": [],
+    "trajectoryFeaturesDesc": [],
+    "pointComparisonDesc": {
+      "pointDistance": "euclidean",
+      "featureComparisonDesc": [
+            {
+              "distance": "equals",
+              "maxValue": -1,
+              "text": "placeid"
+            },
+            {
+              "distance": "difference",
+              "maxValue": -1,
+              "text": "datetime"
+            },
+            {
+              "distance": "euclidean",
+              "maxValue": -1,
+              "text": "space"
+            },
+            {
+              "distance": "equals",
+              "maxValue": -1,
+              "text": "city"
+            },
+            {
+              "distance": "equals",
+              "maxValue": -1,
+              "text": "category"
+            },
+            {
+              "distance": "equals",
+              "maxValue": -1,
+              "text": "category2"
+            },
+            {
+              "distance": "equals",
+              "maxValue": -1,
+              "text": "category3"
+            }
+        ]
+    },
+    "subtrajectoryComparisonDesc": {
+        "subtrajectoryDistance": "euclidean",
+        "featureComparisonDesc": [
+            {
+              "distance": "euclidean",
+              "text": "points"
+            }
+        ]
+    }
+}

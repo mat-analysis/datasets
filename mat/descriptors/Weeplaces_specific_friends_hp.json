@@ -1,0 +1,84 @@
+{
+   "input": {
+          "train": ["specific_train"],
+          "test": ["specific_test"],
+          "format": "CSV",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 10,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 11,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+        {
+              "order": 1,
+              "type": "nominal",
+              "text": "placeid",
+              "comparator": {
+                "distance": "equals"
+              }
+        },
+        {
+              "order": 2,
+              "type": "datetime",
+              "text": "datetime",
+              "comparator": {
+                "distance": "difference"
+              }
+        },
+        {
+              "order": 3,
+              "type": "composite_space2d",
+              "text": "lat",
+              "comparator": {
+                "distance": "euclidean"
+              }
+        },
+        {
+              "order": 5,
+              "type": "nominal",
+              "text": "city",
+              "comparator": {
+                "distance": "equals"
+              }
+        },
+        {
+              "order": 6,
+              "type": "nominal",
+              "text": "category",
+              "comparator": {
+                "distance": "equals"
+              }
+        },
+        {
+              "order": 7,
+              "type": "nominal",
+              "text": "category2",
+              "comparator": {
+                "distance": "equals"
+              }
+        },
+        {
+              "order": 8,
+              "type": "nominal",
+              "text": "category3",
+              "comparator": {
+                "distance": "equals"
+              }
+        },
+        {
+              "order": 9,
+              "type": "nominal",
+              "text": "friends",
+              "comparator": {
+                "distance": "equals"
+              }
+        }
+    ]
+}

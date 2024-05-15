@@ -1,0 +1,49 @@
+{
+   "readsDesc": [		
+        {
+          "order": 1,
+          "type": "space2d",
+          "text": "space"
+        },
+        {
+          "order": 2,
+          "type": "numeric",
+          "text": "time"
+        },
+        {
+          "order": 3,
+          "type": "nominal",
+          "text": "day"
+        },
+		{
+          "order": 4,
+          "type": "nominal",
+          "text": "poi"
+        }
+      ],
+    "pointFeaturesDesc": [
+      ],
+    "subtrajectoryFeaturesDesc": [
+	  ],
+    "trajectoryFeaturesDesc": [
+      ],
+    "pointComparisonDesc": {
+      "pointDistance": "euclidean",
+      "featureComparisonDesc":
+		[
+			{
+			  "distance": "equals",
+			  "text": "poi"
+			}
+		]
+    },
+    "subtrajectoryComparisonDesc": {
+      "subtrajectoryDistance": "euclidean",
+      "featureComparisonDesc": [
+			{
+			  "distance": "euclidean",
+			  "text": "points"
+			}
+		]
+    }   	
+}

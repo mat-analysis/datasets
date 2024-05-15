@@ -1,0 +1,3 @@
+Multiple aspect trajectories from users of the Brightkite social media \[1\], with the semantic and the spatiotemporal reference of the check-in place. Trajectories are split in weeks, and we used a total of 300 random users for analysis, with a filter of a minimum of 10 points per trajectory. The check-in points were enriched with the semantic information of the weekday and the resultant dataset has a total of 7,911 trajectories and 130,494 trajectory points.
+
+\[1\] Eunjoon Cho, Seth A Myers, and Jure Leskovec. 2011. Friendship and mobility: user movement in location-based social networks. In Proceedings of the 17th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 1082–1090.
