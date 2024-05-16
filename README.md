@@ -29,8 +29,8 @@ This respository contains public preprocessed datasets used in research experime
 - Clothing Alibaba: \[ [files](./data/sequential/ClothingAlibaba) \] **NEW**
 
 *Time Series:*
-- Univariate Time Seties: \[ [files](./data/uts/) \] **NEW**
-- Multivariate Time Seties: \[ [files](./data/mts/) \] **NEW**
+- Univariate Time Seties: \[ [35 datasets](./data/uts/) \] **NEW**
+- Multivariate Time Seties: \[ [127 datasets](./data/mts/) \] **NEW**
 
 *Event Log:*
 - BPI Challenge 2011: \[ [files](./data/log/BPI2011) \] **NEW**
