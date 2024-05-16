@@ -1,0 +1,164 @@
+{
+   "input": {
+          "train": ["AustralianSignLanguage_TRAIN"],
+          "test": ["AustralianSignLanguage_TEST"],
+          "format": "TS",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 1,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 4,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 1,
+	          "type": "composite3_space3d",
+	          "text": "left_xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 4,
+	          "type": "numeric",
+	          "text": "left_roll",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 5,
+	          "type": "numeric",
+	          "text": "left_pitch",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 6,
+	          "type": "numeric",
+	          "text": "left_yaw",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 7,
+	          "type": "numeric",
+	          "text": "left_thumb",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 8,
+	          "type": "numeric",
+	          "text": "left_fore",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 9,
+	          "type": "numeric",
+	          "text": "left_middle",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 10,
+	          "type": "numeric",
+	          "text": "left_ring",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 11,
+	          "type": "numeric",
+	          "text": "left_little",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 12,
+	          "type": "composite3_space3d",
+	          "text": "right_xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 15,
+	          "type": "numeric",
+	          "text": "right_roll",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 16,
+	          "type": "numeric",
+	          "text": "right_pitch",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 17,
+	          "type": "numeric",
+	          "text": "right_yaw",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 18,
+	          "type": "numeric",
+	          "text": "right_thumb",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 19,
+	          "type": "numeric",
+	          "text": "right_fore",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 20,
+	          "type": "numeric",
+	          "text": "right_middle",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 21,
+	          "type": "numeric",
+	          "text": "right_ring",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 22,
+	          "type": "numeric",
+	          "text": "right_little",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    }
+	]
+}

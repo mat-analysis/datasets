@@ -1,0 +1,828 @@
+{
+   "input": {
+          "train": ["GrammaticalFacialExpression_TRAIN"],
+          "test": ["GrammaticalFacialExpression_TEST"],
+          "format": "TS",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 1,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 4,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 1,
+	          "type": "nominal",
+	          "text": "0.0",
+	          "comparator": {
+	            "distance": "equals"
+	          }
+	    },
+	    {
+	          "order": 2,
+	          "type": "composite3_space3d",
+	          "text": "0xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 5,
+	          "type": "composite3_space3d",
+	          "text": "1xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 8,
+	          "type": "composite3_space3d",
+	          "text": "2xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 11,
+	          "type": "composite3_space3d",
+	          "text": "3xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 14,
+	          "type": "composite3_space3d",
+	          "text": "4xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 17,
+	          "type": "composite3_space3d",
+	          "text": "5xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 20,
+	          "type": "composite3_space3d",
+	          "text": "6xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 23,
+	          "type": "composite3_space3d",
+	          "text": "7xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 26,
+	          "type": "composite3_space3d",
+	          "text": "8xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 29,
+	          "type": "composite3_space3d",
+	          "text": "9xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 32,
+	          "type": "composite3_space3d",
+	          "text": "10xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 35,
+	          "type": "composite3_space3d",
+	          "text": "11xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 38,
+	          "type": "composite3_space3d",
+	          "text": "12xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 41,
+	          "type": "composite3_space3d",
+	          "text": "13xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 44,
+	          "type": "composite3_space3d",
+	          "text": "14xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 47,
+	          "type": "composite3_space3d",
+	          "text": "15xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 50,
+	          "type": "composite3_space3d",
+	          "text": "16xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 53,
+	          "type": "composite3_space3d",
+	          "text": "17xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 56,
+	          "type": "composite3_space3d",
+	          "text": "18xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 59,
+	          "type": "composite3_space3d",
+	          "text": "19xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 62,
+	          "type": "composite3_space3d",
+	          "text": "20xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 65,
+	          "type": "composite3_space3d",
+	          "text": "21xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 68,
+	          "type": "composite3_space3d",
+	          "text": "22xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 71,
+	          "type": "composite3_space3d",
+	          "text": "23xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 74,
+	          "type": "composite3_space3d",
+	          "text": "24xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 77,
+	          "type": "composite3_space3d",
+	          "text": "25xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 80,
+	          "type": "composite3_space3d",
+	          "text": "26xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 83,
+	          "type": "composite3_space3d",
+	          "text": "27xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 86,
+	          "type": "composite3_space3d",
+	          "text": "28xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 89,
+	          "type": "composite3_space3d",
+	          "text": "29xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 92,
+	          "type": "composite3_space3d",
+	          "text": "30xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 95,
+	          "type": "composite3_space3d",
+	          "text": "31xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 98,
+	          "type": "composite3_space3d",
+	          "text": "32xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 101,
+	          "type": "composite3_space3d",
+	          "text": "33xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 104,
+	          "type": "composite3_space3d",
+	          "text": "34xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 107,
+	          "type": "composite3_space3d",
+	          "text": "35xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 110,
+	          "type": "composite3_space3d",
+	          "text": "36xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 113,
+	          "type": "composite3_space3d",
+	          "text": "37xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 116,
+	          "type": "composite3_space3d",
+	          "text": "38xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 119,
+	          "type": "composite3_space3d",
+	          "text": "39xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 122,
+	          "type": "composite3_space3d",
+	          "text": "40xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 125,
+	          "type": "composite3_space3d",
+	          "text": "41xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 128,
+	          "type": "composite3_space3d",
+	          "text": "42xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 131,
+	          "type": "composite3_space3d",
+	          "text": "43xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 134,
+	          "type": "composite3_space3d",
+	          "text": "44xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 137,
+	          "type": "composite3_space3d",
+	          "text": "45xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 140,
+	          "type": "composite3_space3d",
+	          "text": "46xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 143,
+	          "type": "composite3_space3d",
+	          "text": "47xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 146,
+	          "type": "composite3_space3d",
+	          "text": "48xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 149,
+	          "type": "composite3_space3d",
+	          "text": "49xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 152,
+	          "type": "composite3_space3d",
+	          "text": "50xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 155,
+	          "type": "composite3_space3d",
+	          "text": "51xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 158,
+	          "type": "composite3_space3d",
+	          "text": "52xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 161,
+	          "type": "composite3_space3d",
+	          "text": "53xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 164,
+	          "type": "composite3_space3d",
+	          "text": "54xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 167,
+	          "type": "composite3_space3d",
+	          "text": "55xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 170,
+	          "type": "composite3_space3d",
+	          "text": "56xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 173,
+	          "type": "composite3_space3d",
+	          "text": "57xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 176,
+	          "type": "composite3_space3d",
+	          "text": "58xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 179,
+	          "type": "composite3_space3d",
+	          "text": "59xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 182,
+	          "type": "composite3_space3d",
+	          "text": "60xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 185,
+	          "type": "composite3_space3d",
+	          "text": "61xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 188,
+	          "type": "composite3_space3d",
+	          "text": "62xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 191,
+	          "type": "composite3_space3d",
+	          "text": "63xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 194,
+	          "type": "composite3_space3d",
+	          "text": "64xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 197,
+	          "type": "composite3_space3d",
+	          "text": "65xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 200,
+	          "type": "composite3_space3d",
+	          "text": "66xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 203,
+	          "type": "composite3_space3d",
+	          "text": "67xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 206,
+	          "type": "composite3_space3d",
+	          "text": "68xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 209,
+	          "type": "composite3_space3d",
+	          "text": "69xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 212,
+	          "type": "composite3_space3d",
+	          "text": "70xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 215,
+	          "type": "composite3_space3d",
+	          "text": "71xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 218,
+	          "type": "composite3_space3d",
+	          "text": "72xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 221,
+	          "type": "composite3_space3d",
+	          "text": "73xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 224,
+	          "type": "composite3_space3d",
+	          "text": "74xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 227,
+	          "type": "composite3_space3d",
+	          "text": "75xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 230,
+	          "type": "composite3_space3d",
+	          "text": "76xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 233,
+	          "type": "composite3_space3d",
+	          "text": "77xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 236,
+	          "type": "composite3_space3d",
+	          "text": "78xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 239,
+	          "type": "composite3_space3d",
+	          "text": "79xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 242,
+	          "type": "composite3_space3d",
+	          "text": "80xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 245,
+	          "type": "composite3_space3d",
+	          "text": "81xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 248,
+	          "type": "composite3_space3d",
+	          "text": "82xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 251,
+	          "type": "composite3_space3d",
+	          "text": "83xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 254,
+	          "type": "composite3_space3d",
+	          "text": "84xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 257,
+	          "type": "composite3_space3d",
+	          "text": "85xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 260,
+	          "type": "composite3_space3d",
+	          "text": "86xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 263,
+	          "type": "composite3_space3d",
+	          "text": "87xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 266,
+	          "type": "composite3_space3d",
+	          "text": "88xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 269,
+	          "type": "composite3_space3d",
+	          "text": "89xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 272,
+	          "type": "composite3_space3d",
+	          "text": "90xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 275,
+	          "type": "composite3_space3d",
+	          "text": "91xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 278,
+	          "type": "composite3_space3d",
+	          "text": "92xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 281,
+	          "type": "composite3_space3d",
+	          "text": "93xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 284,
+	          "type": "composite3_space3d",
+	          "text": "94xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 287,
+	          "type": "composite3_space3d",
+	          "text": "95xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 290,
+	          "type": "composite3_space3d",
+	          "text": "96xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 293,
+	          "type": "composite3_space3d",
+	          "text": "97xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 296,
+	          "type": "composite3_space3d",
+	          "text": "98xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 299,
+	          "type": "composite3_space3d",
+	          "text": "99xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    }
+	]
+}

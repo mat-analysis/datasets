@@ -1,0 +1,28 @@
+{
+   "input": {
+          "train": ["ActivityRecognition_TRAIN"],
+          "test": ["ActivityRecognition_TEST"],
+          "format": "TS",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 1,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 4,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 1,
+	          "type": "composite3_space3d",
+	          "text": "acceleration_xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    }
+	]
+}

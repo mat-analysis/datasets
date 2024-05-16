@@ -1,0 +1,20 @@
+EthanolConcentration is a dataset of raw spectra taken of water-and-ethanol solutions in 44 distinct, real whisky bottles. The concentrations of ethanol are 35%, 38%, 40%, and 45%. The minimum legal alcohol limit for Scotch Whisky is 40%, and many whiskies do maintain this alcohol concentration. Producers are required to ensure that the contents of their spirits contain alcohol concentrations that are tightly bound to what is reported on the labelling. The classification problem is to determine the alcohol concentration of a sample contained within an arbitrary bottle. In this formulation, there are four classes, corresponding to the four concentrations. 
+
+The data has been arranged such that each instance is made up of three repeat readings of the same bottle and batch of solution. Three solutions of each concentration (batches) were produced, and each bottle+batch combination measured three times. Each reading is comprised of the bottle being picked up, placed between the light source and spectroscope, and spectra saved. The spectra are recorded over the maximum wavelength range of the single StellarNet BLACKComet-SR spectrometer used (226nm to 1101.5nm with a sampling frequency of 0.5nm), over a one second integration time. Except for avoiding labelling, embossing, and seams on the bottle, no special attempts were made to obtain the cleanest reading for each individual bottle, nor to precisely replicate the exact path through the bottle for each repeat reading. This is to replicate potential field-conditions in the future of an operative performing mass-screening of a batch of suspect spirits. 
+
+Some bottles introduce more noise and structural defects to the spectra than others, based on their shape, colour, glass thickness and angle, and the ability to avoid the obstacles that may get in the way of a reading (labels, seams, etc). And so therefore the problem is to identify the alcohol concentration of the contents *regardless of the properties of the containing bottle*. 28 of the bottles are 'standard', that is, cylindrical with a roughly equal diameter, clear glass, with a clear path for the light to travel through. The remaining 16 bottles are either non-uniformly shaped, green glass, or light paths are difficult to find. 
+
+As well as the full dataset and an example 50/50 train test split, predefined folds in a 'leave one bottle out' format are given. All examples of a single bottle are reserved for the test set, meaning that the classifier cannot leverage the exact properties of the bottle of a new test sample already found in the training set. 
+
+For the problem's properties as a multivariate dataset, the dimensions are necessarily aligned in wavelength, and the relationship between them is moreso to allow for a noise cancelling or corrective affect, rather than each dimension describing strictly different information. Whether repeat readings and some form of multivariate method improves accuracy over classification on a single (univariate) reading is of interest. Interval methods are likely to be of interest, as the wavelengths range from just into the Ultraviolet (UV) light, through the Visible (VIS) light, and into the Near Infrared (NIR). Different intervals carry different physical information.
+
+If you would like more information about this dataset, including the bottles used and datasets with the bottle name attached to each instance, refer to the originating paper (below) or contact (james.large@uea.ac.uk). Please cite the below paper if this dataset is used separate from the rest of the multivariate timeseries classification archive. 
+
+@inproceedings{large2018detecting,
+  title={Detecting Forged Alcohol Non-invasively Through Vibrational Spectroscopy and Machine Learning},
+  author={Large, James and Kemsley, E Kate and Wellner, Nikolaus and Goodall, Ian and Bagnall, Anthony},
+  booktitle={Pacific-Asia Conference on Knowledge Discovery and Data Mining},
+  pages={298--309},
+  year={2018},
+  organization={Springer}
+}

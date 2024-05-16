@@ -1,0 +1,100 @@
+{
+   "input": {
+          "train": ["GECCOWater_TRAIN"],
+          "test": ["GECCOWater_TEST"],
+          "format": "TS",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 1,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 1,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 1,
+	          "type": "numeric",
+	          "text": "time",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 2,
+	          "type": "numeric",
+	          "text": "Tp",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 3,
+	          "type": "numeric",
+	          "text": "Cl",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 4,
+	          "type": "numeric",
+	          "text": "pH",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 5,
+	          "type": "numeric",
+	          "text": "Redox",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 6,
+	          "type": "numeric",
+	          "text": "Leit",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 7,
+	          "type": "numeric",
+	          "text": "Trueb",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 8,
+	          "type": "numeric",
+	          "text": "Cl_2",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 9,
+	          "type": "numeric",
+	          "text": "Fm",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 10,
+	          "type": "numeric",
+	          "text": "Fm_2",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    }
+	]
+}

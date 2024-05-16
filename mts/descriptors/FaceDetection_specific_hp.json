@@ -1,0 +1,1172 @@
+{
+   "input": {
+          "train": ["FaceDetection_TRAIN"],
+          "test":  ["FaceDetection_TEST"],
+          "format": "ARFF",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 1,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 145,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+        {
+            "order": 1,
+            "type": "numeric",
+            "text": "channel_1",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 2,
+            "type": "numeric",
+            "text": "channel_2",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 3,
+            "type": "numeric",
+            "text": "channel_3",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 4,
+            "type": "numeric",
+            "text": "channel_4",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 5,
+            "type": "numeric",
+            "text": "channel_5",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 6,
+            "type": "numeric",
+            "text": "channel_6",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 7,
+            "type": "numeric",
+            "text": "channel_7",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 8,
+            "type": "numeric",
+            "text": "channel_8",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 9,
+            "type": "numeric",
+            "text": "channel_9",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 10,
+            "type": "numeric",
+            "text": "channel_10",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 11,
+            "type": "numeric",
+            "text": "channel_11",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 12,
+            "type": "numeric",
+            "text": "channel_12",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 13,
+            "type": "numeric",
+            "text": "channel_13",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 14,
+            "type": "numeric",
+            "text": "channel_14",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 15,
+            "type": "numeric",
+            "text": "channel_15",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 16,
+            "type": "numeric",
+            "text": "channel_16",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 17,
+            "type": "numeric",
+            "text": "channel_17",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 18,
+            "type": "numeric",
+            "text": "channel_18",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 19,
+            "type": "numeric",
+            "text": "channel_19",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 20,
+            "type": "numeric",
+            "text": "channel_20",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 21,
+            "type": "numeric",
+            "text": "channel_21",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 22,
+            "type": "numeric",
+            "text": "channel_22",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 23,
+            "type": "numeric",
+            "text": "channel_23",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 24,
+            "type": "numeric",
+            "text": "channel_24",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 25,
+            "type": "numeric",
+            "text": "channel_25",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 26,
+            "type": "numeric",
+            "text": "channel_26",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 27,
+            "type": "numeric",
+            "text": "channel_27",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 28,
+            "type": "numeric",
+            "text": "channel_28",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 29,
+            "type": "numeric",
+            "text": "channel_29",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 30,
+            "type": "numeric",
+            "text": "channel_30",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 31,
+            "type": "numeric",
+            "text": "channel_31",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 32,
+            "type": "numeric",
+            "text": "channel_32",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 33,
+            "type": "numeric",
+            "text": "channel_33",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 34,
+            "type": "numeric",
+            "text": "channel_34",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 35,
+            "type": "numeric",
+            "text": "channel_35",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 36,
+            "type": "numeric",
+            "text": "channel_36",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 37,
+            "type": "numeric",
+            "text": "channel_37",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 38,
+            "type": "numeric",
+            "text": "channel_38",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 39,
+            "type": "numeric",
+            "text": "channel_39",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 40,
+            "type": "numeric",
+            "text": "channel_40",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 41,
+            "type": "numeric",
+            "text": "channel_41",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 42,
+            "type": "numeric",
+            "text": "channel_42",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 43,
+            "type": "numeric",
+            "text": "channel_43",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 44,
+            "type": "numeric",
+            "text": "channel_44",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 45,
+            "type": "numeric",
+            "text": "channel_45",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 46,
+            "type": "numeric",
+            "text": "channel_46",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 47,
+            "type": "numeric",
+            "text": "channel_47",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 48,
+            "type": "numeric",
+            "text": "channel_48",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 49,
+            "type": "numeric",
+            "text": "channel_49",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 50,
+            "type": "numeric",
+            "text": "channel_50",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 51,
+            "type": "numeric",
+            "text": "channel_51",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 52,
+            "type": "numeric",
+            "text": "channel_52",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 53,
+            "type": "numeric",
+            "text": "channel_53",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 54,
+            "type": "numeric",
+            "text": "channel_54",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 55,
+            "type": "numeric",
+            "text": "channel_55",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 56,
+            "type": "numeric",
+            "text": "channel_56",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 57,
+            "type": "numeric",
+            "text": "channel_57",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 58,
+            "type": "numeric",
+            "text": "channel_58",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 59,
+            "type": "numeric",
+            "text": "channel_59",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 60,
+            "type": "numeric",
+            "text": "channel_60",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 61,
+            "type": "numeric",
+            "text": "channel_61",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 62,
+            "type": "numeric",
+            "text": "channel_62",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 63,
+            "type": "numeric",
+            "text": "channel_63",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 64,
+            "type": "numeric",
+            "text": "channel_64",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 65,
+            "type": "numeric",
+            "text": "channel_65",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 66,
+            "type": "numeric",
+            "text": "channel_66",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 67,
+            "type": "numeric",
+            "text": "channel_67",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 68,
+            "type": "numeric",
+            "text": "channel_68",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 69,
+            "type": "numeric",
+            "text": "channel_69",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 70,
+            "type": "numeric",
+            "text": "channel_70",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 71,
+            "type": "numeric",
+            "text": "channel_71",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 72,
+            "type": "numeric",
+            "text": "channel_72",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 73,
+            "type": "numeric",
+            "text": "channel_73",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 74,
+            "type": "numeric",
+            "text": "channel_74",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 75,
+            "type": "numeric",
+            "text": "channel_75",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 76,
+            "type": "numeric",
+            "text": "channel_76",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 77,
+            "type": "numeric",
+            "text": "channel_77",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 78,
+            "type": "numeric",
+            "text": "channel_78",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 79,
+            "type": "numeric",
+            "text": "channel_79",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 80,
+            "type": "numeric",
+            "text": "channel_80",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 81,
+            "type": "numeric",
+            "text": "channel_81",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 82,
+            "type": "numeric",
+            "text": "channel_82",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 83,
+            "type": "numeric",
+            "text": "channel_83",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 84,
+            "type": "numeric",
+            "text": "channel_84",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 85,
+            "type": "numeric",
+            "text": "channel_85",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 86,
+            "type": "numeric",
+            "text": "channel_86",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 87,
+            "type": "numeric",
+            "text": "channel_87",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 88,
+            "type": "numeric",
+            "text": "channel_88",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 89,
+            "type": "numeric",
+            "text": "channel_89",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 90,
+            "type": "numeric",
+            "text": "channel_90",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 91,
+            "type": "numeric",
+            "text": "channel_91",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 92,
+            "type": "numeric",
+            "text": "channel_92",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 93,
+            "type": "numeric",
+            "text": "channel_93",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 94,
+            "type": "numeric",
+            "text": "channel_94",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 95,
+            "type": "numeric",
+            "text": "channel_95",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 96,
+            "type": "numeric",
+            "text": "channel_96",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 97,
+            "type": "numeric",
+            "text": "channel_97",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 98,
+            "type": "numeric",
+            "text": "channel_98",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 99,
+            "type": "numeric",
+            "text": "channel_99",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 100,
+            "type": "numeric",
+            "text": "channel_100",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 101,
+            "type": "numeric",
+            "text": "channel_101",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 102,
+            "type": "numeric",
+            "text": "channel_102",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 103,
+            "type": "numeric",
+            "text": "channel_103",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 104,
+            "type": "numeric",
+            "text": "channel_104",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 105,
+            "type": "numeric",
+            "text": "channel_105",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 106,
+            "type": "numeric",
+            "text": "channel_106",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 107,
+            "type": "numeric",
+            "text": "channel_107",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 108,
+            "type": "numeric",
+            "text": "channel_108",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 109,
+            "type": "numeric",
+            "text": "channel_109",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 110,
+            "type": "numeric",
+            "text": "channel_110",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 111,
+            "type": "numeric",
+            "text": "channel_111",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 112,
+            "type": "numeric",
+            "text": "channel_112",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 113,
+            "type": "numeric",
+            "text": "channel_113",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 114,
+            "type": "numeric",
+            "text": "channel_114",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 115,
+            "type": "numeric",
+            "text": "channel_115",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 116,
+            "type": "numeric",
+            "text": "channel_116",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 117,
+            "type": "numeric",
+            "text": "channel_117",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 118,
+            "type": "numeric",
+            "text": "channel_118",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 119,
+            "type": "numeric",
+            "text": "channel_119",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 120,
+            "type": "numeric",
+            "text": "channel_120",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 121,
+            "type": "numeric",
+            "text": "channel_121",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 122,
+            "type": "numeric",
+            "text": "channel_122",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 123,
+            "type": "numeric",
+            "text": "channel_123",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 124,
+            "type": "numeric",
+            "text": "channel_124",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 125,
+            "type": "numeric",
+            "text": "channel_125",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 126,
+            "type": "numeric",
+            "text": "channel_126",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 127,
+            "type": "numeric",
+            "text": "channel_127",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 128,
+            "type": "numeric",
+            "text": "channel_128",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 129,
+            "type": "numeric",
+            "text": "channel_129",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 130,
+            "type": "numeric",
+            "text": "channel_130",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 131,
+            "type": "numeric",
+            "text": "channel_131",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 132,
+            "type": "numeric",
+            "text": "channel_132",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 133,
+            "type": "numeric",
+            "text": "channel_133",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 134,
+            "type": "numeric",
+            "text": "channel_134",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 135,
+            "type": "numeric",
+            "text": "channel_135",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 136,
+            "type": "numeric",
+            "text": "channel_136",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 137,
+            "type": "numeric",
+            "text": "channel_137",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 138,
+            "type": "numeric",
+            "text": "channel_138",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 139,
+            "type": "numeric",
+            "text": "channel_139",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 140,
+            "type": "numeric",
+            "text": "channel_140",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 141,
+            "type": "numeric",
+            "text": "channel_141",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 142,
+            "type": "numeric",
+            "text": "channel_142",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 143,
+            "type": "numeric",
+            "text": "channel_143",
+            "comparator": {
+                "distance": "difference"
+            }
+        },
+        {
+            "order": 144,
+            "type": "numeric",
+            "text": "channel_144",
+            "comparator": {
+                "distance": "difference"
+            }
+        }
+	]
+}

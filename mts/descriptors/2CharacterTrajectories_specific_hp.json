@@ -1,0 +1,44 @@
+{
+   "input": {
+          "train": ["CharacterTrajectories_TRAIN"],
+          "test":  ["CharacterTrajectories_TEST"],
+          "format": "TS",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 1,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 183,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 1,
+	          "type": "numeric",
+	          "text": "x",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 2,
+	          "type": "numeric",
+	          "text": "y",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 3,
+	          "type": "numeric",
+	          "text": "z",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    }
+	]
+}

@@ -1,0 +1,124 @@
+{
+   "input": {
+          "train": ["SpokenArabicDigits_TRAIN"],
+          "test":  ["SpokenArabicDigits_TEST"],
+          "format": "TS",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 1,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 94,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 1,
+	          "type": "numeric",
+	          "text": "channel_1",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 2,
+	          "type": "numeric",
+	          "text": "channel_2",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 3,
+	          "type": "numeric",
+	          "text": "channel_3",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 4,
+	          "type": "numeric",
+	          "text": "channel_4",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 5,
+	          "type": "numeric",
+	          "text": "channel_5",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 6,
+	          "type": "numeric",
+	          "text": "channel_6",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 7,
+	          "type": "numeric",
+	          "text": "channel_7",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 8,
+	          "type": "numeric",
+	          "text": "channel_8",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 9,
+	          "type": "numeric",
+	          "text": "channel_9",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 10,
+	          "type": "numeric",
+	          "text": "channel_10",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 11,
+	          "type": "numeric",
+	          "text": "channel_11",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 12,
+	          "type": "numeric",
+	          "text": "channel_12",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 13,
+	          "type": "numeric",
+	          "text": "channel_13",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    }
+	]
+}

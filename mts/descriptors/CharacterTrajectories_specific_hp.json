@@ -1,0 +1,28 @@
+{
+   "input": {
+          "train": ["CharacterTrajectories_TRAIN"],
+          "test":  ["CharacterTrajectories_TEST"],
+          "format": "TS",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 1,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 183,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 1,
+	          "type": "composite3_space3d",
+	          "text": "xyp",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    }
+	]
+}

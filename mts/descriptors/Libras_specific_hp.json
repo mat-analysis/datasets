@@ -1,0 +1,28 @@
+{
+   "input": {
+          "train": ["Libras_TRAIN"],
+          "test":  ["Libras_TEST"],
+          "format": "TS",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 1,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 46,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 1,
+	          "type": "composite2_space2d",
+	          "text": "xy",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    }
+	]
+}

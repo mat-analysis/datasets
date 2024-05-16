@@ -1,0 +1,44 @@
+{
+   "input": {
+          "train": ["ArticularyWordRecognition_TRAIN"],
+          "test": ["ArticularyWordRecognition_TEST"],
+          "format": "TS",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 1,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 145,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 1,
+	          "type": "composite3_space3d",
+	          "text": "LL_xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 4,
+	          "type": "composite3_space3d",
+	          "text": "T1_xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    },
+	    {
+	          "order": 7,
+	          "type": "composite3_space3d",
+	          "text": "UL_xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    }
+	]
+}

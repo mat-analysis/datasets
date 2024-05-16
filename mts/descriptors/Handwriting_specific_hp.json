@@ -1,0 +1,28 @@
+{
+   "input": {
+          "train": ["Handwriting_TRAIN"],
+          "test":  ["Handwriting_TEST"],
+          "format": "TS",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 1,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 153,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 1,
+	          "type": "composite3_space3d",
+	          "text": "xyz",
+	          "comparator": {
+	            "distance": "euclidean"
+	          }
+	    }
+	]
+}

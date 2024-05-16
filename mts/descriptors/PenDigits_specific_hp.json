@@ -1,0 +1,36 @@
+{
+   "input": {
+          "train": ["PenDigits_TRAIN"],
+          "test":  ["PenDigits_TEST"],
+          "format": "TS",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 1,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 9,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 1,
+	          "type": "numeric",
+	          "text": "channel_1",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    },
+	    {
+	          "order": 2,
+	          "type": "numeric",
+	          "text": "channel_2",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    }
+	]
+}

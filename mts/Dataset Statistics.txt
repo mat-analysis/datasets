@@ -1,0 +1,2328 @@
+--------------------------------------------------------------------
+Descriptive Statistics for ActivityRecognition
+Number of Classes:     => 7
+Number of Attributes:  => 5
+Number of Trajs:       => 135 total / 91 train + 44 test
+Number of Points:      => 1923177 total / 1262231 train + 660946 test
+Avg Size of Trajs:     => 14245.76  / ± 69502.24444444444
+Longest Size:          => 83660 train / 83748 test
+Shortest Size:         => 320 train / 505 test
+Train / Test hold-out: => 91 - 67.41% .. 44 - 32.59%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'tid', 'label']
+
+Features Selection (by Variance): 
+              Mean     Std.Dev      Variance
+dim_0  1985.305336  115.471462  13333.658494
+dim_1  2377.963872  108.965563  11873.494002
+dim_2  1962.443343   93.649307   8770.192705
+tid      45.863238   33.157658   1099.430252
+label          NaN         NaN           NaN
+
+Classes: 
+['1-workingatcomputer' '2-standingup-walking-updownstairs' '3-standing'
+ '4-walking' '5-updownstairs' '6-walkingtalking' '7-talkingstanding'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 91
+Samples by Class:
+[3-standing]                           31
+[1-workingatcomputer]                  10
+[2-standingup-walking-updownstairs]    10
+[4-walking]                            10
+[5-updownstairs]                       10
+[6-walkingtalking]                     10
+[7-talkingstanding]                    10
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 44
+Samples by Class:
+[3-standing]                           14
+[1-workingatcomputer]                   5
+[2-standingup-walking-updownstairs]     5
+[4-walking]                             5
+[5-updownstairs]                        5
+[6-walkingtalking]                      5
+[7-talkingstanding]                     5
+dtype: int64
+
+Descriptor Dimensions: ['xyz_x', 'xyz_y', 'xyz_z']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for ArticularyWordRecognition
+Number of Classes:     => 25
+Number of Attributes:  => 11
+Number of Trajs:       => 575 total / 275 train + 300 test
+Number of Points:      => 82800 total / 39600 train + 43200 test
+Avg Size of Trajs:     => 144.00  / ± 0.0
+Longest Size:          => 144 train / 144 test
+Shortest Size:         => 144 train / 144 test
+Train / Test hold-out: => 275 - 47.83% .. 300 - 52.17%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'dim_7', 'dim_8', 'tid', 'label']
+
+Features Selection (by Variance): 
+               Mean    Std.Dev     Variance
+tid    1.370000e+02  79.386140  6302.159145
+label  1.300000e+01   7.211194    52.001313
+dim_2 -1.727020e-07   0.996534     0.993081
+dim_4 -2.022727e-08   0.996534     0.993081
+dim_1  1.140909e-07   0.996534     0.993081
+dim_5 -3.517677e-08   0.996534     0.993081
+dim_7 -1.987374e-08   0.996534     0.993081
+dim_6 -2.763384e-07   0.996534     0.993081
+dim_8 -2.492929e-07   0.996534     0.993081
+dim_3 -7.305556e-08   0.996534     0.993080
+dim_0 -5.555556e-09   0.996534     0.993080
+
+Classes: 
+['1.0' '2.0' '3.0' '4.0' '5.0' '6.0' '7.0' '8.0' '9.0' '10.0' '11.0'
+ '12.0' '13.0' '14.0' '15.0' '16.0' '17.0' '18.0' '19.0' '20.0' '21.0'
+ '22.0' '23.0' '24.0' '25.0'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 275
+Samples by Class:
+[1.0]     11
+[21.0]    11
+[8.0]     11
+[7.0]     11
+[6.0]     11
+[5.0]     11
+[4.0]     11
+[3.0]     11
+[25.0]    11
+[24.0]    11
+[23.0]    11
+[22.0]    11
+[20.0]    11
+[10.0]    11
+[2.0]     11
+[19.0]    11
+[18.0]    11
+[17.0]    11
+[16.0]    11
+[15.0]    11
+[14.0]    11
+[13.0]    11
+[12.0]    11
+[11.0]    11
+[9.0]     11
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 300
+Samples by Class:
+[1.0]     12
+[21.0]    12
+[8.0]     12
+[7.0]     12
+[6.0]     12
+[5.0]     12
+[4.0]     12
+[3.0]     12
+[25.0]    12
+[24.0]    12
+[23.0]    12
+[22.0]    12
+[20.0]    12
+[10.0]    12
+[2.0]     12
+[19.0]    12
+[18.0]    12
+[17.0]    12
+[16.0]    12
+[15.0]    12
+[14.0]    12
+[13.0]    12
+[12.0]    12
+[11.0]    12
+[9.0]     12
+dtype: int64
+
+Descriptor Dimensions: ['LL_xyz_x', 'LL_xyz_y', 'LL_xyz_z', 'T1_xyz_x', 'T1_xyz_y', 'T1_xyz_z', 'UL_xyz_x', 'UL_xyz_y', 'UL_xyz_z']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for AtrialFibrillation
+Number of Classes:     => 3
+Number of Attributes:  => 4
+Number of Trajs:       => 30 total / 15 train + 15 test
+Number of Points:      => 19200 total / 9600 train + 9600 test
+Avg Size of Trajs:     => 640.00  / ± 0.0
+Longest Size:          => 640 train / 640 test
+Shortest Size:         => 640 train / 640 test
+Train / Test hold-out: => 15 - 50.00% .. 15 - 50.00%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'tid', 'label']
+
+Features Selection (by Variance): 
+           Mean   Std.Dev   Variance
+tid    7.000000  4.320719  18.668611
+dim_0 -0.008462  0.258843   0.067000
+dim_1  0.010212  0.160956   0.025907
+label       NaN       NaN        NaN
+
+Classes: 
+['n' 's' 't'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 15
+Samples by Class:
+[n]    5
+[s]    5
+[t]    5
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 15
+Samples by Class:
+[n]    5
+[s]    5
+[t]    5
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for AustralianSignLanguage
+Number of Classes:     => 96
+Number of Attributes:  => 24
+Number of Trajs:       => 2565 total / 1710 train + 855 test
+Number of Points:      => 146949 total / 98028 train + 48921 test
+Avg Size of Trajs:     => 57.29  / ± 78.70994152046784
+Longest Size:          => 101 train / 136 test
+Shortest Size:         => 45 train / 47 test
+Train / Test hold-out: => 1710 - 66.67% .. 855 - 33.33%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'dim_7', 'dim_8', 'dim_9', 'dim_10', 'dim_11', 'dim_12', 'dim_13', 'dim_14', 'dim_15', 'dim_16', 'dim_17', 'dim_18', 'dim_19', 'dim_20', 'dim_21', 'tid', 'label']
+
+Features Selection (by Variance): 
+              Mean     Std.Dev       Variance
+tid     865.767750  492.975236  243024.582833
+dim_17    0.279861    0.362159       0.131159
+dim_21    0.262291    0.356920       0.127392
+dim_19    0.225253    0.354468       0.125648
+dim_20    0.138070    0.305963       0.093613
+dim_6     0.091332    0.229139       0.052505
+dim_18    0.056434    0.203034       0.041223
+dim_10    0.070457    0.192381       0.037010
+dim_9     0.055192    0.179499       0.032220
+dim_7     0.051908    0.169802       0.028833
+dim_15    0.389875    0.166604       0.027757
+dim_8     0.029879    0.145363       0.021131
+dim_12   -0.044277    0.139150       0.019363
+dim_4     0.307158    0.132755       0.017624
+dim_14    0.437682    0.090253       0.008146
+dim_13   -0.120749    0.089242       0.007964
+dim_3     0.598563    0.088659       0.007860
+dim_16    0.548176    0.087366       0.007633
+dim_1    -0.113062    0.079278       0.006285
+dim_2    -0.138041    0.065359       0.004272
+dim_11    0.051218    0.062889       0.003955
+dim_5     0.462730    0.052329       0.002738
+dim_0    -0.056018    0.043310       0.001876
+label          NaN         NaN            NaN
+
+Classes: 
+['alive' 'all' 'answer' 'boy' 'building' 'buy' 'change_mind_' 'cold'
+ 'come' 'computer_pc_' 'cost' 'crazy' 'danger' 'deaf' 'different' 'draw'
+ 'drink' 'eat' 'exit' 'flash' 'forget' 'girl' 'give' 'glove' 'go' 'god'
+ 'happy' 'head' 'hear' 'hello' 'her' 'hot' 'how' 'hurry' 'hurt' 'i'
+ 'innocent' 'is_true_' 'joke' 'juice' 'know' 'later' 'lose' 'love' 'make'
+ 'man' 'maybe' 'mine' 'money' 'more' 'name' 'no' 'norway' 'not' 'paper'
+ 'pen' 'please' 'polite' 'question' 'read' 'ready' 'research'
+ 'responsible' 'right' 'sad' 'same' 'science' 'share' 'shop' 'soon'
+ 'sorry' 'spend' 'stubborn' 'surprise' 'take' 'temper' 'thank' 'think'
+ 'tray' 'us' 'voluntary' 'wait_notyet_' 'what' 'when' 'where' 'which'
+ 'who' 'why' 'wild' 'will' 'write' 'wrong' 'yes' 'you' 'zero' 'his_hers'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 1710
+Samples by Class:
+[alive]       18
+[all]         18
+[soon]        18
+[shop]        18
+[share]       18
+              ..
+[head]        18
+[happy]       18
+[zero]        18
+[his_hers]    16
+[her]          2
+Length: 96, dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 855
+Samples by Class:
+[alive]       9
+[all]         9
+[soon]        9
+[shop]        9
+[share]       9
+             ..
+[head]        9
+[happy]       9
+[zero]        9
+[his_hers]    8
+[her]         1
+Length: 96, dtype: int64
+
+Descriptor Dimensions: ['left_xyz_x', 'left_xyz_y', 'left_xyz_z', 'left_roll', 'left_pitch', 'left_yaw', 'left_thumb', 'left_fore', 'left_middle', 'left_ring', 'left_little', 'right_xyz_x', 'right_xyz_y', 'right_xyz_z', 'right_roll', 'right_pitch', 'right_yaw', 'right_thumb', 'right_fore', 'right_middle', 'right_ring', 'right_little']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for BasicMotions
+Number of Classes:     => 4
+Number of Attributes:  => 8
+Number of Trajs:       => 80 total / 40 train + 40 test
+Number of Points:      => 8000 total / 4000 train + 4000 test
+Avg Size of Trajs:     => 100.00  / ± 0.0
+Longest Size:          => 100 train / 100 test
+Shortest Size:         => 100 train / 100 test
+Train / Test hold-out: => 40 - 50.00% .. 40 - 50.00%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'tid', 'label']
+
+Features Selection (by Variance): 
+            Mean    Std.Dev    Variance
+tid    19.500000  11.544840  133.283321
+dim_0   2.552760   7.073190   50.030015
+dim_1  -1.303937   6.794937   46.171169
+dim_2  -1.026580   3.546817   12.579910
+dim_5  -0.055790   3.517026   12.369469
+dim_3   0.019051   2.112184    4.461322
+dim_4  -0.023958   1.820978    3.315962
+label        NaN        NaN         NaN
+
+Classes: 
+['standing' 'running' 'walking' 'badminton'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 40
+Samples by Class:
+[badminton]    10
+[running]      10
+[standing]     10
+[walking]      10
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 40
+Samples by Class:
+[badminton]    10
+[running]      10
+[standing]     10
+[walking]      10
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for CharacterTrajectories
+Number of Classes:     => 20
+Number of Attributes:  => 5
+Number of Trajs:       => 2858 total / 1422 train + 1436 test
+Number of Points:      => 342749 total / 170760 train + 171989 test
+Avg Size of Trajs:     => 119.93  / ± 62.07382785164451
+Longest Size:          => 180 train / 182 test
+Shortest Size:         => 60 train / 61 test
+Train / Test hold-out: => 1422 - 49.76% .. 1436 - 50.24%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'tid', 'label']
+
+Features Selection (by Variance): 
+             Mean     Std.Dev       Variance
+tid    723.388838  416.172497  173199.546905
+label   10.457918    5.979977      35.760127
+dim_2   -0.295283    1.002174       1.004353
+dim_1   -0.074967    0.999464       0.998929
+dim_0    0.128385    0.997605       0.995216
+
+Classes: 
+['1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11' '12' '13' '14' '15' '16'
+ '17' '18' '19' '20'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 1422
+Samples by Class:
+[5]     93
+[8]     87
+[1]     85
+[20]    85
+[4]     78
+[17]    77
+[3]     71
+[2]     70
+[11]    70
+[6]     69
+[19]    68
+[15]    66
+[10]    65
+[16]    65
+[12]    65
+[7]     63
+[18]    62
+[13]    62
+[9]     62
+[14]    59
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 1436
+Samples by Class:
+[5]     93
+[8]     87
+[1]     86
+[20]    86
+[4]     79
+[17]    78
+[2]     71
+[11]    71
+[3]     71
+[6]     69
+[19]    69
+[15]    67
+[16]    66
+[12]    66
+[10]    65
+[7]     64
+[18]    63
+[9]     63
+[13]    62
+[14]    60
+dtype: int64
+
+Descriptor Dimensions: ['xyp_x', 'xyp_y', 'xyp_z']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for Cricket
+Number of Classes:     => 12
+Number of Attributes:  => 8
+Number of Trajs:       => 180 total / 108 train + 72 test
+Number of Points:      => 215460 total / 129276 train + 86184 test
+Avg Size of Trajs:     => 1197.00  / ± 0.0
+Longest Size:          => 1197 train / 1197 test
+Shortest Size:         => 1197 train / 1197 test
+Train / Test hold-out: => 108 - 60.00% .. 72 - 40.00%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'tid', 'label']
+
+Features Selection (by Variance): 
+               Mean    Std.Dev    Variance
+tid    5.350000e+01  31.175699  971.924185
+label  6.500000e+00   3.452066   11.916759
+dim_5 -5.468919e-09   0.999586    0.999173
+dim_2  1.015656e-08   0.999586    0.999172
+dim_0 -2.617578e-07   0.999586    0.999172
+dim_4  2.313345e-07   0.999586    0.999172
+dim_3  6.872892e-08   0.999586    0.999172
+dim_1 -1.360113e-07   0.999586    0.999172
+
+Classes: 
+['1.0' '2.0' '3.0' '4.0' '5.0' '6.0' '7.0' '8.0' '9.0' '10.0' '11.0'
+ '12.0'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 108
+Samples by Class:
+[1.0]     9
+[10.0]    9
+[11.0]    9
+[12.0]    9
+[2.0]     9
+[3.0]     9
+[4.0]     9
+[5.0]     9
+[6.0]     9
+[7.0]     9
+[8.0]     9
+[9.0]     9
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 72
+Samples by Class:
+[1.0]     6
+[10.0]    6
+[11.0]    6
+[12.0]    6
+[2.0]     6
+[3.0]     6
+[4.0]     6
+[5.0]     6
+[6.0]     6
+[7.0]     6
+[8.0]     6
+[9.0]     6
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for DuckDuckGeese
+Number of Classes:     => 5
+Number of Attributes:  => 1347
+Number of Trajs:       => 100 total / 50 train + 50 test
+Number of Points:      => 27000 total / 13500 train + 13500 test
+Avg Size of Trajs:     => 270.00  / ± 0.0
+Longest Size:          => 270 train / 270 test
+Shortest Size:         => 270 train / 270 test
+Train / Test hold-out: => 50 - 50.00% .. 50 - 50.00%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'dim_7', 'dim_8', 'dim_9', 'dim_10', 'dim_11', 'dim_12', 'dim_13', 'dim_14', 'dim_15', 'dim_16', 'dim_17', 'dim_18', 'dim_19', 'dim_20', 'dim_21', 'dim_22', 'dim_23', 'dim_24', 'dim_25', 'dim_26', 'dim_27', 'dim_28', 'dim_29', 'dim_30', 'dim_31', 'dim_32', 'dim_33', 'dim_34', 'dim_35', 'dim_36', 'dim_37', 'dim_38', 'dim_39', 'dim_40', 'dim_41', 'dim_42', 'dim_43', 'dim_44', 'dim_45', 'dim_46', 'dim_47', 'dim_48', 'dim_49', 'dim_50', 'dim_51', 'dim_52', 'dim_53', 'dim_54', 'dim_55', 'dim_56', 'dim_57', 'dim_58', 'dim_59', 'dim_60', 'dim_61', 'dim_62', 'dim_63', 'dim_64', 'dim_65', 'dim_66', 'dim_67', 'dim_68', 'dim_69', 'dim_70', 'dim_71', 'dim_72', 'dim_73', 'dim_74', 'dim_75', 'dim_76', 'dim_77', 'dim_78', 'dim_79', 'dim_80', 'dim_81', 'dim_82', 'dim_83', 'dim_84', 'dim_85', 'dim_86', 'dim_87', 'dim_88', 'dim_89', 'dim_90', 'dim_91', 'dim_92', 'dim_93', 'dim_94', 'dim_95', 'dim_96', 'dim_97', 'dim_98', 'dim_99', 'dim_100', 'dim_101', 'dim_102', 'dim_103', 'dim_104', 'dim_105', 'dim_106', 'dim_107', 'dim_108', 'dim_109', 'dim_110', 'dim_111', 'dim_112', 'dim_113', 'dim_114', 'dim_115', 'dim_116', 'dim_117', 'dim_118', 'dim_119', 'dim_120', 'dim_121', 'dim_122', 'dim_123', 'dim_124', 'dim_125', 'dim_126', 'dim_127', 'dim_128', 'dim_129', 'dim_130', 'dim_131', 'dim_132', 'dim_133', 'dim_134', 'dim_135', 'dim_136', 'dim_137', 'dim_138', 'dim_139', 'dim_140', 'dim_141', 'dim_142', 'dim_143', 'dim_144', 'dim_145', 'dim_146', 'dim_147', 'dim_148', 'dim_149', 'dim_150', 'dim_151', 'dim_152', 'dim_153', 'dim_154', 'dim_155', 'dim_156', 'dim_157', 'dim_158', 'dim_159', 'dim_160', 'dim_161', 'dim_162', 'dim_163', 'dim_164', 'dim_165', 'dim_166', 'dim_167', 'dim_168', 'dim_169', 'dim_170', 'dim_171', 'dim_172', 'dim_173', 'dim_174', 'dim_175', 'dim_176', 'dim_177', 'dim_178', 'dim_179', 'dim_180', 'dim_181', 'dim_182', 'dim_183', 'dim_184', 'dim_185', 'dim_186', 'dim_187', 'dim_188', 'dim_189', 'dim_190', 'dim_191', 'dim_192', 'dim_193', 'dim_194', 'dim_195', 'dim_196', 'dim_197', 'dim_198', 'dim_199', 'dim_200', 'dim_201', 'dim_202', 'dim_203', 'dim_204', 'dim_205', 'dim_206', 'dim_207', 'dim_208', 'dim_209', 'dim_210', 'dim_211', 'dim_212', 'dim_213', 'dim_214', 'dim_215', 'dim_216', 'dim_217', 'dim_218', 'dim_219', 'dim_220', 'dim_221', 'dim_222', 'dim_223', 'dim_224', 'dim_225', 'dim_226', 'dim_227', 'dim_228', 'dim_229', 'dim_230', 'dim_231', 'dim_232', 'dim_233', 'dim_234', 'dim_235', 'dim_236', 'dim_237', 'dim_238', 'dim_239', 'dim_240', 'dim_241', 'dim_242', 'dim_243', 'dim_244', 'dim_245', 'dim_246', 'dim_247', 'dim_248', 'dim_249', 'dim_250', 'dim_251', 'dim_252', 'dim_253', 'dim_254', 'dim_255', 'dim_256', 'dim_257', 'dim_258', 'dim_259', 'dim_260', 'dim_261', 'dim_262', 'dim_263', 'dim_264', 'dim_265', 'dim_266', 'dim_267', 'dim_268', 'dim_269', 'dim_270', 'dim_271', 'dim_272', 'dim_273', 'dim_274', 'dim_275', 'dim_276', 'dim_277', 'dim_278', 'dim_279', 'dim_280', 'dim_281', 'dim_282', 'dim_283', 'dim_284', 'dim_285', 'dim_286', 'dim_287', 'dim_288', 'dim_289', 'dim_290', 'dim_291', 'dim_292', 'dim_293', 'dim_294', 'dim_295', 'dim_296', 'dim_297', 'dim_298', 'dim_299', 'dim_300', 'dim_301', 'dim_302', 'dim_303', 'dim_304', 'dim_305', 'dim_306', 'dim_307', 'dim_308', 'dim_309', 'dim_310', 'dim_311', 'dim_312', 'dim_313', 'dim_314', 'dim_315', 'dim_316', 'dim_317', 'dim_318', 'dim_319', 'dim_320', 'dim_321', 'dim_322', 'dim_323', 'dim_324', 'dim_325', 'dim_326', 'dim_327', 'dim_328', 'dim_329', 'dim_330', 'dim_331', 'dim_332', 'dim_333', 'dim_334', 'dim_335', 'dim_336', 'dim_337', 'dim_338', 'dim_339', 'dim_340', 'dim_341', 'dim_342', 'dim_343', 'dim_344', 'dim_345', 'dim_346', 'dim_347', 'dim_348', 'dim_349', 'dim_350', 'dim_351', 'dim_352', 'dim_353', 'dim_354', 'dim_355', 'dim_356', 'dim_357', 'dim_358', 'dim_359', 'dim_360', 'dim_361', 'dim_362', 'dim_363', 'dim_364', 'dim_365', 'dim_366', 'dim_367', 'dim_368', 'dim_369', 'dim_370', 'dim_371', 'dim_372', 'dim_373', 'dim_374', 'dim_375', 'dim_376', 'dim_377', 'dim_378', 'dim_379', 'dim_380', 'dim_381', 'dim_382', 'dim_383', 'dim_384', 'dim_385', 'dim_386', 'dim_387', 'dim_388', 'dim_389', 'dim_390', 'dim_391', 'dim_392', 'dim_393', 'dim_394', 'dim_395', 'dim_396', 'dim_397', 'dim_398', 'dim_399', 'dim_400', 'dim_401', 'dim_402', 'dim_403', 'dim_404', 'dim_405', 'dim_406', 'dim_407', 'dim_408', 'dim_409', 'dim_410', 'dim_411', 'dim_412', 'dim_413', 'dim_414', 'dim_415', 'dim_416', 'dim_417', 'dim_418', 'dim_419', 'dim_420', 'dim_421', 'dim_422', 'dim_423', 'dim_424', 'dim_425', 'dim_426', 'dim_427', 'dim_428', 'dim_429', 'dim_430', 'dim_431', 'dim_432', 'dim_433', 'dim_434', 'dim_435', 'dim_436', 'dim_437', 'dim_438', 'dim_439', 'dim_440', 'dim_441', 'dim_442', 'dim_443', 'dim_444', 'dim_445', 'dim_446', 'dim_447', 'dim_448', 'dim_449', 'dim_450', 'dim_451', 'dim_452', 'dim_453', 'dim_454', 'dim_455', 'dim_456', 'dim_457', 'dim_458', 'dim_459', 'dim_460', 'dim_461', 'dim_462', 'dim_463', 'dim_464', 'dim_465', 'dim_466', 'dim_467', 'dim_468', 'dim_469', 'dim_470', 'dim_471', 'dim_472', 'dim_473', 'dim_474', 'dim_475', 'dim_476', 'dim_477', 'dim_478', 'dim_479', 'dim_480', 'dim_481', 'dim_482', 'dim_483', 'dim_484', 'dim_485', 'dim_486', 'dim_487', 'dim_488', 'dim_489', 'dim_490', 'dim_491', 'dim_492', 'dim_493', 'dim_494', 'dim_495', 'dim_496', 'dim_497', 'dim_498', 'dim_499', 'dim_500', 'dim_501', 'dim_502', 'dim_503', 'dim_504', 'dim_505', 'dim_506', 'dim_507', 'dim_508', 'dim_509', 'dim_510', 'dim_511', 'dim_512', 'dim_513', 'dim_514', 'dim_515', 'dim_516', 'dim_517', 'dim_518', 'dim_519', 'dim_520', 'dim_521', 'dim_522', 'dim_523', 'dim_524', 'dim_525', 'dim_526', 'dim_527', 'dim_528', 'dim_529', 'dim_530', 'dim_531', 'dim_532', 'dim_533', 'dim_534', 'dim_535', 'dim_536', 'dim_537', 'dim_538', 'dim_539', 'dim_540', 'dim_541', 'dim_542', 'dim_543', 'dim_544', 'dim_545', 'dim_546', 'dim_547', 'dim_548', 'dim_549', 'dim_550', 'dim_551', 'dim_552', 'dim_553', 'dim_554', 'dim_555', 'dim_556', 'dim_557', 'dim_558', 'dim_559', 'dim_560', 'dim_561', 'dim_562', 'dim_563', 'dim_564', 'dim_565', 'dim_566', 'dim_567', 'dim_568', 'dim_569', 'dim_570', 'dim_571', 'dim_572', 'dim_573', 'dim_574', 'dim_575', 'dim_576', 'dim_577', 'dim_578', 'dim_579', 'dim_580', 'dim_581', 'dim_582', 'dim_583', 'dim_584', 'dim_585', 'dim_586', 'dim_587', 'dim_588', 'dim_589', 'dim_590', 'dim_591', 'dim_592', 'dim_593', 'dim_594', 'dim_595', 'dim_596', 'dim_597', 'dim_598', 'dim_599', 'dim_600', 'dim_601', 'dim_602', 'dim_603', 'dim_604', 'dim_605', 'dim_606', 'dim_607', 'dim_608', 'dim_609', 'dim_610', 'dim_611', 'dim_612', 'dim_613', 'dim_614', 'dim_615', 'dim_616', 'dim_617', 'dim_618', 'dim_619', 'dim_620', 'dim_621', 'dim_622', 'dim_623', 'dim_624', 'dim_625', 'dim_626', 'dim_627', 'dim_628', 'dim_629', 'dim_630', 'dim_631', 'dim_632', 'dim_633', 'dim_634', 'dim_635', 'dim_636', 'dim_637', 'dim_638', 'dim_639', 'dim_640', 'dim_641', 'dim_642', 'dim_643', 'dim_644', 'dim_645', 'dim_646', 'dim_647', 'dim_648', 'dim_649', 'dim_650', 'dim_651', 'dim_652', 'dim_653', 'dim_654', 'dim_655', 'dim_656', 'dim_657', 'dim_658', 'dim_659', 'dim_660', 'dim_661', 'dim_662', 'dim_663', 'dim_664', 'dim_665', 'dim_666', 'dim_667', 'dim_668', 'dim_669', 'dim_670', 'dim_671', 'dim_672', 'dim_673', 'dim_674', 'dim_675', 'dim_676', 'dim_677', 'dim_678', 'dim_679', 'dim_680', 'dim_681', 'dim_682', 'dim_683', 'dim_684', 'dim_685', 'dim_686', 'dim_687', 'dim_688', 'dim_689', 'dim_690', 'dim_691', 'dim_692', 'dim_693', 'dim_694', 'dim_695', 'dim_696', 'dim_697', 'dim_698', 'dim_699', 'dim_700', 'dim_701', 'dim_702', 'dim_703', 'dim_704', 'dim_705', 'dim_706', 'dim_707', 'dim_708', 'dim_709', 'dim_710', 'dim_711', 'dim_712', 'dim_713', 'dim_714', 'dim_715', 'dim_716', 'dim_717', 'dim_718', 'dim_719', 'dim_720', 'dim_721', 'dim_722', 'dim_723', 'dim_724', 'dim_725', 'dim_726', 'dim_727', 'dim_728', 'dim_729', 'dim_730', 'dim_731', 'dim_732', 'dim_733', 'dim_734', 'dim_735', 'dim_736', 'dim_737', 'dim_738', 'dim_739', 'dim_740', 'dim_741', 'dim_742', 'dim_743', 'dim_744', 'dim_745', 'dim_746', 'dim_747', 'dim_748', 'dim_749', 'dim_750', 'dim_751', 'dim_752', 'dim_753', 'dim_754', 'dim_755', 'dim_756', 'dim_757', 'dim_758', 'dim_759', 'dim_760', 'dim_761', 'dim_762', 'dim_763', 'dim_764', 'dim_765', 'dim_766', 'dim_767', 'dim_768', 'dim_769', 'dim_770', 'dim_771', 'dim_772', 'dim_773', 'dim_774', 'dim_775', 'dim_776', 'dim_777', 'dim_778', 'dim_779', 'dim_780', 'dim_781', 'dim_782', 'dim_783', 'dim_784', 'dim_785', 'dim_786', 'dim_787', 'dim_788', 'dim_789', 'dim_790', 'dim_791', 'dim_792', 'dim_793', 'dim_794', 'dim_795', 'dim_796', 'dim_797', 'dim_798', 'dim_799', 'dim_800', 'dim_801', 'dim_802', 'dim_803', 'dim_804', 'dim_805', 'dim_806', 'dim_807', 'dim_808', 'dim_809', 'dim_810', 'dim_811', 'dim_812', 'dim_813', 'dim_814', 'dim_815', 'dim_816', 'dim_817', 'dim_818', 'dim_819', 'dim_820', 'dim_821', 'dim_822', 'dim_823', 'dim_824', 'dim_825', 'dim_826', 'dim_827', 'dim_828', 'dim_829', 'dim_830', 'dim_831', 'dim_832', 'dim_833', 'dim_834', 'dim_835', 'dim_836', 'dim_837', 'dim_838', 'dim_839', 'dim_840', 'dim_841', 'dim_842', 'dim_843', 'dim_844', 'dim_845', 'dim_846', 'dim_847', 'dim_848', 'dim_849', 'dim_850', 'dim_851', 'dim_852', 'dim_853', 'dim_854', 'dim_855', 'dim_856', 'dim_857', 'dim_858', 'dim_859', 'dim_860', 'dim_861', 'dim_862', 'dim_863', 'dim_864', 'dim_865', 'dim_866', 'dim_867', 'dim_868', 'dim_869', 'dim_870', 'dim_871', 'dim_872', 'dim_873', 'dim_874', 'dim_875', 'dim_876', 'dim_877', 'dim_878', 'dim_879', 'dim_880', 'dim_881', 'dim_882', 'dim_883', 'dim_884', 'dim_885', 'dim_886', 'dim_887', 'dim_888', 'dim_889', 'dim_890', 'dim_891', 'dim_892', 'dim_893', 'dim_894', 'dim_895', 'dim_896', 'dim_897', 'dim_898', 'dim_899', 'dim_900', 'dim_901', 'dim_902', 'dim_903', 'dim_904', 'dim_905', 'dim_906', 'dim_907', 'dim_908', 'dim_909', 'dim_910', 'dim_911', 'dim_912', 'dim_913', 'dim_914', 'dim_915', 'dim_916', 'dim_917', 'dim_918', 'dim_919', 'dim_920', 'dim_921', 'dim_922', 'dim_923', 'dim_924', 'dim_925', 'dim_926', 'dim_927', 'dim_928', 'dim_929', 'dim_930', 'dim_931', 'dim_932', 'dim_933', 'dim_934', 'dim_935', 'dim_936', 'dim_937', 'dim_938', 'dim_939', 'dim_940', 'dim_941', 'dim_942', 'dim_943', 'dim_944', 'dim_945', 'dim_946', 'dim_947', 'dim_948', 'dim_949', 'dim_950', 'dim_951', 'dim_952', 'dim_953', 'dim_954', 'dim_955', 'dim_956', 'dim_957', 'dim_958', 'dim_959', 'dim_960', 'dim_961', 'dim_962', 'dim_963', 'dim_964', 'dim_965', 'dim_966', 'dim_967', 'dim_968', 'dim_969', 'dim_970', 'dim_971', 'dim_972', 'dim_973', 'dim_974', 'dim_975', 'dim_976', 'dim_977', 'dim_978', 'dim_979', 'dim_980', 'dim_981', 'dim_982', 'dim_983', 'dim_984', 'dim_985', 'dim_986', 'dim_987', 'dim_988', 'dim_989', 'dim_990', 'dim_991', 'dim_992', 'dim_993', 'dim_994', 'dim_995', 'dim_996', 'dim_997', 'dim_998', 'dim_999', 'dim_1000', 'dim_1001', 'dim_1002', 'dim_1003', 'dim_1004', 'dim_1005', 'dim_1006', 'dim_1007', 'dim_1008', 'dim_1009', 'dim_1010', 'dim_1011', 'dim_1012', 'dim_1013', 'dim_1014', 'dim_1015', 'dim_1016', 'dim_1017', 'dim_1018', 'dim_1019', 'dim_1020', 'dim_1021', 'dim_1022', 'dim_1023', 'dim_1024', 'dim_1025', 'dim_1026', 'dim_1027', 'dim_1028', 'dim_1029', 'dim_1030', 'dim_1031', 'dim_1032', 'dim_1033', 'dim_1034', 'dim_1035', 'dim_1036', 'dim_1037', 'dim_1038', 'dim_1039', 'dim_1040', 'dim_1041', 'dim_1042', 'dim_1043', 'dim_1044', 'dim_1045', 'dim_1046', 'dim_1047', 'dim_1048', 'dim_1049', 'dim_1050', 'dim_1051', 'dim_1052', 'dim_1053', 'dim_1054', 'dim_1055', 'dim_1056', 'dim_1057', 'dim_1058', 'dim_1059', 'dim_1060', 'dim_1061', 'dim_1062', 'dim_1063', 'dim_1064', 'dim_1065', 'dim_1066', 'dim_1067', 'dim_1068', 'dim_1069', 'dim_1070', 'dim_1071', 'dim_1072', 'dim_1073', 'dim_1074', 'dim_1075', 'dim_1076', 'dim_1077', 'dim_1078', 'dim_1079', 'dim_1080', 'dim_1081', 'dim_1082', 'dim_1083', 'dim_1084', 'dim_1085', 'dim_1086', 'dim_1087', 'dim_1088', 'dim_1089', 'dim_1090', 'dim_1091', 'dim_1092', 'dim_1093', 'dim_1094', 'dim_1095', 'dim_1096', 'dim_1097', 'dim_1098', 'dim_1099', 'dim_1100', 'dim_1101', 'dim_1102', 'dim_1103', 'dim_1104', 'dim_1105', 'dim_1106', 'dim_1107', 'dim_1108', 'dim_1109', 'dim_1110', 'dim_1111', 'dim_1112', 'dim_1113', 'dim_1114', 'dim_1115', 'dim_1116', 'dim_1117', 'dim_1118', 'dim_1119', 'dim_1120', 'dim_1121', 'dim_1122', 'dim_1123', 'dim_1124', 'dim_1125', 'dim_1126', 'dim_1127', 'dim_1128', 'dim_1129', 'dim_1130', 'dim_1131', 'dim_1132', 'dim_1133', 'dim_1134', 'dim_1135', 'dim_1136', 'dim_1137', 'dim_1138', 'dim_1139', 'dim_1140', 'dim_1141', 'dim_1142', 'dim_1143', 'dim_1144', 'dim_1145', 'dim_1146', 'dim_1147', 'dim_1148', 'dim_1149', 'dim_1150', 'dim_1151', 'dim_1152', 'dim_1153', 'dim_1154', 'dim_1155', 'dim_1156', 'dim_1157', 'dim_1158', 'dim_1159', 'dim_1160', 'dim_1161', 'dim_1162', 'dim_1163', 'dim_1164', 'dim_1165', 'dim_1166', 'dim_1167', 'dim_1168', 'dim_1169', 'dim_1170', 'dim_1171', 'dim_1172', 'dim_1173', 'dim_1174', 'dim_1175', 'dim_1176', 'dim_1177', 'dim_1178', 'dim_1179', 'dim_1180', 'dim_1181', 'dim_1182', 'dim_1183', 'dim_1184', 'dim_1185', 'dim_1186', 'dim_1187', 'dim_1188', 'dim_1189', 'dim_1190', 'dim_1191', 'dim_1192', 'dim_1193', 'dim_1194', 'dim_1195', 'dim_1196', 'dim_1197', 'dim_1198', 'dim_1199', 'dim_1200', 'dim_1201', 'dim_1202', 'dim_1203', 'dim_1204', 'dim_1205', 'dim_1206', 'dim_1207', 'dim_1208', 'dim_1209', 'dim_1210', 'dim_1211', 'dim_1212', 'dim_1213', 'dim_1214', 'dim_1215', 'dim_1216', 'dim_1217', 'dim_1218', 'dim_1219', 'dim_1220', 'dim_1221', 'dim_1222', 'dim_1223', 'dim_1224', 'dim_1225', 'dim_1226', 'dim_1227', 'dim_1228', 'dim_1229', 'dim_1230', 'dim_1231', 'dim_1232', 'dim_1233', 'dim_1234', 'dim_1235', 'dim_1236', 'dim_1237', 'dim_1238', 'dim_1239', 'dim_1240', 'dim_1241', 'dim_1242', 'dim_1243', 'dim_1244', 'dim_1245', 'dim_1246', 'dim_1247', 'dim_1248', 'dim_1249', 'dim_1250', 'dim_1251', 'dim_1252', 'dim_1253', 'dim_1254', 'dim_1255', 'dim_1256', 'dim_1257', 'dim_1258', 'dim_1259', 'dim_1260', 'dim_1261', 'dim_1262', 'dim_1263', 'dim_1264', 'dim_1265', 'dim_1266', 'dim_1267', 'dim_1268', 'dim_1269', 'dim_1270', 'dim_1271', 'dim_1272', 'dim_1273', 'dim_1274', 'dim_1275', 'dim_1276', 'dim_1277', 'dim_1278', 'dim_1279', 'dim_1280', 'dim_1281', 'dim_1282', 'dim_1283', 'dim_1284', 'dim_1285', 'dim_1286', 'dim_1287', 'dim_1288', 'dim_1289', 'dim_1290', 'dim_1291', 'dim_1292', 'dim_1293', 'dim_1294', 'dim_1295', 'dim_1296', 'dim_1297', 'dim_1298', 'dim_1299', 'dim_1300', 'dim_1301', 'dim_1302', 'dim_1303', 'dim_1304', 'dim_1305', 'dim_1306', 'dim_1307', 'dim_1308', 'dim_1309', 'dim_1310', 'dim_1311', 'dim_1312', 'dim_1313', 'dim_1314', 'dim_1315', 'dim_1316', 'dim_1317', 'dim_1318', 'dim_1319', 'dim_1320', 'dim_1321', 'dim_1322', 'dim_1323', 'dim_1324', 'dim_1325', 'dim_1326', 'dim_1327', 'dim_1328', 'dim_1329', 'dim_1330', 'dim_1331', 'dim_1332', 'dim_1333', 'dim_1334', 'dim_1335', 'dim_1336', 'dim_1337', 'dim_1338', 'dim_1339', 'dim_1340', 'dim_1341', 'dim_1342', 'dim_1343', 'dim_1344', 'tid', 'label']
+
+Features Selection (by Variance): 
+               Mean    Std.Dev    Variance
+tid       24.500000  14.431404  208.265427
+dim_1244   3.081052  12.879128  165.871934
+dim_1245   3.066512  12.654907  160.146678
+dim_1246   3.036747  11.706495  137.042029
+dim_1243   2.932798  11.593790  134.415969
+...             ...        ...         ...
+dim_62     0.002960   0.007604    0.000058
+dim_32     0.002937   0.007459    0.000056
+dim_68     0.002993   0.007290    0.000053
+dim_67     0.003000   0.007023    0.000049
+label           NaN        NaN         NaN
+
+[1347 rows x 3 columns]
+
+Classes: 
+['black-bellied_whistling_duck' 'canadian_goose' 'greylag_goose'
+ 'pink-footed_goose' 'white-faced_whistling_duck'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 50
+Samples by Class:
+[black-bellied_whistling_duck]    10
+[canadian_goose]                  10
+[greylag_goose]                   10
+[pink-footed_goose]               10
+[white-faced_whistling_duck]      10
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 50
+Samples by Class:
+[black-bellied_whistling_duck]    10
+[canadian_goose]                  10
+[greylag_goose]                   10
+[pink-footed_goose]               10
+[white-faced_whistling_duck]      10
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6', 'channel_7', 'channel_8', 'channel_9', 'channel_10', 'channel_11', 'channel_12', 'channel_13', 'channel_14', 'channel_15', 'channel_16', 'channel_17', 'channel_18', 'channel_19', 'channel_20', 'channel_21', 'channel_22', 'channel_23', 'channel_24', 'channel_25', 'channel_26', 'channel_27', 'channel_28', 'channel_29', 'channel_30', 'channel_31', 'channel_32', 'channel_33', 'channel_34', 'channel_35', 'channel_36', 'channel_37', 'channel_38', 'channel_39', 'channel_40', 'channel_41', 'channel_42', 'channel_43', 'channel_44', 'channel_45', 'channel_46', 'channel_47', 'channel_48', 'channel_49', 'channel_50', 'channel_51', 'channel_52', 'channel_53', 'channel_54', 'channel_55', 'channel_56', 'channel_57', 'channel_58', 'channel_59', 'channel_60', 'channel_61', 'channel_62', 'channel_63', 'channel_64', 'channel_65', 'channel_66', 'channel_67', 'channel_68', 'channel_69', 'channel_70', 'channel_71', 'channel_72', 'channel_73', 'channel_74', 'channel_75', 'channel_76', 'channel_77', 'channel_78', 'channel_79', 'channel_80', 'channel_81', 'channel_82', 'channel_83', 'channel_84', 'channel_85', 'channel_86', 'channel_87', 'channel_88', 'channel_89', 'channel_90', 'channel_91', 'channel_92', 'channel_93', 'channel_94', 'channel_95', 'channel_96', 'channel_97', 'channel_98', 'channel_99', 'channel_100', 'channel_101', 'channel_102', 'channel_103', 'channel_104', 'channel_105', 'channel_106', 'channel_107', 'channel_108', 'channel_109', 'channel_110', 'channel_111', 'channel_112', 'channel_113', 'channel_114', 'channel_115', 'channel_116', 'channel_117', 'channel_118', 'channel_119', 'channel_120', 'channel_121', 'channel_122', 'channel_123', 'channel_124', 'channel_125', 'channel_126', 'channel_127', 'channel_128', 'channel_129', 'channel_130', 'channel_131', 'channel_132', 'channel_133', 'channel_134', 'channel_135', 'channel_136', 'channel_137', 'channel_138', 'channel_139', 'channel_140', 'channel_141', 'channel_142', 'channel_143', 'channel_144', 'channel_145', 'channel_146', 'channel_147', 'channel_148', 'channel_149', 'channel_150', 'channel_151', 'channel_152', 'channel_153', 'channel_154', 'channel_155', 'channel_156', 'channel_157', 'channel_158', 'channel_159', 'channel_160', 'channel_161', 'channel_162', 'channel_163', 'channel_164', 'channel_165', 'channel_166', 'channel_167', 'channel_168', 'channel_169', 'channel_170', 'channel_171', 'channel_172', 'channel_173', 'channel_174', 'channel_175', 'channel_176', 'channel_177', 'channel_178', 'channel_179', 'channel_180', 'channel_181', 'channel_182', 'channel_183', 'channel_184', 'channel_185', 'channel_186', 'channel_187', 'channel_188', 'channel_189', 'channel_190', 'channel_191', 'channel_192', 'channel_193', 'channel_194', 'channel_195', 'channel_196', 'channel_197', 'channel_198', 'channel_199', 'channel_200', 'channel_201', 'channel_202', 'channel_203', 'channel_204', 'channel_205', 'channel_206', 'channel_207', 'channel_208', 'channel_209', 'channel_210', 'channel_211', 'channel_212', 'channel_213', 'channel_214', 'channel_215', 'channel_216', 'channel_217', 'channel_218', 'channel_219', 'channel_220', 'channel_221', 'channel_222', 'channel_223', 'channel_224', 'channel_225', 'channel_226', 'channel_227', 'channel_228', 'channel_229', 'channel_230', 'channel_231', 'channel_232', 'channel_233', 'channel_234', 'channel_235', 'channel_236', 'channel_237', 'channel_238', 'channel_239', 'channel_240', 'channel_241', 'channel_242', 'channel_243', 'channel_244', 'channel_245', 'channel_246', 'channel_247', 'channel_248', 'channel_249', 'channel_250', 'channel_251', 'channel_252', 'channel_253', 'channel_254', 'channel_255', 'channel_256', 'channel_257', 'channel_258', 'channel_259', 'channel_260', 'channel_261', 'channel_262', 'channel_263', 'channel_264', 'channel_265', 'channel_266', 'channel_267', 'channel_268', 'channel_269', 'channel_270', 'channel_271', 'channel_272', 'channel_273', 'channel_274', 'channel_275', 'channel_276', 'channel_277', 'channel_278', 'channel_279', 'channel_280', 'channel_281', 'channel_282', 'channel_283', 'channel_284', 'channel_285', 'channel_286', 'channel_287', 'channel_288', 'channel_289', 'channel_290', 'channel_291', 'channel_292', 'channel_293', 'channel_294', 'channel_295', 'channel_296', 'channel_297', 'channel_298', 'channel_299', 'channel_300', 'channel_301', 'channel_302', 'channel_303', 'channel_304', 'channel_305', 'channel_306', 'channel_307', 'channel_308', 'channel_309', 'channel_310', 'channel_311', 'channel_312', 'channel_313', 'channel_314', 'channel_315', 'channel_316', 'channel_317', 'channel_318', 'channel_319', 'channel_320', 'channel_321', 'channel_322', 'channel_323', 'channel_324', 'channel_325', 'channel_326', 'channel_327', 'channel_328', 'channel_329', 'channel_330', 'channel_331', 'channel_332', 'channel_333', 'channel_334', 'channel_335', 'channel_336', 'channel_337', 'channel_338', 'channel_339', 'channel_340', 'channel_341', 'channel_342', 'channel_343', 'channel_344', 'channel_345', 'channel_346', 'channel_347', 'channel_348', 'channel_349', 'channel_350', 'channel_351', 'channel_352', 'channel_353', 'channel_354', 'channel_355', 'channel_356', 'channel_357', 'channel_358', 'channel_359', 'channel_360', 'channel_361', 'channel_362', 'channel_363', 'channel_364', 'channel_365', 'channel_366', 'channel_367', 'channel_368', 'channel_369', 'channel_370', 'channel_371', 'channel_372', 'channel_373', 'channel_374', 'channel_375', 'channel_376', 'channel_377', 'channel_378', 'channel_379', 'channel_380', 'channel_381', 'channel_382', 'channel_383', 'channel_384', 'channel_385', 'channel_386', 'channel_387', 'channel_388', 'channel_389', 'channel_390', 'channel_391', 'channel_392', 'channel_393', 'channel_394', 'channel_395', 'channel_396', 'channel_397', 'channel_398', 'channel_399', 'channel_400', 'channel_401', 'channel_402', 'channel_403', 'channel_404', 'channel_405', 'channel_406', 'channel_407', 'channel_408', 'channel_409', 'channel_410', 'channel_411', 'channel_412', 'channel_413', 'channel_414', 'channel_415', 'channel_416', 'channel_417', 'channel_418', 'channel_419', 'channel_420', 'channel_421', 'channel_422', 'channel_423', 'channel_424', 'channel_425', 'channel_426', 'channel_427', 'channel_428', 'channel_429', 'channel_430', 'channel_431', 'channel_432', 'channel_433', 'channel_434', 'channel_435', 'channel_436', 'channel_437', 'channel_438', 'channel_439', 'channel_440', 'channel_441', 'channel_442', 'channel_443', 'channel_444', 'channel_445', 'channel_446', 'channel_447', 'channel_448', 'channel_449', 'channel_450', 'channel_451', 'channel_452', 'channel_453', 'channel_454', 'channel_455', 'channel_456', 'channel_457', 'channel_458', 'channel_459', 'channel_460', 'channel_461', 'channel_462', 'channel_463', 'channel_464', 'channel_465', 'channel_466', 'channel_467', 'channel_468', 'channel_469', 'channel_470', 'channel_471', 'channel_472', 'channel_473', 'channel_474', 'channel_475', 'channel_476', 'channel_477', 'channel_478', 'channel_479', 'channel_480', 'channel_481', 'channel_482', 'channel_483', 'channel_484', 'channel_485', 'channel_486', 'channel_487', 'channel_488', 'channel_489', 'channel_490', 'channel_491', 'channel_492', 'channel_493', 'channel_494', 'channel_495', 'channel_496', 'channel_497', 'channel_498', 'channel_499', 'channel_500', 'channel_501', 'channel_502', 'channel_503', 'channel_504', 'channel_505', 'channel_506', 'channel_507', 'channel_508', 'channel_509', 'channel_510', 'channel_511', 'channel_512', 'channel_513', 'channel_514', 'channel_515', 'channel_516', 'channel_517', 'channel_518', 'channel_519', 'channel_520', 'channel_521', 'channel_522', 'channel_523', 'channel_524', 'channel_525', 'channel_526', 'channel_527', 'channel_528', 'channel_529', 'channel_530', 'channel_531', 'channel_532', 'channel_533', 'channel_534', 'channel_535', 'channel_536', 'channel_537', 'channel_538', 'channel_539', 'channel_540', 'channel_541', 'channel_542', 'channel_543', 'channel_544', 'channel_545', 'channel_546', 'channel_547', 'channel_548', 'channel_549', 'channel_550', 'channel_551', 'channel_552', 'channel_553', 'channel_554', 'channel_555', 'channel_556', 'channel_557', 'channel_558', 'channel_559', 'channel_560', 'channel_561', 'channel_562', 'channel_563', 'channel_564', 'channel_565', 'channel_566', 'channel_567', 'channel_568', 'channel_569', 'channel_570', 'channel_571', 'channel_572', 'channel_573', 'channel_574', 'channel_575', 'channel_576', 'channel_577', 'channel_578', 'channel_579', 'channel_580', 'channel_581', 'channel_582', 'channel_583', 'channel_584', 'channel_585', 'channel_586', 'channel_587', 'channel_588', 'channel_589', 'channel_590', 'channel_591', 'channel_592', 'channel_593', 'channel_594', 'channel_595', 'channel_596', 'channel_597', 'channel_598', 'channel_599', 'channel_600', 'channel_601', 'channel_602', 'channel_603', 'channel_604', 'channel_605', 'channel_606', 'channel_607', 'channel_608', 'channel_609', 'channel_610', 'channel_611', 'channel_612', 'channel_613', 'channel_614', 'channel_615', 'channel_616', 'channel_617', 'channel_618', 'channel_619', 'channel_620', 'channel_621', 'channel_622', 'channel_623', 'channel_624', 'channel_625', 'channel_626', 'channel_627', 'channel_628', 'channel_629', 'channel_630', 'channel_631', 'channel_632', 'channel_633', 'channel_634', 'channel_635', 'channel_636', 'channel_637', 'channel_638', 'channel_639', 'channel_640', 'channel_641', 'channel_642', 'channel_643', 'channel_644', 'channel_645', 'channel_646', 'channel_647', 'channel_648', 'channel_649', 'channel_650', 'channel_651', 'channel_652', 'channel_653', 'channel_654', 'channel_655', 'channel_656', 'channel_657', 'channel_658', 'channel_659', 'channel_660', 'channel_661', 'channel_662', 'channel_663', 'channel_664', 'channel_665', 'channel_666', 'channel_667', 'channel_668', 'channel_669', 'channel_670', 'channel_671', 'channel_672', 'channel_673', 'channel_674', 'channel_675', 'channel_676', 'channel_677', 'channel_678', 'channel_679', 'channel_680', 'channel_681', 'channel_682', 'channel_683', 'channel_684', 'channel_685', 'channel_686', 'channel_687', 'channel_688', 'channel_689', 'channel_690', 'channel_691', 'channel_692', 'channel_693', 'channel_694', 'channel_695', 'channel_696', 'channel_697', 'channel_698', 'channel_699', 'channel_700', 'channel_701', 'channel_702', 'channel_703', 'channel_704', 'channel_705', 'channel_706', 'channel_707', 'channel_708', 'channel_709', 'channel_710', 'channel_711', 'channel_712', 'channel_713', 'channel_714', 'channel_715', 'channel_716', 'channel_717', 'channel_718', 'channel_719', 'channel_720', 'channel_721', 'channel_722', 'channel_723', 'channel_724', 'channel_725', 'channel_726', 'channel_727', 'channel_728', 'channel_729', 'channel_730', 'channel_731', 'channel_732', 'channel_733', 'channel_734', 'channel_735', 'channel_736', 'channel_737', 'channel_738', 'channel_739', 'channel_740', 'channel_741', 'channel_742', 'channel_743', 'channel_744', 'channel_745', 'channel_746', 'channel_747', 'channel_748', 'channel_749', 'channel_750', 'channel_751', 'channel_752', 'channel_753', 'channel_754', 'channel_755', 'channel_756', 'channel_757', 'channel_758', 'channel_759', 'channel_760', 'channel_761', 'channel_762', 'channel_763', 'channel_764', 'channel_765', 'channel_766', 'channel_767', 'channel_768', 'channel_769', 'channel_770', 'channel_771', 'channel_772', 'channel_773', 'channel_774', 'channel_775', 'channel_776', 'channel_777', 'channel_778', 'channel_779', 'channel_780', 'channel_781', 'channel_782', 'channel_783', 'channel_784', 'channel_785', 'channel_786', 'channel_787', 'channel_788', 'channel_789', 'channel_790', 'channel_791', 'channel_792', 'channel_793', 'channel_794', 'channel_795', 'channel_796', 'channel_797', 'channel_798', 'channel_799', 'channel_800', 'channel_801', 'channel_802', 'channel_803', 'channel_804', 'channel_805', 'channel_806', 'channel_807', 'channel_808', 'channel_809', 'channel_810', 'channel_811', 'channel_812', 'channel_813', 'channel_814', 'channel_815', 'channel_816', 'channel_817', 'channel_818', 'channel_819', 'channel_820', 'channel_821', 'channel_822', 'channel_823', 'channel_824', 'channel_825', 'channel_826', 'channel_827', 'channel_828', 'channel_829', 'channel_830', 'channel_831', 'channel_832', 'channel_833', 'channel_834', 'channel_835', 'channel_836', 'channel_837', 'channel_838', 'channel_839', 'channel_840', 'channel_841', 'channel_842', 'channel_843', 'channel_844', 'channel_845', 'channel_846', 'channel_847', 'channel_848', 'channel_849', 'channel_850', 'channel_851', 'channel_852', 'channel_853', 'channel_854', 'channel_855', 'channel_856', 'channel_857', 'channel_858', 'channel_859', 'channel_860', 'channel_861', 'channel_862', 'channel_863', 'channel_864', 'channel_865', 'channel_866', 'channel_867', 'channel_868', 'channel_869', 'channel_870', 'channel_871', 'channel_872', 'channel_873', 'channel_874', 'channel_875', 'channel_876', 'channel_877', 'channel_878', 'channel_879', 'channel_880', 'channel_881', 'channel_882', 'channel_883', 'channel_884', 'channel_885', 'channel_886', 'channel_887', 'channel_888', 'channel_889', 'channel_890', 'channel_891', 'channel_892', 'channel_893', 'channel_894', 'channel_895', 'channel_896', 'channel_897', 'channel_898', 'channel_899', 'channel_900', 'channel_901', 'channel_902', 'channel_903', 'channel_904', 'channel_905', 'channel_906', 'channel_907', 'channel_908', 'channel_909', 'channel_910', 'channel_911', 'channel_912', 'channel_913', 'channel_914', 'channel_915', 'channel_916', 'channel_917', 'channel_918', 'channel_919', 'channel_920', 'channel_921', 'channel_922', 'channel_923', 'channel_924', 'channel_925', 'channel_926', 'channel_927', 'channel_928', 'channel_929', 'channel_930', 'channel_931', 'channel_932', 'channel_933', 'channel_934', 'channel_935', 'channel_936', 'channel_937', 'channel_938', 'channel_939', 'channel_940', 'channel_941', 'channel_942', 'channel_943', 'channel_944', 'channel_945', 'channel_946', 'channel_947', 'channel_948', 'channel_949', 'channel_950', 'channel_951', 'channel_952', 'channel_953', 'channel_954', 'channel_955', 'channel_956', 'channel_957', 'channel_958', 'channel_959', 'channel_960', 'channel_961', 'channel_962', 'channel_963', 'channel_964', 'channel_965', 'channel_966', 'channel_967', 'channel_968', 'channel_969', 'channel_970', 'channel_971', 'channel_972', 'channel_973', 'channel_974', 'channel_975', 'channel_976', 'channel_977', 'channel_978', 'channel_979', 'channel_980', 'channel_981', 'channel_982', 'channel_983', 'channel_984', 'channel_985', 'channel_986', 'channel_987', 'channel_988', 'channel_989', 'channel_990', 'channel_991', 'channel_992', 'channel_993', 'channel_994', 'channel_995', 'channel_996', 'channel_997', 'channel_998', 'channel_999', 'channel_1000', 'channel_1001', 'channel_1002', 'channel_1003', 'channel_1004', 'channel_1005', 'channel_1006', 'channel_1007', 'channel_1008', 'channel_1009', 'channel_1010', 'channel_1011', 'channel_1012', 'channel_1013', 'channel_1014', 'channel_1015', 'channel_1016', 'channel_1017', 'channel_1018', 'channel_1019', 'channel_1020', 'channel_1021', 'channel_1022', 'channel_1023', 'channel_1024', 'channel_1025', 'channel_1026', 'channel_1027', 'channel_1028', 'channel_1029', 'channel_1030', 'channel_1031', 'channel_1032', 'channel_1033', 'channel_1034', 'channel_1035', 'channel_1036', 'channel_1037', 'channel_1038', 'channel_1039', 'channel_1040', 'channel_1041', 'channel_1042', 'channel_1043', 'channel_1044', 'channel_1045', 'channel_1046', 'channel_1047', 'channel_1048', 'channel_1049', 'channel_1050', 'channel_1051', 'channel_1052', 'channel_1053', 'channel_1054', 'channel_1055', 'channel_1056', 'channel_1057', 'channel_1058', 'channel_1059', 'channel_1060', 'channel_1061', 'channel_1062', 'channel_1063', 'channel_1064', 'channel_1065', 'channel_1066', 'channel_1067', 'channel_1068', 'channel_1069', 'channel_1070', 'channel_1071', 'channel_1072', 'channel_1073', 'channel_1074', 'channel_1075', 'channel_1076', 'channel_1077', 'channel_1078', 'channel_1079', 'channel_1080', 'channel_1081', 'channel_1082', 'channel_1083', 'channel_1084', 'channel_1085', 'channel_1086', 'channel_1087', 'channel_1088', 'channel_1089', 'channel_1090', 'channel_1091', 'channel_1092', 'channel_1093', 'channel_1094', 'channel_1095', 'channel_1096', 'channel_1097', 'channel_1098', 'channel_1099', 'channel_1100', 'channel_1101', 'channel_1102', 'channel_1103', 'channel_1104', 'channel_1105', 'channel_1106', 'channel_1107', 'channel_1108', 'channel_1109', 'channel_1110', 'channel_1111', 'channel_1112', 'channel_1113', 'channel_1114', 'channel_1115', 'channel_1116', 'channel_1117', 'channel_1118', 'channel_1119', 'channel_1120', 'channel_1121', 'channel_1122', 'channel_1123', 'channel_1124', 'channel_1125', 'channel_1126', 'channel_1127', 'channel_1128', 'channel_1129', 'channel_1130', 'channel_1131', 'channel_1132', 'channel_1133', 'channel_1134', 'channel_1135', 'channel_1136', 'channel_1137', 'channel_1138', 'channel_1139', 'channel_1140', 'channel_1141', 'channel_1142', 'channel_1143', 'channel_1144', 'channel_1145', 'channel_1146', 'channel_1147', 'channel_1148', 'channel_1149', 'channel_1150', 'channel_1151', 'channel_1152', 'channel_1153', 'channel_1154', 'channel_1155', 'channel_1156', 'channel_1157', 'channel_1158', 'channel_1159', 'channel_1160', 'channel_1161', 'channel_1162', 'channel_1163', 'channel_1164', 'channel_1165', 'channel_1166', 'channel_1167', 'channel_1168', 'channel_1169', 'channel_1170', 'channel_1171', 'channel_1172', 'channel_1173', 'channel_1174', 'channel_1175', 'channel_1176', 'channel_1177', 'channel_1178', 'channel_1179', 'channel_1180', 'channel_1181', 'channel_1182', 'channel_1183', 'channel_1184', 'channel_1185', 'channel_1186', 'channel_1187', 'channel_1188', 'channel_1189', 'channel_1190', 'channel_1191', 'channel_1192', 'channel_1193', 'channel_1194', 'channel_1195', 'channel_1196', 'channel_1197', 'channel_1198', 'channel_1199', 'channel_1200', 'channel_1201', 'channel_1202', 'channel_1203', 'channel_1204', 'channel_1205', 'channel_1206', 'channel_1207', 'channel_1208', 'channel_1209', 'channel_1210', 'channel_1211', 'channel_1212', 'channel_1213', 'channel_1214', 'channel_1215', 'channel_1216', 'channel_1217', 'channel_1218', 'channel_1219', 'channel_1220', 'channel_1221', 'channel_1222', 'channel_1223', 'channel_1224', 'channel_1225', 'channel_1226', 'channel_1227', 'channel_1228', 'channel_1229', 'channel_1230', 'channel_1231', 'channel_1232', 'channel_1233', 'channel_1234', 'channel_1235', 'channel_1236', 'channel_1237', 'channel_1238', 'channel_1239', 'channel_1240', 'channel_1241', 'channel_1242', 'channel_1243', 'channel_1244', 'channel_1245', 'channel_1246', 'channel_1247', 'channel_1248', 'channel_1249', 'channel_1250', 'channel_1251', 'channel_1252', 'channel_1253', 'channel_1254', 'channel_1255', 'channel_1256', 'channel_1257', 'channel_1258', 'channel_1259', 'channel_1260', 'channel_1261', 'channel_1262', 'channel_1263', 'channel_1264', 'channel_1265', 'channel_1266', 'channel_1267', 'channel_1268', 'channel_1269', 'channel_1270', 'channel_1271', 'channel_1272', 'channel_1273', 'channel_1274', 'channel_1275', 'channel_1276', 'channel_1277', 'channel_1278', 'channel_1279', 'channel_1280', 'channel_1281', 'channel_1282', 'channel_1283', 'channel_1284', 'channel_1285', 'channel_1286', 'channel_1287', 'channel_1288', 'channel_1289', 'channel_1290', 'channel_1291', 'channel_1292', 'channel_1293', 'channel_1294', 'channel_1295', 'channel_1296', 'channel_1297', 'channel_1298', 'channel_1299', 'channel_1300', 'channel_1301', 'channel_1302', 'channel_1303', 'channel_1304', 'channel_1305', 'channel_1306', 'channel_1307', 'channel_1308', 'channel_1309', 'channel_1310', 'channel_1311', 'channel_1312', 'channel_1313', 'channel_1314', 'channel_1315', 'channel_1316', 'channel_1317', 'channel_1318', 'channel_1319', 'channel_1320', 'channel_1321', 'channel_1322', 'channel_1323', 'channel_1324', 'channel_1325', 'channel_1326', 'channel_1327', 'channel_1328', 'channel_1329', 'channel_1330', 'channel_1331', 'channel_1332', 'channel_1333', 'channel_1334', 'channel_1335', 'channel_1336', 'channel_1337', 'channel_1338', 'channel_1339', 'channel_1340', 'channel_1341', 'channel_1342', 'channel_1343', 'channel_1344', 'channel_1345']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for ERing
+Number of Classes:     => 6
+Number of Attributes:  => 6
+Number of Trajs:       => 300 total / 30 train + 270 test
+Number of Points:      => 19500 total / 1950 train + 17550 test
+Avg Size of Trajs:     => 65.00  / ± 0.0
+Longest Size:          => 65 train / 65 test
+Shortest Size:         => 65 train / 65 test
+Train / Test hold-out: => 30 - 10.00% .. 270 - 90.00%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'tid', 'label']
+
+Features Selection (by Variance): 
+               Mean   Std.Dev   Variance
+tid    1.450000e+01  8.657662  74.955105
+label  3.500000e+00  1.708263   2.918163
+dim_0  3.282051e-10  0.992532   0.985121
+dim_2 -1.538462e-10  0.992532   0.985121
+dim_3 -1.179487e-10  0.992532   0.985121
+dim_1  1.589744e-10  0.992532   0.985121
+
+Classes: 
+['3' '2' '4' '6' '5' '1'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 30
+Samples by Class:
+[1]    5
+[2]    5
+[3]    5
+[4]    5
+[5]    5
+[6]    5
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 270
+Samples by Class:
+[1]    45
+[2]    45
+[3]    45
+[4]    45
+[5]    45
+[6]    45
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for EigenWorms
+Number of Classes:     => 5
+Number of Attributes:  => 8
+Number of Trajs:       => 259 total / 128 train + 131 test
+Number of Points:      => 4657856 total / 2301952 train + 2355904 test
+Avg Size of Trajs:     => 17984.00  / ± 0.0
+Longest Size:          => 17984 train / 17984 test
+Shortest Size:         => 17984 train / 17984 test
+Train / Test hold-out: => 128 - 49.42% .. 131 - 50.58%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'tid', 'label']
+
+Features Selection (by Variance): 
+            Mean    Std.Dev     Variance
+tid    63.500000  36.949298  1365.250593
+dim_0   0.109508   8.038644    64.619802
+dim_2   0.068180   5.939524    35.277950
+dim_3   0.110054   5.451958    29.723843
+dim_5   0.137633   5.174616    26.776654
+dim_1  -0.059932   3.959655    15.678867
+dim_4   0.002785   1.989591     3.958474
+label   2.328125   1.409285     1.986085
+
+Classes: 
+['1' '2' '3' '4' '5'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 128
+Samples by Class:
+[1]    55
+[2]    22
+[4]    22
+[3]    17
+[5]    12
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 131
+Samples by Class:
+[1]    55
+[4]    23
+[2]    22
+[3]    18
+[5]    13
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for Epilepsy
+Number of Classes:     => 4
+Number of Attributes:  => 5
+Number of Trajs:       => 275 total / 137 train + 138 test
+Number of Points:      => 56650 total / 28222 train + 28428 test
+Avg Size of Trajs:     => 206.00  / ± 0.0
+Longest Size:          => 206 train / 206 test
+Shortest Size:         => 206 train / 206 test
+Train / Test hold-out: => 137 - 49.82% .. 138 - 50.18%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'tid', 'label']
+
+Features Selection (by Variance): 
+            Mean    Std.Dev     Variance
+tid    68.000000  39.548141  1564.055420
+dim_1  -0.290210   1.019551     1.039485
+dim_0   0.069780   0.968413     0.937824
+dim_2  -0.102257   0.512179     0.262328
+label        NaN        NaN          NaN
+
+Classes: 
+['epilepsy' 'walking' 'running' 'sawing'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 137
+Samples by Class:
+[walking]     37
+[running]     36
+[epilepsy]    34
+[sawing]      30
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 138
+Samples by Class:
+[running]     37
+[walking]     37
+[epilepsy]    34
+[sawing]      30
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for EthanolConcentration
+Number of Classes:     => 4
+Number of Attributes:  => 5
+Number of Trajs:       => 524 total / 261 train + 263 test
+Number of Points:      => 917524 total / 457011 train + 460513 test
+Avg Size of Trajs:     => 1751.00  / ± 0.0
+Longest Size:          => 1751 train / 1751 test
+Shortest Size:         => 1751 train / 1751 test
+Train / Test hold-out: => 261 - 49.81% .. 263 - 50.19%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'tid', 'label']
+
+Features Selection (by Variance): 
+               Mean       Std.Dev      Variance
+dim_2  10250.096170  11303.760939  1.277750e+08
+dim_1  10079.895023  11050.034595  1.221033e+08
+dim_0   9789.570490  10668.243488  1.138114e+08
+tid      130.000000     75.343740  5.676679e+03
+label           NaN           NaN           NaN
+
+Classes: 
+['e35' 'e38' 'e40' 'e45'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 261
+Samples by Class:
+[e40]    66
+[e35]    65
+[e38]    65
+[e45]    65
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 263
+Samples by Class:
+[e35]    66
+[e38]    66
+[e40]    66
+[e45]    65
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for FaceDetection
+Number of Classes:     => 2
+Number of Attributes:  => 146
+Number of Trajs:       => 9414 total / 5890 train + 3524 test
+Number of Points:      => 583668 total / 365180 train + 218488 test
+Avg Size of Trajs:     => 62.00  / ± 0.0
+Longest Size:          => 62 train / 62 test
+Shortest Size:         => 62 train / 62 test
+Train / Test hold-out: => 5890 - 62.57% .. 3524 - 37.43%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'dim_7', 'dim_8', 'dim_9', 'dim_10', 'dim_11', 'dim_12', 'dim_13', 'dim_14', 'dim_15', 'dim_16', 'dim_17', 'dim_18', 'dim_19', 'dim_20', 'dim_21', 'dim_22', 'dim_23', 'dim_24', 'dim_25', 'dim_26', 'dim_27', 'dim_28', 'dim_29', 'dim_30', 'dim_31', 'dim_32', 'dim_33', 'dim_34', 'dim_35', 'dim_36', 'dim_37', 'dim_38', 'dim_39', 'dim_40', 'dim_41', 'dim_42', 'dim_43', 'dim_44', 'dim_45', 'dim_46', 'dim_47', 'dim_48', 'dim_49', 'dim_50', 'dim_51', 'dim_52', 'dim_53', 'dim_54', 'dim_55', 'dim_56', 'dim_57', 'dim_58', 'dim_59', 'dim_60', 'dim_61', 'dim_62', 'dim_63', 'dim_64', 'dim_65', 'dim_66', 'dim_67', 'dim_68', 'dim_69', 'dim_70', 'dim_71', 'dim_72', 'dim_73', 'dim_74', 'dim_75', 'dim_76', 'dim_77', 'dim_78', 'dim_79', 'dim_80', 'dim_81', 'dim_82', 'dim_83', 'dim_84', 'dim_85', 'dim_86', 'dim_87', 'dim_88', 'dim_89', 'dim_90', 'dim_91', 'dim_92', 'dim_93', 'dim_94', 'dim_95', 'dim_96', 'dim_97', 'dim_98', 'dim_99', 'dim_100', 'dim_101', 'dim_102', 'dim_103', 'dim_104', 'dim_105', 'dim_106', 'dim_107', 'dim_108', 'dim_109', 'dim_110', 'dim_111', 'dim_112', 'dim_113', 'dim_114', 'dim_115', 'dim_116', 'dim_117', 'dim_118', 'dim_119', 'dim_120', 'dim_121', 'dim_122', 'dim_123', 'dim_124', 'dim_125', 'dim_126', 'dim_127', 'dim_128', 'dim_129', 'dim_130', 'dim_131', 'dim_132', 'dim_133', 'dim_134', 'dim_135', 'dim_136', 'dim_137', 'dim_138', 'dim_139', 'dim_140', 'dim_141', 'dim_142', 'dim_143', 'tid', 'label']
+
+Features Selection (by Variance): 
+                 Mean      Std.Dev      Variance
+tid      2.944500e+03  1700.298846  2.891016e+06
+dim_105  9.036640e-11     0.999152  9.983049e-01
+dim_18  -3.888493e-10     0.999152  9.983049e-01
+dim_14   4.627855e-10     0.999152  9.983049e-01
+dim_52  -2.738376e-11     0.999152  9.983049e-01
+...               ...          ...           ...
+dim_122 -4.655238e-11     0.999152  9.983049e-01
+dim_95  -2.464538e-11     0.999152  9.983049e-01
+dim_121 -2.245468e-10     0.999152  9.983049e-01
+dim_7    7.037625e-10     0.999152  9.983049e-01
+label    5.000000e-01     0.500001  2.500007e-01
+
+[146 rows x 3 columns]
+
+Classes: 
+['0' '1'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 5890
+Samples by Class:
+[0]    2945
+[1]    2945
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 3524
+Samples by Class:
+[0]    1762
+[1]    1762
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6', 'channel_7', 'channel_8', 'channel_9', 'channel_10', 'channel_11', 'channel_12', 'channel_13', 'channel_14', 'channel_15', 'channel_16', 'channel_17', 'channel_18', 'channel_19', 'channel_20', 'channel_21', 'channel_22', 'channel_23', 'channel_24', 'channel_25', 'channel_26', 'channel_27', 'channel_28', 'channel_29', 'channel_30', 'channel_31', 'channel_32', 'channel_33', 'channel_34', 'channel_35', 'channel_36', 'channel_37', 'channel_38', 'channel_39', 'channel_40', 'channel_41', 'channel_42', 'channel_43', 'channel_44', 'channel_45', 'channel_46', 'channel_47', 'channel_48', 'channel_49', 'channel_50', 'channel_51', 'channel_52', 'channel_53', 'channel_54', 'channel_55', 'channel_56', 'channel_57', 'channel_58', 'channel_59', 'channel_60', 'channel_61', 'channel_62', 'channel_63', 'channel_64', 'channel_65', 'channel_66', 'channel_67', 'channel_68', 'channel_69', 'channel_70', 'channel_71', 'channel_72', 'channel_73', 'channel_74', 'channel_75', 'channel_76', 'channel_77', 'channel_78', 'channel_79', 'channel_80', 'channel_81', 'channel_82', 'channel_83', 'channel_84', 'channel_85', 'channel_86', 'channel_87', 'channel_88', 'channel_89', 'channel_90', 'channel_91', 'channel_92', 'channel_93', 'channel_94', 'channel_95', 'channel_96', 'channel_97', 'channel_98', 'channel_99', 'channel_100', 'channel_101', 'channel_102', 'channel_103', 'channel_104', 'channel_105', 'channel_106', 'channel_107', 'channel_108', 'channel_109', 'channel_110', 'channel_111', 'channel_112', 'channel_113', 'channel_114', 'channel_115', 'channel_116', 'channel_117', 'channel_118', 'channel_119', 'channel_120', 'channel_121', 'channel_122', 'channel_123', 'channel_124', 'channel_125', 'channel_126', 'channel_127', 'channel_128', 'channel_129', 'channel_130', 'channel_131', 'channel_132', 'channel_133', 'channel_134', 'channel_135', 'channel_136', 'channel_137', 'channel_138', 'channel_139', 'channel_140', 'channel_141', 'channel_142', 'channel_143', 'channel_144']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for FaciesRocks
+Number of Classes:     => 9
+Number of Attributes:  => 10
+Number of Trajs:       => 501 total / 347 train + 154 test
+Number of Points:      => 3232 total / 2310 train + 922 test
+Avg Size of Trajs:     => 6.45  / ± 61.54890219560878
+Longest Size:          => 68 train / 38 test
+Shortest Size:         => 1 train / 1 test
+Train / Test hold-out: => 347 - 69.26% .. 154 - 30.74%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'dim_7', 'tid', 'label']
+
+Features Selection (by Variance): 
+              Mean     Std.Dev      Variance
+dim_0  2873.433333  126.619626  16032.529768
+tid     165.719048  106.954981  11439.367978
+dim_1    65.423132   29.426571    865.923076
+dim_4    13.268585    7.032697     49.458830
+dim_3     3.738731    5.346428     28.584294
+label     4.424675    2.494202      6.221045
+dim_5     3.726093    0.853016      0.727637
+dim_6     1.494805    0.500081      0.250081
+dim_7     0.523917    0.288464      0.083212
+dim_2     0.640755    0.232491      0.054052
+
+Classes: 
+['3' '2' '8' '6' '7' '4' '5' '9' '1'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 347
+Samples by Class:
+[3]    67
+[6]    65
+[8]    65
+[2]    56
+[5]    37
+[4]    28
+[1]    13
+[7]    10
+[9]     6
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 154
+Samples by Class:
+[3]    29
+[6]    28
+[8]    28
+[2]    25
+[5]    17
+[4]    13
+[1]     6
+[7]     5
+[9]     3
+dtype: int64
+
+Descriptor Dimensions: ['Depth', 'GR', 'ILD_log10', 'DeltaPHI', 'PHIND', 'PE', 'NM_M', 'RELPOS']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for FingerMovements
+Number of Classes:     => 2
+Number of Attributes:  => 30
+Number of Trajs:       => 416 total / 316 train + 100 test
+Number of Points:      => 20800 total / 15800 train + 5000 test
+Avg Size of Trajs:     => 50.00  / ± 0.0
+Longest Size:          => 50 train / 50 test
+Shortest Size:         => 50 train / 50 test
+Train / Test hold-out: => 316 - 75.96% .. 100 - 24.04%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'dim_7', 'dim_8', 'dim_9', 'dim_10', 'dim_11', 'dim_12', 'dim_13', 'dim_14', 'dim_15', 'dim_16', 'dim_17', 'dim_18', 'dim_19', 'dim_20', 'dim_21', 'dim_22', 'dim_23', 'dim_24', 'dim_25', 'dim_26', 'dim_27', 'tid', 'label']
+
+Features Selection (by Variance): 
+              Mean    Std.Dev     Variance
+tid     157.500000  91.223773  8321.776695
+dim_19   37.139392  62.437571  3898.450284
+dim_18  100.737139  44.522854  1982.284526
+dim_1    28.907614  42.637157  1817.927196
+dim_3    32.066196  42.328236  1791.679566
+dim_17   86.810335  41.965543  1761.106802
+dim_13   17.902228  41.905523  1756.072819
+dim_14   49.849120  40.370455  1629.773668
+dim_2     5.039614  36.222123  1312.042219
+dim_4    46.253127  35.156458  1235.976574
+dim_27    7.888544  34.653119  1200.838685
+dim_15   60.160000  34.160435  1166.935288
+dim_26   12.295139  33.829365  1144.425944
+dim_16   61.924361  33.635899  1131.373690
+dim_5    43.368063  33.260713  1106.275059
+dim_24    8.180778  32.894372  1082.039678
+dim_25   16.859272  32.479799  1054.937321
+dim_20   -3.296608  31.552981   995.590623
+dim_23    1.091063  30.559122   933.859907
+dim_6    40.746722  29.928536   895.717292
+dim_22   -0.591684  29.511972   870.956474
+dim_21   -2.212234  29.511438   870.924982
+dim_12    5.084797  28.887544   834.490215
+dim_8    27.083437  26.750145   715.570251
+dim_7    38.413449  26.714626   713.671251
+dim_0    66.623987  26.021859   677.137133
+dim_11   11.234127  24.958139   622.908704
+dim_9    15.537082  23.800172   566.448186
+dim_10   14.203291  23.739805   563.578361
+label          NaN        NaN          NaN
+
+Classes: 
+['left' 'right'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 316
+Samples by Class:
+[left]     159
+[right]    157
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 100
+Samples by Class:
+[right]    51
+[left]     49
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6', 'channel_7', 'channel_8', 'channel_9', 'channel_10', 'channel_11', 'channel_12', 'channel_13', 'channel_14', 'channel_15', 'channel_16', 'channel_17', 'channel_18', 'channel_19', 'channel_20', 'channel_21', 'channel_22', 'channel_23', 'channel_24', 'channel_25', 'channel_26', 'channel_27', 'channel_28']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for GECCOWater
+Number of Classes:     => 2
+Number of Attributes:  => 12
+Number of Trajs:       => 98 total / 67 train + 31 test
+Number of Points:      => 139566 total / 94926 train + 44640 test
+Avg Size of Trajs:     => 1424.14  / ± 889.1428571428571
+Longest Size:          => 1500 train / 1440 test
+Shortest Size:         => 535 train / 1440 test
+Train / Test hold-out: => 67 - 68.37% .. 31 - 31.63%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'dim_7', 'dim_8', 'dim_9', 'tid', 'label']
+
+Features Selection (by Variance): 
+              Mean     Std.Dev       Variance
+dim_0   719.319354  416.164091  173192.550896
+dim_8  1545.421078  212.099280   44986.104502
+dim_9   932.192935  158.240432   25040.034193
+tid      33.092620   19.218111     369.335788
+dim_4   753.129213    9.118012      83.138140
+dim_5   209.973943    4.730319      22.375921
+dim_1     8.544987    1.226235       1.503652
+dim_3     8.367246    0.098075       0.009619
+dim_2     0.165520    0.011162       0.000125
+dim_7     0.105802    0.006587       0.000043
+dim_6     0.020127    0.005814       0.000034
+label          NaN         NaN            NaN
+
+Classes: 
+['false' 'true'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 67
+Samples by Class:
+[false]    51
+[true]     16
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 31
+Samples by Class:
+[false]    23
+[true]      8
+dtype: int64
+
+Descriptor Dimensions: ['time', 'Tp', 'Cl', 'pH', 'Redox', 'Leit', 'Trueb', 'Cl_2', 'Fm', 'Fm_2']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for GrammaticalFacialExpression
+Number of Classes:     => 9
+Number of Attributes:  => 303
+Number of Trajs:       => 463 total / 321 train + 142 test
+Number of Points:      => 9877 total / 6830 train + 3047 test
+Avg Size of Trajs:     => 21.33  / ± 43.66738660907127
+Longest Size:          => 65 train / 62 test
+Shortest Size:         => 2 train / 7 test
+Train / Test hold-out: => 321 - 69.33% .. 142 - 30.67%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'dim_7', 'dim_8', 'dim_9', 'dim_10', 'dim_11', 'dim_12', 'dim_13', 'dim_14', 'dim_15', 'dim_16', 'dim_17', 'dim_18', 'dim_19', 'dim_20', 'dim_21', 'dim_22', 'dim_23', 'dim_24', 'dim_25', 'dim_26', 'dim_27', 'dim_28', 'dim_29', 'dim_30', 'dim_31', 'dim_32', 'dim_33', 'dim_34', 'dim_35', 'dim_36', 'dim_37', 'dim_38', 'dim_39', 'dim_40', 'dim_41', 'dim_42', 'dim_43', 'dim_44', 'dim_45', 'dim_46', 'dim_47', 'dim_48', 'dim_49', 'dim_50', 'dim_51', 'dim_52', 'dim_53', 'dim_54', 'dim_55', 'dim_56', 'dim_57', 'dim_58', 'dim_59', 'dim_60', 'dim_61', 'dim_62', 'dim_63', 'dim_64', 'dim_65', 'dim_66', 'dim_67', 'dim_68', 'dim_69', 'dim_70', 'dim_71', 'dim_72', 'dim_73', 'dim_74', 'dim_75', 'dim_76', 'dim_77', 'dim_78', 'dim_79', 'dim_80', 'dim_81', 'dim_82', 'dim_83', 'dim_84', 'dim_85', 'dim_86', 'dim_87', 'dim_88', 'dim_89', 'dim_90', 'dim_91', 'dim_92', 'dim_93', 'dim_94', 'dim_95', 'dim_96', 'dim_97', 'dim_98', 'dim_99', 'dim_100', 'dim_101', 'dim_102', 'dim_103', 'dim_104', 'dim_105', 'dim_106', 'dim_107', 'dim_108', 'dim_109', 'dim_110', 'dim_111', 'dim_112', 'dim_113', 'dim_114', 'dim_115', 'dim_116', 'dim_117', 'dim_118', 'dim_119', 'dim_120', 'dim_121', 'dim_122', 'dim_123', 'dim_124', 'dim_125', 'dim_126', 'dim_127', 'dim_128', 'dim_129', 'dim_130', 'dim_131', 'dim_132', 'dim_133', 'dim_134', 'dim_135', 'dim_136', 'dim_137', 'dim_138', 'dim_139', 'dim_140', 'dim_141', 'dim_142', 'dim_143', 'dim_144', 'dim_145', 'dim_146', 'dim_147', 'dim_148', 'dim_149', 'dim_150', 'dim_151', 'dim_152', 'dim_153', 'dim_154', 'dim_155', 'dim_156', 'dim_157', 'dim_158', 'dim_159', 'dim_160', 'dim_161', 'dim_162', 'dim_163', 'dim_164', 'dim_165', 'dim_166', 'dim_167', 'dim_168', 'dim_169', 'dim_170', 'dim_171', 'dim_172', 'dim_173', 'dim_174', 'dim_175', 'dim_176', 'dim_177', 'dim_178', 'dim_179', 'dim_180', 'dim_181', 'dim_182', 'dim_183', 'dim_184', 'dim_185', 'dim_186', 'dim_187', 'dim_188', 'dim_189', 'dim_190', 'dim_191', 'dim_192', 'dim_193', 'dim_194', 'dim_195', 'dim_196', 'dim_197', 'dim_198', 'dim_199', 'dim_200', 'dim_201', 'dim_202', 'dim_203', 'dim_204', 'dim_205', 'dim_206', 'dim_207', 'dim_208', 'dim_209', 'dim_210', 'dim_211', 'dim_212', 'dim_213', 'dim_214', 'dim_215', 'dim_216', 'dim_217', 'dim_218', 'dim_219', 'dim_220', 'dim_221', 'dim_222', 'dim_223', 'dim_224', 'dim_225', 'dim_226', 'dim_227', 'dim_228', 'dim_229', 'dim_230', 'dim_231', 'dim_232', 'dim_233', 'dim_234', 'dim_235', 'dim_236', 'dim_237', 'dim_238', 'dim_239', 'dim_240', 'dim_241', 'dim_242', 'dim_243', 'dim_244', 'dim_245', 'dim_246', 'dim_247', 'dim_248', 'dim_249', 'dim_250', 'dim_251', 'dim_252', 'dim_253', 'dim_254', 'dim_255', 'dim_256', 'dim_257', 'dim_258', 'dim_259', 'dim_260', 'dim_261', 'dim_262', 'dim_263', 'dim_264', 'dim_265', 'dim_266', 'dim_267', 'dim_268', 'dim_269', 'dim_270', 'dim_271', 'dim_272', 'dim_273', 'dim_274', 'dim_275', 'dim_276', 'dim_277', 'dim_278', 'dim_279', 'dim_280', 'dim_281', 'dim_282', 'dim_283', 'dim_284', 'dim_285', 'dim_286', 'dim_287', 'dim_288', 'dim_289', 'dim_290', 'dim_291', 'dim_292', 'dim_293', 'dim_294', 'dim_295', 'dim_296', 'dim_297', 'dim_298', 'dim_299', 'dim_300', 'tid', 'label']
+
+Features Selection (by Variance): 
+                 Mean        Std.Dev      Variance
+dim_0    1.390829e+09  398204.561375  1.585669e+11
+dim_249  8.688331e+02     679.253563  4.613854e+05
+dim_252  9.670603e+02     647.119891  4.187642e+05
+dim_246  8.812744e+02     617.093447  3.808043e+05
+dim_255  1.040263e+03     592.125198  3.506123e+05
+...               ...            ...           ...
+dim_91   3.393398e+02      12.007593  1.441823e+02
+dim_88   3.362776e+02      11.997009  1.439282e+02
+dim_298  3.412560e+02      11.962409  1.430992e+02
+dim_295  3.377761e+02      11.956489  1.429576e+02
+label             NaN            NaN           NaN
+
+[303 rows x 3 columns]
+
+Classes: 
+['affirmative' 'conditional' 'doubt_question' 'emphasis' 'negative'
+ 'relative' 'topics' 'wh_question' 'yn_question'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 321
+Samples by Class:
+[yn_question]       41
+[topics]            38
+[conditional]       37
+[affirmative]       35
+[doubt_question]    35
+[emphasis]          35
+[negative]          34
+[relative]          34
+[wh_question]       32
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 142
+Samples by Class:
+[yn_question]       18
+[conditional]       17
+[topics]            17
+[affirmative]       15
+[doubt_question]    15
+[emphasis]          15
+[negative]          15
+[relative]          15
+[wh_question]       15
+dtype: int64
+
+Descriptor Dimensions: ['0.0', '0xyz_x', '0xyz_y', '0xyz_z', '1xyz_x', '1xyz_y', '1xyz_z', '2xyz_x', '2xyz_y', '2xyz_z', '3xyz_x', '3xyz_y', '3xyz_z', '4xyz_x', '4xyz_y', '4xyz_z', '5xyz_x', '5xyz_y', '5xyz_z', '6xyz_x', '6xyz_y', '6xyz_z', '7xyz_x', '7xyz_y', '7xyz_z', '8xyz_x', '8xyz_y', '8xyz_z', '9xyz_x', '9xyz_y', '9xyz_z', '10xyz_x', '10xyz_y', '10xyz_z', '11xyz_x', '11xyz_y', '11xyz_z', '12xyz_x', '12xyz_y', '12xyz_z', '13xyz_x', '13xyz_y', '13xyz_z', '14xyz_x', '14xyz_y', '14xyz_z', '15xyz_x', '15xyz_y', '15xyz_z', '16xyz_x', '16xyz_y', '16xyz_z', '17xyz_x', '17xyz_y', '17xyz_z', '18xyz_x', '18xyz_y', '18xyz_z', '19xyz_x', '19xyz_y', '19xyz_z', '20xyz_x', '20xyz_y', '20xyz_z', '21xyz_x', '21xyz_y', '21xyz_z', '22xyz_x', '22xyz_y', '22xyz_z', '23xyz_x', '23xyz_y', '23xyz_z', '24xyz_x', '24xyz_y', '24xyz_z', '25xyz_x', '25xyz_y', '25xyz_z', '26xyz_x', '26xyz_y', '26xyz_z', '27xyz_x', '27xyz_y', '27xyz_z', '28xyz_x', '28xyz_y', '28xyz_z', '29xyz_x', '29xyz_y', '29xyz_z', '30xyz_x', '30xyz_y', '30xyz_z', '31xyz_x', '31xyz_y', '31xyz_z', '32xyz_x', '32xyz_y', '32xyz_z', '33xyz_x', '33xyz_y', '33xyz_z', '34xyz_x', '34xyz_y', '34xyz_z', '35xyz_x', '35xyz_y', '35xyz_z', '36xyz_x', '36xyz_y', '36xyz_z', '37xyz_x', '37xyz_y', '37xyz_z', '38xyz_x', '38xyz_y', '38xyz_z', '39xyz_x', '39xyz_y', '39xyz_z', '40xyz_x', '40xyz_y', '40xyz_z', '41xyz_x', '41xyz_y', '41xyz_z', '42xyz_x', '42xyz_y', '42xyz_z', '43xyz_x', '43xyz_y', '43xyz_z', '44xyz_x', '44xyz_y', '44xyz_z', '45xyz_x', '45xyz_y', '45xyz_z', '46xyz_x', '46xyz_y', '46xyz_z', '47xyz_x', '47xyz_y', '47xyz_z', '48xyz_x', '48xyz_y', '48xyz_z', '49xyz_x', '49xyz_y', '49xyz_z', '50xyz_x', '50xyz_y', '50xyz_z', '51xyz_x', '51xyz_y', '51xyz_z', '52xyz_x', '52xyz_y', '52xyz_z', '53xyz_x', '53xyz_y', '53xyz_z', '54xyz_x', '54xyz_y', '54xyz_z', '55xyz_x', '55xyz_y', '55xyz_z', '56xyz_x', '56xyz_y', '56xyz_z', '57xyz_x', '57xyz_y', '57xyz_z', '58xyz_x', '58xyz_y', '58xyz_z', '59xyz_x', '59xyz_y', '59xyz_z', '60xyz_x', '60xyz_y', '60xyz_z', '61xyz_x', '61xyz_y', '61xyz_z', '62xyz_x', '62xyz_y', '62xyz_z', '63xyz_x', '63xyz_y', '63xyz_z', '64xyz_x', '64xyz_y', '64xyz_z', '65xyz_x', '65xyz_y', '65xyz_z', '66xyz_x', '66xyz_y', '66xyz_z', '67xyz_x', '67xyz_y', '67xyz_z', '68xyz_x', '68xyz_y', '68xyz_z', '69xyz_x', '69xyz_y', '69xyz_z', '70xyz_x', '70xyz_y', '70xyz_z', '71xyz_x', '71xyz_y', '71xyz_z', '72xyz_x', '72xyz_y', '72xyz_z', '73xyz_x', '73xyz_y', '73xyz_z', '74xyz_x', '74xyz_y', '74xyz_z', '75xyz_x', '75xyz_y', '75xyz_z', '76xyz_x', '76xyz_y', '76xyz_z', '77xyz_x', '77xyz_y', '77xyz_z', '78xyz_x', '78xyz_y', '78xyz_z', '79xyz_x', '79xyz_y', '79xyz_z', '80xyz_x', '80xyz_y', '80xyz_z', '81xyz_x', '81xyz_y', '81xyz_z', '82xyz_x', '82xyz_y', '82xyz_z', '83xyz_x', '83xyz_y', '83xyz_z', '84xyz_x', '84xyz_y', '84xyz_z', '85xyz_x', '85xyz_y', '85xyz_z', '86xyz_x', '86xyz_y', '86xyz_z', '87xyz_x', '87xyz_y', '87xyz_z', '88xyz_x', '88xyz_y', '88xyz_z', '89xyz_x', '89xyz_y', '89xyz_z', '90xyz_x', '90xyz_y', '90xyz_z', '91xyz_x', '91xyz_y', '91xyz_z', '92xyz_x', '92xyz_y', '92xyz_z', '93xyz_x', '93xyz_y', '93xyz_z', '94xyz_x', '94xyz_y', '94xyz_z', '95xyz_x', '95xyz_y', '95xyz_z', '96xyz_x', '96xyz_y', '96xyz_z', '97xyz_x', '97xyz_y', '97xyz_z', '98xyz_x', '98xyz_y', '98xyz_z', '99xyz_x', '99xyz_y', '99xyz_z']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for HandMovementDirection
+Number of Classes:     => 4
+Number of Attributes:  => 12
+Number of Trajs:       => 234 total / 160 train + 74 test
+Number of Points:      => 93600 total / 64000 train + 29600 test
+Avg Size of Trajs:     => 400.00  / ± 0.0
+Longest Size:          => 400 train / 400 test
+Shortest Size:         => 400 train / 400 test
+Train / Test hold-out: => 160 - 68.38% .. 74 - 31.62%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'dim_7', 'dim_8', 'dim_9', 'tid', 'label']
+
+Features Selection (by Variance): 
+            Mean     Std.Dev      Variance
+dim_0  -3.125976  176.796550  31257.020003
+dim_6   3.750033  176.502819  31153.245066
+dim_7   2.647647  172.065374  29606.492843
+dim_5   1.389551  170.823293  29180.597433
+dim_8  -0.834512  168.453252  28376.498158
+dim_1  -1.606201  168.213701  28295.849322
+dim_3  -0.020118  167.938306  28203.274787
+dim_4   4.951316  165.342359  27338.095782
+dim_2   1.523689  161.445635  26064.692905
+dim_9   0.618217  150.355295  22606.714591
+tid    79.500000   46.187480   2133.283333
+label        NaN         NaN           NaN
+
+Classes: 
+['right' 'forward' 'left' 'backward'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 160
+Samples by Class:
+[backward]    40
+[forward]     40
+[left]        40
+[right]       40
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 74
+Samples by Class:
+[forward]     30
+[backward]    15
+[left]        15
+[right]       14
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6', 'channel_7', 'channel_8', 'channel_9', 'channel_10']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for Handwriting
+Number of Classes:     => 26
+Number of Attributes:  => 5
+Number of Trajs:       => 1000 total / 150 train + 850 test
+Number of Points:      => 152000 total / 22800 train + 129200 test
+Avg Size of Trajs:     => 152.00  / ± 0.0
+Longest Size:          => 152 train / 152 test
+Shortest Size:         => 152 train / 152 test
+Train / Test hold-out: => 150 - 15.00% .. 850 - 85.00%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'tid', 'label']
+
+Features Selection (by Variance): 
+               Mean    Std.Dev     Variance
+tid    7.450000e+01  43.301258  1874.998903
+label  1.361333e+01   8.005829    64.093300
+dim_0  6.662281e-08   0.996727     0.993465
+dim_2  4.561404e-09   0.996727     0.993464
+dim_1  9.714912e-08   0.996726     0.993463
+
+Classes: 
+['21.0' '22.0' '17.0' '7.0' '13.0' '3.0' '26.0' '6.0' '15.0' '20.0' '5.0'
+ '10.0' '1.0' '2.0' '25.0' '16.0' '8.0' '19.0' '4.0' '12.0' '11.0' '14.0'
+ '18.0' '24.0' '23.0' '9.0'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 150
+Samples by Class:
+[26.0]    11
+[22.0]    10
+[6.0]      9
+[3.0]      9
+[1.0]      8
+[15.0]     8
+[13.0]     7
+[10.0]     7
+[7.0]      6
+[17.0]     6
+[18.0]     6
+[2.0]      6
+[25.0]     6
+[5.0]      5
+[21.0]     5
+[20.0]     5
+[16.0]     5
+[12.0]     5
+[23.0]     4
+[24.0]     4
+[4.0]      4
+[14.0]     4
+[19.0]     3
+[9.0]      3
+[11.0]     2
+[8.0]      2
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 850
+Samples by Class:
+[4.0]     43
+[22.0]    43
+[13.0]    40
+[12.0]    37
+[24.0]    37
+[1.0]     36
+[14.0]    35
+[2.0]     34
+[5.0]     34
+[21.0]    34
+[19.0]    33
+[16.0]    33
+[17.0]    32
+[23.0]    32
+[26.0]    32
+[8.0]     32
+[18.0]    31
+[20.0]    31
+[6.0]     30
+[3.0]     29
+[15.0]    29
+[7.0]     29
+[9.0]     27
+[10.0]    26
+[25.0]    26
+[11.0]    25
+dtype: int64
+
+Descriptor Dimensions: ['xyz_x', 'xyz_y', 'xyz_z']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for Heartbeat
+Number of Classes:     => 2
+Number of Attributes:  => 63
+Number of Trajs:       => 409 total / 204 train + 205 test
+Number of Points:      => 165645 total / 82620 train + 83025 test
+Avg Size of Trajs:     => 405.00  / ± 0.0
+Longest Size:          => 405 train / 405 test
+Shortest Size:         => 405 train / 405 test
+Train / Test hold-out: => 204 - 49.88% .. 205 - 50.12%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'dim_7', 'dim_8', 'dim_9', 'dim_10', 'dim_11', 'dim_12', 'dim_13', 'dim_14', 'dim_15', 'dim_16', 'dim_17', 'dim_18', 'dim_19', 'dim_20', 'dim_21', 'dim_22', 'dim_23', 'dim_24', 'dim_25', 'dim_26', 'dim_27', 'dim_28', 'dim_29', 'dim_30', 'dim_31', 'dim_32', 'dim_33', 'dim_34', 'dim_35', 'dim_36', 'dim_37', 'dim_38', 'dim_39', 'dim_40', 'dim_41', 'dim_42', 'dim_43', 'dim_44', 'dim_45', 'dim_46', 'dim_47', 'dim_48', 'dim_49', 'dim_50', 'dim_51', 'dim_52', 'dim_53', 'dim_54', 'dim_55', 'dim_56', 'dim_57', 'dim_58', 'dim_59', 'dim_60', 'tid', 'label']
+
+Features Selection (by Variance): 
+              Mean    Std.Dev     Variance
+tid     101.500000  58.889376  3467.958641
+dim_58    0.958036   1.783926     3.182392
+dim_57    0.683244   1.470401     2.162079
+dim_59    0.868754   1.406889     1.979336
+dim_56    0.437205   1.046046     1.094213
+...            ...        ...          ...
+dim_3     0.006560   0.022070     0.000487
+dim_2     0.006742   0.020818     0.000433
+dim_1     0.006569   0.019387     0.000376
+dim_0     0.005685   0.017952     0.000322
+label          NaN        NaN          NaN
+
+[63 rows x 3 columns]
+
+Classes: 
+['normal' 'abnormal'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 204
+Samples by Class:
+[abnormal]    147
+[normal]       57
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 205
+Samples by Class:
+[abnormal]    148
+[normal]       57
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6', 'channel_7', 'channel_8', 'channel_9', 'channel_10', 'channel_11', 'channel_12', 'channel_13', 'channel_14', 'channel_15', 'channel_16', 'channel_17', 'channel_18', 'channel_19', 'channel_20', 'channel_21', 'channel_22', 'channel_23', 'channel_24', 'channel_25', 'channel_26', 'channel_27', 'channel_28', 'channel_29', 'channel_30', 'channel_31', 'channel_32', 'channel_33', 'channel_34', 'channel_35', 'channel_36', 'channel_37', 'channel_38', 'channel_39', 'channel_40', 'channel_41', 'channel_42', 'channel_43', 'channel_44', 'channel_45', 'channel_46', 'channel_47', 'channel_48', 'channel_49', 'channel_50', 'channel_51', 'channel_52', 'channel_53', 'channel_54', 'channel_55', 'channel_56', 'channel_57', 'channel_58', 'channel_59', 'channel_60', 'channel_61']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for JapaneseVowels
+Number of Classes:     => 9
+Number of Attributes:  => 14
+Number of Trajs:       => 640 total / 270 train + 370 test
+Number of Points:      => 9961 total / 4274 train + 5687 test
+Avg Size of Trajs:     => 15.56  / ± 13.4359375
+Longest Size:          => 26 train / 29 test
+Shortest Size:         => 7 train / 7 test
+Train / Test hold-out: => 270 - 42.19% .. 370 - 57.81%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'dim_7', 'dim_8', 'dim_9', 'dim_10', 'dim_11', 'tid', 'label']
+
+Features Selection (by Variance): 
+              Mean    Std.Dev     Variance
+tid     129.956247  77.508329  6007.541029
+label     4.856107   2.557758     6.542126
+dim_0     0.869106   0.487677     0.237829
+dim_1    -0.554501   0.391228     0.153059
+dim_3    -0.267294   0.305948     0.093604
+dim_2     0.246109   0.300938     0.090564
+dim_4     0.218977   0.269130     0.072431
+dim_7    -0.051705   0.188362     0.035480
+dim_8    -0.204931   0.187746     0.035249
+dim_5    -0.210538   0.168320     0.028332
+dim_6    -0.174065   0.161244     0.026000
+dim_11    0.086214   0.127562     0.016272
+dim_9    -0.181194   0.116931     0.013673
+dim_10   -0.023592   0.097648     0.009535
+
+Classes: 
+['1' '2' '3' '4' '5' '6' '7' '8' '9'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 270
+Samples by Class:
+[1]    30
+[2]    30
+[3]    30
+[4]    30
+[5]    30
+[6]    30
+[7]    30
+[8]    30
+[9]    30
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 370
+Samples by Class:
+[3]    88
+[8]    50
+[4]    44
+[7]    40
+[2]    35
+[1]    31
+[5]    29
+[9]    29
+[6]    24
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6', 'channel_7', 'channel_8', 'channel_9', 'channel_10', 'channel_11', 'channel_12']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for LSST
+Number of Classes:     => 14
+Number of Attributes:  => 8
+Number of Trajs:       => 4925 total / 2459 train + 2466 test
+Number of Points:      => 177300 total / 88524 train + 88776 test
+Avg Size of Trajs:     => 36.00  / ± 0.0
+Longest Size:          => 36 train / 36 test
+Shortest Size:         => 36 train / 36 test
+Train / Test hold-out: => 2459 - 49.93% .. 2466 - 50.07%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'tid', 'label']
+
+Features Selection (by Variance): 
+              Mean      Std.Dev      Variance
+dim_5    55.647919  1427.121411  2.036676e+06
+dim_4    50.137320  1116.893019  1.247450e+06
+dim_3    38.972271   846.073292  7.158400e+05
+dim_1    18.967527   780.927607  6.098479e+05
+dim_2    28.007991   714.910750  5.110974e+05
+tid    1229.000000   709.856107  5.038957e+05
+dim_0     9.457359   248.783134  6.189305e+04
+label    62.726312    27.995806  7.837652e+02
+
+Classes: 
+['6' '15' '16' '42' '52' '53' '62' '64' '65' '67' '88' '90' '92' '95'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 2459
+Samples by Class:
+[90]    777
+[42]    381
+[65]    313
+[16]    270
+[62]    153
+[15]    123
+[88]    120
+[92]     77
+[67]     68
+[52]     62
+[95]     51
+[6]      34
+[64]     23
+[53]      7
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 2466
+Samples by Class:
+[90]    777
+[42]    382
+[65]    313
+[16]    270
+[62]    153
+[15]    124
+[88]    121
+[92]     77
+[67]     68
+[52]     63
+[95]     52
+[6]      35
+[64]     24
+[53]      7
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for Libras
+Number of Classes:     => 15
+Number of Attributes:  => 4
+Number of Trajs:       => 360 total / 180 train + 180 test
+Number of Points:      => 16200 total / 8100 train + 8100 test
+Avg Size of Trajs:     => 45.00  / ± 0.0
+Longest Size:          => 45 train / 45 test
+Shortest Size:         => 45 train / 45 test
+Train / Test hold-out: => 180 - 50.00% .. 180 - 50.00%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'tid', 'label']
+
+Features Selection (by Variance): 
+            Mean    Std.Dev     Variance
+tid    89.500000  51.963930  2700.250031
+label   8.000000   4.320761    18.668971
+dim_0   0.520398   0.191290     0.036592
+dim_1   0.508172   0.166286     0.027651
+
+Classes: 
+['1' '2' '3' '4' '5' '6' '7' '8' '9' '10' '11' '12' '13' '14' '15'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 180
+Samples by Class:
+[1]     12
+[10]    12
+[11]    12
+[12]    12
+[13]    12
+[14]    12
+[15]    12
+[2]     12
+[3]     12
+[4]     12
+[5]     12
+[6]     12
+[7]     12
+[8]     12
+[9]     12
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 180
+Samples by Class:
+[1]     12
+[10]    12
+[11]    12
+[12]    12
+[13]    12
+[14]    12
+[15]    12
+[2]     12
+[3]     12
+[4]     12
+[5]     12
+[6]     12
+[7]     12
+[8]     12
+[9]     12
+dtype: int64
+
+Descriptor Dimensions: ['xy_x', 'xy_y']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for MotorImagery
+Number of Classes:     => 2
+Number of Attributes:  => 66
+Number of Trajs:       => 378 total / 278 train + 100 test
+Number of Points:      => 1134000 total / 834000 train + 300000 test
+Avg Size of Trajs:     => 3000.00  / ± 0.0
+Longest Size:          => 3000 train / 3000 test
+Shortest Size:         => 3000 train / 3000 test
+Train / Test hold-out: => 278 - 73.54% .. 100 - 26.46%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'dim_7', 'dim_8', 'dim_9', 'dim_10', 'dim_11', 'dim_12', 'dim_13', 'dim_14', 'dim_15', 'dim_16', 'dim_17', 'dim_18', 'dim_19', 'dim_20', 'dim_21', 'dim_22', 'dim_23', 'dim_24', 'dim_25', 'dim_26', 'dim_27', 'dim_28', 'dim_29', 'dim_30', 'dim_31', 'dim_32', 'dim_33', 'dim_34', 'dim_35', 'dim_36', 'dim_37', 'dim_38', 'dim_39', 'dim_40', 'dim_41', 'dim_42', 'dim_43', 'dim_44', 'dim_45', 'dim_46', 'dim_47', 'dim_48', 'dim_49', 'dim_50', 'dim_51', 'dim_52', 'dim_53', 'dim_54', 'dim_55', 'dim_56', 'dim_57', 'dim_58', 'dim_59', 'dim_60', 'dim_61', 'dim_62', 'dim_63', 'tid', 'label']
+
+Features Selection (by Variance): 
+              Mean    Std.Dev     Variance
+tid     138.500000  80.251216  6440.257722
+dim_63    4.020171  15.557923   242.048961
+dim_62    3.505319  15.297710   234.019935
+dim_61    2.993505  15.022137   225.664587
+dim_60    2.472020  14.731786   217.025509
+...            ...        ...          ...
+dim_46   -3.809453   7.623093    58.111551
+dim_2     4.594578   7.577343    57.416130
+dim_1     4.716275   7.507511    56.362726
+dim_0     4.816417   7.447823    55.470071
+label          NaN        NaN          NaN
+
+[66 rows x 3 columns]
+
+Classes: 
+['finger' 'tongue'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 278
+Samples by Class:
+[finger]    139
+[tongue]    139
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 100
+Samples by Class:
+[finger]    50
+[tongue]    50
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6', 'channel_7', 'channel_8', 'channel_9', 'channel_10', 'channel_11', 'channel_12', 'channel_13', 'channel_14', 'channel_15', 'channel_16', 'channel_17', 'channel_18', 'channel_19', 'channel_20', 'channel_21', 'channel_22', 'channel_23', 'channel_24', 'channel_25', 'channel_26', 'channel_27', 'channel_28', 'channel_29', 'channel_30', 'channel_31', 'channel_32', 'channel_33', 'channel_34', 'channel_35', 'channel_36', 'channel_37', 'channel_38', 'channel_39', 'channel_40', 'channel_41', 'channel_42', 'channel_43', 'channel_44', 'channel_45', 'channel_46', 'channel_47', 'channel_48', 'channel_49', 'channel_50', 'channel_51', 'channel_52', 'channel_53', 'channel_54', 'channel_55', 'channel_56', 'channel_57', 'channel_58', 'channel_59', 'channel_60', 'channel_61', 'channel_62', 'channel_63', 'channel_64']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for NATOPS
+Number of Classes:     => 6
+Number of Attributes:  => 26
+Number of Trajs:       => 360 total / 180 train + 180 test
+Number of Points:      => 18360 total / 9180 train + 9180 test
+Avg Size of Trajs:     => 51.00  / ± 0.0
+Longest Size:          => 51 train / 51 test
+Shortest Size:         => 51 train / 51 test
+Train / Test hold-out: => 180 - 50.00% .. 180 - 50.00%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'dim_7', 'dim_8', 'dim_9', 'dim_10', 'dim_11', 'dim_12', 'dim_13', 'dim_14', 'dim_15', 'dim_16', 'dim_17', 'dim_18', 'dim_19', 'dim_20', 'dim_21', 'dim_22', 'dim_23', 'tid', 'label']
+
+Features Selection (by Variance): 
+             Mean    Std.Dev     Variance
+tid     89.500000  51.963553  2700.210807
+label    3.500000   1.707918     2.916984
+dim_4   -0.839256   1.165695     1.358846
+dim_22  -0.767790   1.018997     1.038355
+dim_1   -1.326906   0.881671     0.777344
+dim_16  -0.700057   0.870750     0.758205
+dim_19  -1.179484   0.765931     0.586650
+dim_3    0.973949   0.750309     0.562963
+dim_21   0.930791   0.669680     0.448471
+dim_0   -0.534521   0.655376     0.429518
+dim_13  -1.054049   0.641649     0.411714
+dim_18  -0.554400   0.585554     0.342873
+dim_5   -0.422988   0.533087     0.284182
+dim_15   0.911098   0.529140     0.279990
+dim_23  -0.428471   0.495002     0.245027
+dim_12  -0.604780   0.489800     0.239904
+dim_17  -0.304448   0.430173     0.185049
+dim_10  -0.490588   0.409123     0.167381
+dim_2   -0.779526   0.351423     0.123498
+dim_11  -0.098670   0.331350     0.109793
+dim_20  -0.741438   0.320945     0.103006
+dim_14  -0.612922   0.284804     0.081113
+dim_7   -0.607887   0.266009     0.070761
+dim_8   -0.279519   0.240132     0.057663
+dim_9    0.773384   0.237616     0.056461
+dim_6   -0.664128   0.213453     0.045562
+
+Classes: 
+['4.0' '3.0' '5.0' '1.0' '6.0' '2.0'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 180
+Samples by Class:
+[1.0]    30
+[2.0]    30
+[3.0]    30
+[4.0]    30
+[5.0]    30
+[6.0]    30
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 180
+Samples by Class:
+[1.0]    30
+[2.0]    30
+[3.0]    30
+[4.0]    30
+[5.0]    30
+[6.0]    30
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6', 'channel_7', 'channel_8', 'channel_9', 'channel_10', 'channel_11', 'channel_12', 'channel_13', 'channel_14', 'channel_15', 'channel_16', 'channel_17', 'channel_18', 'channel_19', 'channel_20', 'channel_21', 'channel_22', 'channel_23', 'channel_24']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for PEMS-SF
+Number of Classes:     => 7
+Number of Attributes:  => 965
+Number of Trajs:       => 440 total / 267 train + 173 test
+Number of Points:      => 63360 total / 38448 train + 24912 test
+Avg Size of Trajs:     => 144.00  / ± 0.0
+Longest Size:          => 144 train / 144 test
+Shortest Size:         => 144 train / 144 test
+Train / Test hold-out: => 267 - 60.68% .. 173 - 39.32%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'dim_7', 'dim_8', 'dim_9', 'dim_10', 'dim_11', 'dim_12', 'dim_13', 'dim_14', 'dim_15', 'dim_16', 'dim_17', 'dim_18', 'dim_19', 'dim_20', 'dim_21', 'dim_22', 'dim_23', 'dim_24', 'dim_25', 'dim_26', 'dim_27', 'dim_28', 'dim_29', 'dim_30', 'dim_31', 'dim_32', 'dim_33', 'dim_34', 'dim_35', 'dim_36', 'dim_37', 'dim_38', 'dim_39', 'dim_40', 'dim_41', 'dim_42', 'dim_43', 'dim_44', 'dim_45', 'dim_46', 'dim_47', 'dim_48', 'dim_49', 'dim_50', 'dim_51', 'dim_52', 'dim_53', 'dim_54', 'dim_55', 'dim_56', 'dim_57', 'dim_58', 'dim_59', 'dim_60', 'dim_61', 'dim_62', 'dim_63', 'dim_64', 'dim_65', 'dim_66', 'dim_67', 'dim_68', 'dim_69', 'dim_70', 'dim_71', 'dim_72', 'dim_73', 'dim_74', 'dim_75', 'dim_76', 'dim_77', 'dim_78', 'dim_79', 'dim_80', 'dim_81', 'dim_82', 'dim_83', 'dim_84', 'dim_85', 'dim_86', 'dim_87', 'dim_88', 'dim_89', 'dim_90', 'dim_91', 'dim_92', 'dim_93', 'dim_94', 'dim_95', 'dim_96', 'dim_97', 'dim_98', 'dim_99', 'dim_100', 'dim_101', 'dim_102', 'dim_103', 'dim_104', 'dim_105', 'dim_106', 'dim_107', 'dim_108', 'dim_109', 'dim_110', 'dim_111', 'dim_112', 'dim_113', 'dim_114', 'dim_115', 'dim_116', 'dim_117', 'dim_118', 'dim_119', 'dim_120', 'dim_121', 'dim_122', 'dim_123', 'dim_124', 'dim_125', 'dim_126', 'dim_127', 'dim_128', 'dim_129', 'dim_130', 'dim_131', 'dim_132', 'dim_133', 'dim_134', 'dim_135', 'dim_136', 'dim_137', 'dim_138', 'dim_139', 'dim_140', 'dim_141', 'dim_142', 'dim_143', 'dim_144', 'dim_145', 'dim_146', 'dim_147', 'dim_148', 'dim_149', 'dim_150', 'dim_151', 'dim_152', 'dim_153', 'dim_154', 'dim_155', 'dim_156', 'dim_157', 'dim_158', 'dim_159', 'dim_160', 'dim_161', 'dim_162', 'dim_163', 'dim_164', 'dim_165', 'dim_166', 'dim_167', 'dim_168', 'dim_169', 'dim_170', 'dim_171', 'dim_172', 'dim_173', 'dim_174', 'dim_175', 'dim_176', 'dim_177', 'dim_178', 'dim_179', 'dim_180', 'dim_181', 'dim_182', 'dim_183', 'dim_184', 'dim_185', 'dim_186', 'dim_187', 'dim_188', 'dim_189', 'dim_190', 'dim_191', 'dim_192', 'dim_193', 'dim_194', 'dim_195', 'dim_196', 'dim_197', 'dim_198', 'dim_199', 'dim_200', 'dim_201', 'dim_202', 'dim_203', 'dim_204', 'dim_205', 'dim_206', 'dim_207', 'dim_208', 'dim_209', 'dim_210', 'dim_211', 'dim_212', 'dim_213', 'dim_214', 'dim_215', 'dim_216', 'dim_217', 'dim_218', 'dim_219', 'dim_220', 'dim_221', 'dim_222', 'dim_223', 'dim_224', 'dim_225', 'dim_226', 'dim_227', 'dim_228', 'dim_229', 'dim_230', 'dim_231', 'dim_232', 'dim_233', 'dim_234', 'dim_235', 'dim_236', 'dim_237', 'dim_238', 'dim_239', 'dim_240', 'dim_241', 'dim_242', 'dim_243', 'dim_244', 'dim_245', 'dim_246', 'dim_247', 'dim_248', 'dim_249', 'dim_250', 'dim_251', 'dim_252', 'dim_253', 'dim_254', 'dim_255', 'dim_256', 'dim_257', 'dim_258', 'dim_259', 'dim_260', 'dim_261', 'dim_262', 'dim_263', 'dim_264', 'dim_265', 'dim_266', 'dim_267', 'dim_268', 'dim_269', 'dim_270', 'dim_271', 'dim_272', 'dim_273', 'dim_274', 'dim_275', 'dim_276', 'dim_277', 'dim_278', 'dim_279', 'dim_280', 'dim_281', 'dim_282', 'dim_283', 'dim_284', 'dim_285', 'dim_286', 'dim_287', 'dim_288', 'dim_289', 'dim_290', 'dim_291', 'dim_292', 'dim_293', 'dim_294', 'dim_295', 'dim_296', 'dim_297', 'dim_298', 'dim_299', 'dim_300', 'dim_301', 'dim_302', 'dim_303', 'dim_304', 'dim_305', 'dim_306', 'dim_307', 'dim_308', 'dim_309', 'dim_310', 'dim_311', 'dim_312', 'dim_313', 'dim_314', 'dim_315', 'dim_316', 'dim_317', 'dim_318', 'dim_319', 'dim_320', 'dim_321', 'dim_322', 'dim_323', 'dim_324', 'dim_325', 'dim_326', 'dim_327', 'dim_328', 'dim_329', 'dim_330', 'dim_331', 'dim_332', 'dim_333', 'dim_334', 'dim_335', 'dim_336', 'dim_337', 'dim_338', 'dim_339', 'dim_340', 'dim_341', 'dim_342', 'dim_343', 'dim_344', 'dim_345', 'dim_346', 'dim_347', 'dim_348', 'dim_349', 'dim_350', 'dim_351', 'dim_352', 'dim_353', 'dim_354', 'dim_355', 'dim_356', 'dim_357', 'dim_358', 'dim_359', 'dim_360', 'dim_361', 'dim_362', 'dim_363', 'dim_364', 'dim_365', 'dim_366', 'dim_367', 'dim_368', 'dim_369', 'dim_370', 'dim_371', 'dim_372', 'dim_373', 'dim_374', 'dim_375', 'dim_376', 'dim_377', 'dim_378', 'dim_379', 'dim_380', 'dim_381', 'dim_382', 'dim_383', 'dim_384', 'dim_385', 'dim_386', 'dim_387', 'dim_388', 'dim_389', 'dim_390', 'dim_391', 'dim_392', 'dim_393', 'dim_394', 'dim_395', 'dim_396', 'dim_397', 'dim_398', 'dim_399', 'dim_400', 'dim_401', 'dim_402', 'dim_403', 'dim_404', 'dim_405', 'dim_406', 'dim_407', 'dim_408', 'dim_409', 'dim_410', 'dim_411', 'dim_412', 'dim_413', 'dim_414', 'dim_415', 'dim_416', 'dim_417', 'dim_418', 'dim_419', 'dim_420', 'dim_421', 'dim_422', 'dim_423', 'dim_424', 'dim_425', 'dim_426', 'dim_427', 'dim_428', 'dim_429', 'dim_430', 'dim_431', 'dim_432', 'dim_433', 'dim_434', 'dim_435', 'dim_436', 'dim_437', 'dim_438', 'dim_439', 'dim_440', 'dim_441', 'dim_442', 'dim_443', 'dim_444', 'dim_445', 'dim_446', 'dim_447', 'dim_448', 'dim_449', 'dim_450', 'dim_451', 'dim_452', 'dim_453', 'dim_454', 'dim_455', 'dim_456', 'dim_457', 'dim_458', 'dim_459', 'dim_460', 'dim_461', 'dim_462', 'dim_463', 'dim_464', 'dim_465', 'dim_466', 'dim_467', 'dim_468', 'dim_469', 'dim_470', 'dim_471', 'dim_472', 'dim_473', 'dim_474', 'dim_475', 'dim_476', 'dim_477', 'dim_478', 'dim_479', 'dim_480', 'dim_481', 'dim_482', 'dim_483', 'dim_484', 'dim_485', 'dim_486', 'dim_487', 'dim_488', 'dim_489', 'dim_490', 'dim_491', 'dim_492', 'dim_493', 'dim_494', 'dim_495', 'dim_496', 'dim_497', 'dim_498', 'dim_499', 'dim_500', 'dim_501', 'dim_502', 'dim_503', 'dim_504', 'dim_505', 'dim_506', 'dim_507', 'dim_508', 'dim_509', 'dim_510', 'dim_511', 'dim_512', 'dim_513', 'dim_514', 'dim_515', 'dim_516', 'dim_517', 'dim_518', 'dim_519', 'dim_520', 'dim_521', 'dim_522', 'dim_523', 'dim_524', 'dim_525', 'dim_526', 'dim_527', 'dim_528', 'dim_529', 'dim_530', 'dim_531', 'dim_532', 'dim_533', 'dim_534', 'dim_535', 'dim_536', 'dim_537', 'dim_538', 'dim_539', 'dim_540', 'dim_541', 'dim_542', 'dim_543', 'dim_544', 'dim_545', 'dim_546', 'dim_547', 'dim_548', 'dim_549', 'dim_550', 'dim_551', 'dim_552', 'dim_553', 'dim_554', 'dim_555', 'dim_556', 'dim_557', 'dim_558', 'dim_559', 'dim_560', 'dim_561', 'dim_562', 'dim_563', 'dim_564', 'dim_565', 'dim_566', 'dim_567', 'dim_568', 'dim_569', 'dim_570', 'dim_571', 'dim_572', 'dim_573', 'dim_574', 'dim_575', 'dim_576', 'dim_577', 'dim_578', 'dim_579', 'dim_580', 'dim_581', 'dim_582', 'dim_583', 'dim_584', 'dim_585', 'dim_586', 'dim_587', 'dim_588', 'dim_589', 'dim_590', 'dim_591', 'dim_592', 'dim_593', 'dim_594', 'dim_595', 'dim_596', 'dim_597', 'dim_598', 'dim_599', 'dim_600', 'dim_601', 'dim_602', 'dim_603', 'dim_604', 'dim_605', 'dim_606', 'dim_607', 'dim_608', 'dim_609', 'dim_610', 'dim_611', 'dim_612', 'dim_613', 'dim_614', 'dim_615', 'dim_616', 'dim_617', 'dim_618', 'dim_619', 'dim_620', 'dim_621', 'dim_622', 'dim_623', 'dim_624', 'dim_625', 'dim_626', 'dim_627', 'dim_628', 'dim_629', 'dim_630', 'dim_631', 'dim_632', 'dim_633', 'dim_634', 'dim_635', 'dim_636', 'dim_637', 'dim_638', 'dim_639', 'dim_640', 'dim_641', 'dim_642', 'dim_643', 'dim_644', 'dim_645', 'dim_646', 'dim_647', 'dim_648', 'dim_649', 'dim_650', 'dim_651', 'dim_652', 'dim_653', 'dim_654', 'dim_655', 'dim_656', 'dim_657', 'dim_658', 'dim_659', 'dim_660', 'dim_661', 'dim_662', 'dim_663', 'dim_664', 'dim_665', 'dim_666', 'dim_667', 'dim_668', 'dim_669', 'dim_670', 'dim_671', 'dim_672', 'dim_673', 'dim_674', 'dim_675', 'dim_676', 'dim_677', 'dim_678', 'dim_679', 'dim_680', 'dim_681', 'dim_682', 'dim_683', 'dim_684', 'dim_685', 'dim_686', 'dim_687', 'dim_688', 'dim_689', 'dim_690', 'dim_691', 'dim_692', 'dim_693', 'dim_694', 'dim_695', 'dim_696', 'dim_697', 'dim_698', 'dim_699', 'dim_700', 'dim_701', 'dim_702', 'dim_703', 'dim_704', 'dim_705', 'dim_706', 'dim_707', 'dim_708', 'dim_709', 'dim_710', 'dim_711', 'dim_712', 'dim_713', 'dim_714', 'dim_715', 'dim_716', 'dim_717', 'dim_718', 'dim_719', 'dim_720', 'dim_721', 'dim_722', 'dim_723', 'dim_724', 'dim_725', 'dim_726', 'dim_727', 'dim_728', 'dim_729', 'dim_730', 'dim_731', 'dim_732', 'dim_733', 'dim_734', 'dim_735', 'dim_736', 'dim_737', 'dim_738', 'dim_739', 'dim_740', 'dim_741', 'dim_742', 'dim_743', 'dim_744', 'dim_745', 'dim_746', 'dim_747', 'dim_748', 'dim_749', 'dim_750', 'dim_751', 'dim_752', 'dim_753', 'dim_754', 'dim_755', 'dim_756', 'dim_757', 'dim_758', 'dim_759', 'dim_760', 'dim_761', 'dim_762', 'dim_763', 'dim_764', 'dim_765', 'dim_766', 'dim_767', 'dim_768', 'dim_769', 'dim_770', 'dim_771', 'dim_772', 'dim_773', 'dim_774', 'dim_775', 'dim_776', 'dim_777', 'dim_778', 'dim_779', 'dim_780', 'dim_781', 'dim_782', 'dim_783', 'dim_784', 'dim_785', 'dim_786', 'dim_787', 'dim_788', 'dim_789', 'dim_790', 'dim_791', 'dim_792', 'dim_793', 'dim_794', 'dim_795', 'dim_796', 'dim_797', 'dim_798', 'dim_799', 'dim_800', 'dim_801', 'dim_802', 'dim_803', 'dim_804', 'dim_805', 'dim_806', 'dim_807', 'dim_808', 'dim_809', 'dim_810', 'dim_811', 'dim_812', 'dim_813', 'dim_814', 'dim_815', 'dim_816', 'dim_817', 'dim_818', 'dim_819', 'dim_820', 'dim_821', 'dim_822', 'dim_823', 'dim_824', 'dim_825', 'dim_826', 'dim_827', 'dim_828', 'dim_829', 'dim_830', 'dim_831', 'dim_832', 'dim_833', 'dim_834', 'dim_835', 'dim_836', 'dim_837', 'dim_838', 'dim_839', 'dim_840', 'dim_841', 'dim_842', 'dim_843', 'dim_844', 'dim_845', 'dim_846', 'dim_847', 'dim_848', 'dim_849', 'dim_850', 'dim_851', 'dim_852', 'dim_853', 'dim_854', 'dim_855', 'dim_856', 'dim_857', 'dim_858', 'dim_859', 'dim_860', 'dim_861', 'dim_862', 'dim_863', 'dim_864', 'dim_865', 'dim_866', 'dim_867', 'dim_868', 'dim_869', 'dim_870', 'dim_871', 'dim_872', 'dim_873', 'dim_874', 'dim_875', 'dim_876', 'dim_877', 'dim_878', 'dim_879', 'dim_880', 'dim_881', 'dim_882', 'dim_883', 'dim_884', 'dim_885', 'dim_886', 'dim_887', 'dim_888', 'dim_889', 'dim_890', 'dim_891', 'dim_892', 'dim_893', 'dim_894', 'dim_895', 'dim_896', 'dim_897', 'dim_898', 'dim_899', 'dim_900', 'dim_901', 'dim_902', 'dim_903', 'dim_904', 'dim_905', 'dim_906', 'dim_907', 'dim_908', 'dim_909', 'dim_910', 'dim_911', 'dim_912', 'dim_913', 'dim_914', 'dim_915', 'dim_916', 'dim_917', 'dim_918', 'dim_919', 'dim_920', 'dim_921', 'dim_922', 'dim_923', 'dim_924', 'dim_925', 'dim_926', 'dim_927', 'dim_928', 'dim_929', 'dim_930', 'dim_931', 'dim_932', 'dim_933', 'dim_934', 'dim_935', 'dim_936', 'dim_937', 'dim_938', 'dim_939', 'dim_940', 'dim_941', 'dim_942', 'dim_943', 'dim_944', 'dim_945', 'dim_946', 'dim_947', 'dim_948', 'dim_949', 'dim_950', 'dim_951', 'dim_952', 'dim_953', 'dim_954', 'dim_955', 'dim_956', 'dim_957', 'dim_958', 'dim_959', 'dim_960', 'dim_961', 'dim_962', 'tid', 'label']
+
+Features Selection (by Variance): 
+               Mean    Std.Dev     Variance
+tid      133.000000  77.076723  5940.821182
+label      4.183521   1.962222     3.850315
+dim_618    0.125962   0.126105     0.015903
+dim_111    0.060265   0.109801     0.012056
+dim_628    0.083865   0.107818     0.011625
+...             ...        ...          ...
+dim_877    0.027577   0.021984     0.000483
+dim_80     0.039517   0.021155     0.000448
+dim_11     0.049865   0.020166     0.000407
+dim_87     0.031521   0.020002     0.000400
+dim_848    0.035065   0.018052     0.000326
+
+[965 rows x 3 columns]
+
+Classes: 
+['3.0' '4.0' '5.0' '1.0' '2.0' '6.0' '7.0'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 267
+Samples by Class:
+[7.0]    44
+[5.0]    43
+[4.0]    42
+[3.0]    38
+[6.0]    36
+[1.0]    32
+[2.0]    32
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 173
+Samples by Class:
+[1.0]    30
+[6.0]    27
+[3.0]    26
+[2.0]    25
+[4.0]    23
+[5.0]    22
+[7.0]    20
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6', 'channel_7', 'channel_8', 'channel_9', 'channel_10', 'channel_11', 'channel_12', 'channel_13', 'channel_14', 'channel_15', 'channel_16', 'channel_17', 'channel_18', 'channel_19', 'channel_20', 'channel_21', 'channel_22', 'channel_23', 'channel_24', 'channel_25', 'channel_26', 'channel_27', 'channel_28', 'channel_29', 'channel_30', 'channel_31', 'channel_32', 'channel_33', 'channel_34', 'channel_35', 'channel_36', 'channel_37', 'channel_38', 'channel_39', 'channel_40', 'channel_41', 'channel_42', 'channel_43', 'channel_44', 'channel_45', 'channel_46', 'channel_47', 'channel_48', 'channel_49', 'channel_50', 'channel_51', 'channel_52', 'channel_53', 'channel_54', 'channel_55', 'channel_56', 'channel_57', 'channel_58', 'channel_59', 'channel_60', 'channel_61', 'channel_62', 'channel_63', 'channel_64', 'channel_65', 'channel_66', 'channel_67', 'channel_68', 'channel_69', 'channel_70', 'channel_71', 'channel_72', 'channel_73', 'channel_74', 'channel_75', 'channel_76', 'channel_77', 'channel_78', 'channel_79', 'channel_80', 'channel_81', 'channel_82', 'channel_83', 'channel_84', 'channel_85', 'channel_86', 'channel_87', 'channel_88', 'channel_89', 'channel_90', 'channel_91', 'channel_92', 'channel_93', 'channel_94', 'channel_95', 'channel_96', 'channel_97', 'channel_98', 'channel_99', 'channel_100', 'channel_101', 'channel_102', 'channel_103', 'channel_104', 'channel_105', 'channel_106', 'channel_107', 'channel_108', 'channel_109', 'channel_110', 'channel_111', 'channel_112', 'channel_113', 'channel_114', 'channel_115', 'channel_116', 'channel_117', 'channel_118', 'channel_119', 'channel_120', 'channel_121', 'channel_122', 'channel_123', 'channel_124', 'channel_125', 'channel_126', 'channel_127', 'channel_128', 'channel_129', 'channel_130', 'channel_131', 'channel_132', 'channel_133', 'channel_134', 'channel_135', 'channel_136', 'channel_137', 'channel_138', 'channel_139', 'channel_140', 'channel_141', 'channel_142', 'channel_143', 'channel_144', 'channel_145', 'channel_146', 'channel_147', 'channel_148', 'channel_149', 'channel_150', 'channel_151', 'channel_152', 'channel_153', 'channel_154', 'channel_155', 'channel_156', 'channel_157', 'channel_158', 'channel_159', 'channel_160', 'channel_161', 'channel_162', 'channel_163', 'channel_164', 'channel_165', 'channel_166', 'channel_167', 'channel_168', 'channel_169', 'channel_170', 'channel_171', 'channel_172', 'channel_173', 'channel_174', 'channel_175', 'channel_176', 'channel_177', 'channel_178', 'channel_179', 'channel_180', 'channel_181', 'channel_182', 'channel_183', 'channel_184', 'channel_185', 'channel_186', 'channel_187', 'channel_188', 'channel_189', 'channel_190', 'channel_191', 'channel_192', 'channel_193', 'channel_194', 'channel_195', 'channel_196', 'channel_197', 'channel_198', 'channel_199', 'channel_200', 'channel_201', 'channel_202', 'channel_203', 'channel_204', 'channel_205', 'channel_206', 'channel_207', 'channel_208', 'channel_209', 'channel_210', 'channel_211', 'channel_212', 'channel_213', 'channel_214', 'channel_215', 'channel_216', 'channel_217', 'channel_218', 'channel_219', 'channel_220', 'channel_221', 'channel_222', 'channel_223', 'channel_224', 'channel_225', 'channel_226', 'channel_227', 'channel_228', 'channel_229', 'channel_230', 'channel_231', 'channel_232', 'channel_233', 'channel_234', 'channel_235', 'channel_236', 'channel_237', 'channel_238', 'channel_239', 'channel_240', 'channel_241', 'channel_242', 'channel_243', 'channel_244', 'channel_245', 'channel_246', 'channel_247', 'channel_248', 'channel_249', 'channel_250', 'channel_251', 'channel_252', 'channel_253', 'channel_254', 'channel_255', 'channel_256', 'channel_257', 'channel_258', 'channel_259', 'channel_260', 'channel_261', 'channel_262', 'channel_263', 'channel_264', 'channel_265', 'channel_266', 'channel_267', 'channel_268', 'channel_269', 'channel_270', 'channel_271', 'channel_272', 'channel_273', 'channel_274', 'channel_275', 'channel_276', 'channel_277', 'channel_278', 'channel_279', 'channel_280', 'channel_281', 'channel_282', 'channel_283', 'channel_284', 'channel_285', 'channel_286', 'channel_287', 'channel_288', 'channel_289', 'channel_290', 'channel_291', 'channel_292', 'channel_293', 'channel_294', 'channel_295', 'channel_296', 'channel_297', 'channel_298', 'channel_299', 'channel_300', 'channel_301', 'channel_302', 'channel_303', 'channel_304', 'channel_305', 'channel_306', 'channel_307', 'channel_308', 'channel_309', 'channel_310', 'channel_311', 'channel_312', 'channel_313', 'channel_314', 'channel_315', 'channel_316', 'channel_317', 'channel_318', 'channel_319', 'channel_320', 'channel_321', 'channel_322', 'channel_323', 'channel_324', 'channel_325', 'channel_326', 'channel_327', 'channel_328', 'channel_329', 'channel_330', 'channel_331', 'channel_332', 'channel_333', 'channel_334', 'channel_335', 'channel_336', 'channel_337', 'channel_338', 'channel_339', 'channel_340', 'channel_341', 'channel_342', 'channel_343', 'channel_344', 'channel_345', 'channel_346', 'channel_347', 'channel_348', 'channel_349', 'channel_350', 'channel_351', 'channel_352', 'channel_353', 'channel_354', 'channel_355', 'channel_356', 'channel_357', 'channel_358', 'channel_359', 'channel_360', 'channel_361', 'channel_362', 'channel_363', 'channel_364', 'channel_365', 'channel_366', 'channel_367', 'channel_368', 'channel_369', 'channel_370', 'channel_371', 'channel_372', 'channel_373', 'channel_374', 'channel_375', 'channel_376', 'channel_377', 'channel_378', 'channel_379', 'channel_380', 'channel_381', 'channel_382', 'channel_383', 'channel_384', 'channel_385', 'channel_386', 'channel_387', 'channel_388', 'channel_389', 'channel_390', 'channel_391', 'channel_392', 'channel_393', 'channel_394', 'channel_395', 'channel_396', 'channel_397', 'channel_398', 'channel_399', 'channel_400', 'channel_401', 'channel_402', 'channel_403', 'channel_404', 'channel_405', 'channel_406', 'channel_407', 'channel_408', 'channel_409', 'channel_410', 'channel_411', 'channel_412', 'channel_413', 'channel_414', 'channel_415', 'channel_416', 'channel_417', 'channel_418', 'channel_419', 'channel_420', 'channel_421', 'channel_422', 'channel_423', 'channel_424', 'channel_425', 'channel_426', 'channel_427', 'channel_428', 'channel_429', 'channel_430', 'channel_431', 'channel_432', 'channel_433', 'channel_434', 'channel_435', 'channel_436', 'channel_437', 'channel_438', 'channel_439', 'channel_440', 'channel_441', 'channel_442', 'channel_443', 'channel_444', 'channel_445', 'channel_446', 'channel_447', 'channel_448', 'channel_449', 'channel_450', 'channel_451', 'channel_452', 'channel_453', 'channel_454', 'channel_455', 'channel_456', 'channel_457', 'channel_458', 'channel_459', 'channel_460', 'channel_461', 'channel_462', 'channel_463', 'channel_464', 'channel_465', 'channel_466', 'channel_467', 'channel_468', 'channel_469', 'channel_470', 'channel_471', 'channel_472', 'channel_473', 'channel_474', 'channel_475', 'channel_476', 'channel_477', 'channel_478', 'channel_479', 'channel_480', 'channel_481', 'channel_482', 'channel_483', 'channel_484', 'channel_485', 'channel_486', 'channel_487', 'channel_488', 'channel_489', 'channel_490', 'channel_491', 'channel_492', 'channel_493', 'channel_494', 'channel_495', 'channel_496', 'channel_497', 'channel_498', 'channel_499', 'channel_500', 'channel_501', 'channel_502', 'channel_503', 'channel_504', 'channel_505', 'channel_506', 'channel_507', 'channel_508', 'channel_509', 'channel_510', 'channel_511', 'channel_512', 'channel_513', 'channel_514', 'channel_515', 'channel_516', 'channel_517', 'channel_518', 'channel_519', 'channel_520', 'channel_521', 'channel_522', 'channel_523', 'channel_524', 'channel_525', 'channel_526', 'channel_527', 'channel_528', 'channel_529', 'channel_530', 'channel_531', 'channel_532', 'channel_533', 'channel_534', 'channel_535', 'channel_536', 'channel_537', 'channel_538', 'channel_539', 'channel_540', 'channel_541', 'channel_542', 'channel_543', 'channel_544', 'channel_545', 'channel_546', 'channel_547', 'channel_548', 'channel_549', 'channel_550', 'channel_551', 'channel_552', 'channel_553', 'channel_554', 'channel_555', 'channel_556', 'channel_557', 'channel_558', 'channel_559', 'channel_560', 'channel_561', 'channel_562', 'channel_563', 'channel_564', 'channel_565', 'channel_566', 'channel_567', 'channel_568', 'channel_569', 'channel_570', 'channel_571', 'channel_572', 'channel_573', 'channel_574', 'channel_575', 'channel_576', 'channel_577', 'channel_578', 'channel_579', 'channel_580', 'channel_581', 'channel_582', 'channel_583', 'channel_584', 'channel_585', 'channel_586', 'channel_587', 'channel_588', 'channel_589', 'channel_590', 'channel_591', 'channel_592', 'channel_593', 'channel_594', 'channel_595', 'channel_596', 'channel_597', 'channel_598', 'channel_599', 'channel_600', 'channel_601', 'channel_602', 'channel_603', 'channel_604', 'channel_605', 'channel_606', 'channel_607', 'channel_608', 'channel_609', 'channel_610', 'channel_611', 'channel_612', 'channel_613', 'channel_614', 'channel_615', 'channel_616', 'channel_617', 'channel_618', 'channel_619', 'channel_620', 'channel_621', 'channel_622', 'channel_623', 'channel_624', 'channel_625', 'channel_626', 'channel_627', 'channel_628', 'channel_629', 'channel_630', 'channel_631', 'channel_632', 'channel_633', 'channel_634', 'channel_635', 'channel_636', 'channel_637', 'channel_638', 'channel_639', 'channel_640', 'channel_641', 'channel_642', 'channel_643', 'channel_644', 'channel_645', 'channel_646', 'channel_647', 'channel_648', 'channel_649', 'channel_650', 'channel_651', 'channel_652', 'channel_653', 'channel_654', 'channel_655', 'channel_656', 'channel_657', 'channel_658', 'channel_659', 'channel_660', 'channel_661', 'channel_662', 'channel_663', 'channel_664', 'channel_665', 'channel_666', 'channel_667', 'channel_668', 'channel_669', 'channel_670', 'channel_671', 'channel_672', 'channel_673', 'channel_674', 'channel_675', 'channel_676', 'channel_677', 'channel_678', 'channel_679', 'channel_680', 'channel_681', 'channel_682', 'channel_683', 'channel_684', 'channel_685', 'channel_686', 'channel_687', 'channel_688', 'channel_689', 'channel_690', 'channel_691', 'channel_692', 'channel_693', 'channel_694', 'channel_695', 'channel_696', 'channel_697', 'channel_698', 'channel_699', 'channel_700', 'channel_701', 'channel_702', 'channel_703', 'channel_704', 'channel_705', 'channel_706', 'channel_707', 'channel_708', 'channel_709', 'channel_710', 'channel_711', 'channel_712', 'channel_713', 'channel_714', 'channel_715', 'channel_716', 'channel_717', 'channel_718', 'channel_719', 'channel_720', 'channel_721', 'channel_722', 'channel_723', 'channel_724', 'channel_725', 'channel_726', 'channel_727', 'channel_728', 'channel_729', 'channel_730', 'channel_731', 'channel_732', 'channel_733', 'channel_734', 'channel_735', 'channel_736', 'channel_737', 'channel_738', 'channel_739', 'channel_740', 'channel_741', 'channel_742', 'channel_743', 'channel_744', 'channel_745', 'channel_746', 'channel_747', 'channel_748', 'channel_749', 'channel_750', 'channel_751', 'channel_752', 'channel_753', 'channel_754', 'channel_755', 'channel_756', 'channel_757', 'channel_758', 'channel_759', 'channel_760', 'channel_761', 'channel_762', 'channel_763', 'channel_764', 'channel_765', 'channel_766', 'channel_767', 'channel_768', 'channel_769', 'channel_770', 'channel_771', 'channel_772', 'channel_773', 'channel_774', 'channel_775', 'channel_776', 'channel_777', 'channel_778', 'channel_779', 'channel_780', 'channel_781', 'channel_782', 'channel_783', 'channel_784', 'channel_785', 'channel_786', 'channel_787', 'channel_788', 'channel_789', 'channel_790', 'channel_791', 'channel_792', 'channel_793', 'channel_794', 'channel_795', 'channel_796', 'channel_797', 'channel_798', 'channel_799', 'channel_800', 'channel_801', 'channel_802', 'channel_803', 'channel_804', 'channel_805', 'channel_806', 'channel_807', 'channel_808', 'channel_809', 'channel_810', 'channel_811', 'channel_812', 'channel_813', 'channel_814', 'channel_815', 'channel_816', 'channel_817', 'channel_818', 'channel_819', 'channel_820', 'channel_821', 'channel_822', 'channel_823', 'channel_824', 'channel_825', 'channel_826', 'channel_827', 'channel_828', 'channel_829', 'channel_830', 'channel_831', 'channel_832', 'channel_833', 'channel_834', 'channel_835', 'channel_836', 'channel_837', 'channel_838', 'channel_839', 'channel_840', 'channel_841', 'channel_842', 'channel_843', 'channel_844', 'channel_845', 'channel_846', 'channel_847', 'channel_848', 'channel_849', 'channel_850', 'channel_851', 'channel_852', 'channel_853', 'channel_854', 'channel_855', 'channel_856', 'channel_857', 'channel_858', 'channel_859', 'channel_860', 'channel_861', 'channel_862', 'channel_863', 'channel_864', 'channel_865', 'channel_866', 'channel_867', 'channel_868', 'channel_869', 'channel_870', 'channel_871', 'channel_872', 'channel_873', 'channel_874', 'channel_875', 'channel_876', 'channel_877', 'channel_878', 'channel_879', 'channel_880', 'channel_881', 'channel_882', 'channel_883', 'channel_884', 'channel_885', 'channel_886', 'channel_887', 'channel_888', 'channel_889', 'channel_890', 'channel_891', 'channel_892', 'channel_893', 'channel_894', 'channel_895', 'channel_896', 'channel_897', 'channel_898', 'channel_899', 'channel_900', 'channel_901', 'channel_902', 'channel_903', 'channel_904', 'channel_905', 'channel_906', 'channel_907', 'channel_908', 'channel_909', 'channel_910', 'channel_911', 'channel_912', 'channel_913', 'channel_914', 'channel_915', 'channel_916', 'channel_917', 'channel_918', 'channel_919', 'channel_920', 'channel_921', 'channel_922', 'channel_923', 'channel_924', 'channel_925', 'channel_926', 'channel_927', 'channel_928', 'channel_929', 'channel_930', 'channel_931', 'channel_932', 'channel_933', 'channel_934', 'channel_935', 'channel_936', 'channel_937', 'channel_938', 'channel_939', 'channel_940', 'channel_941', 'channel_942', 'channel_943', 'channel_944', 'channel_945', 'channel_946', 'channel_947', 'channel_948', 'channel_949', 'channel_950', 'channel_951', 'channel_952', 'channel_953', 'channel_954', 'channel_955', 'channel_956', 'channel_957', 'channel_958', 'channel_959', 'channel_960', 'channel_961', 'channel_962', 'channel_963']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for PenDigits
+Number of Classes:     => 10
+Number of Attributes:  => 4
+Number of Trajs:       => 10992 total / 7494 train + 3498 test
+Number of Points:      => 87936 total / 59952 train + 27984 test
+Avg Size of Trajs:     => 8.00  / ± 0.0
+Longest Size:          => 8 train / 8 test
+Shortest Size:         => 8 train / 8 test
+Train / Test hold-out: => 7494 - 68.18% .. 3498 - 31.82%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'tid', 'label']
+
+Features Selection (by Variance): 
+              Mean      Std.Dev      Variance
+tid    3746.500000  2163.349482  4.680081e+06
+dim_1    51.428793    35.169690  1.236907e+03
+dim_0    49.975113    33.882172  1.148002e+03
+label     4.430878     2.876813  8.276051e+00
+
+Classes: 
+['8' '2' '1' '4' '6' '0' '5' '9' '7' '3'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 7494
+Samples by Class:
+[0]    780
+[2]    780
+[4]    780
+[1]    779
+[7]    778
+[5]    720
+[6]    720
+[3]    719
+[8]    719
+[9]    719
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 3498
+Samples by Class:
+[1]    364
+[2]    364
+[4]    364
+[7]    364
+[0]    363
+[3]    336
+[6]    336
+[8]    336
+[9]    336
+[5]    335
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for PhonemeSpectra
+Number of Classes:     => 39
+Number of Attributes:  => 13
+Number of Trajs:       => 6668 total / 3315 train + 3353 test
+Number of Points:      => 1446956 total / 719355 train + 727601 test
+Avg Size of Trajs:     => 217.00  / ± 0.0
+Longest Size:          => 217 train / 217 test
+Shortest Size:         => 217 train / 217 test
+Train / Test hold-out: => 3315 - 49.72% .. 3353 - 50.28%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'dim_7', 'dim_8', 'dim_9', 'dim_10', 'tid', 'label']
+
+Features Selection (by Variance): 
+               Mean     Std.Dev       Variance
+tid     1657.000000  956.958693  915769.939710
+dim_10     9.510889    9.227326      85.143550
+dim_9      4.297481    4.169353      17.383504
+dim_8      0.142851    0.138592       0.019208
+dim_7      0.051485    0.049950       0.002495
+dim_6      0.026507    0.025717       0.000661
+dim_5      0.015817    0.015345       0.000235
+dim_4      0.010152    0.009849       0.000097
+dim_3      0.006712    0.006512       0.000042
+dim_2      0.004390    0.004259       0.000018
+dim_1      0.002669    0.002589       0.000007
+dim_0      0.001265    0.001227       0.000002
+label           NaN         NaN            NaN
+
+Classes: 
+['aa' 'ae' 'ah' 'ao' 'aw' 'ay' 'b' 'ch' 'd' 'dh' 'eh' 'er' 'ey' 'f' 'g'
+ 'hh' 'ih' 'iy' 'jh' 'k' 'l' 'm' 'n' 'ng' 'ow' 'oy' 'p' 'r' 's' 'sh' 't'
+ 'th' 'uh' 'uw' 'v' 'w' 'y' 'z' 'zh'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 3315
+Samples by Class:
+[aa]    85
+[sh]    85
+[n]     85
+[ng]    85
+[ow]    85
+[oy]    85
+[p]     85
+[r]     85
+[s]     85
+[t]     85
+[l]     85
+[th]    85
+[uh]    85
+[uw]    85
+[v]     85
+[w]     85
+[y]     85
+[z]     85
+[m]     85
+[k]     85
+[ae]    85
+[dh]    85
+[ah]    85
+[ao]    85
+[aw]    85
+[ay]    85
+[b]     85
+[ch]    85
+[d]     85
+[eh]    85
+[jh]    85
+[er]    85
+[ey]    85
+[f]     85
+[g]     85
+[hh]    85
+[ih]    85
+[iy]    85
+[zh]    85
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 3353
+Samples by Class:
+[aa]    86
+[sh]    86
+[n]     86
+[ng]    86
+[ow]    86
+[oy]    86
+[p]     86
+[r]     86
+[s]     86
+[t]     86
+[l]     86
+[th]    86
+[uh]    86
+[uw]    86
+[v]     86
+[w]     86
+[y]     86
+[z]     86
+[m]     86
+[k]     86
+[ae]    86
+[dh]    86
+[ah]    86
+[ao]    86
+[aw]    86
+[ay]    86
+[b]     86
+[ch]    86
+[d]     86
+[eh]    86
+[jh]    86
+[er]    86
+[ey]    86
+[f]     86
+[g]     86
+[hh]    86
+[ih]    86
+[iy]    86
+[zh]    85
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6', 'channel_7', 'channel_8', 'channel_9', 'channel_10', 'channel_11']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for RacketSports
+Number of Classes:     => 4
+Number of Attributes:  => 8
+Number of Trajs:       => 303 total / 151 train + 152 test
+Number of Points:      => 9090 total / 4530 train + 4560 test
+Avg Size of Trajs:     => 30.00  / ± 0.0
+Longest Size:          => 30 train / 30 test
+Shortest Size:         => 30 train / 30 test
+Train / Test hold-out: => 151 - 49.83% .. 152 - 50.17%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'tid', 'label']
+
+Features Selection (by Variance): 
+            Mean    Std.Dev     Variance
+tid    75.000000  43.593801  1900.419519
+dim_0   2.813331   7.779009    60.512986
+dim_2  -1.935755   6.907270    47.710372
+dim_1  -0.174270   6.663881    44.407304
+dim_3  -0.288927   4.839876    23.424396
+dim_4  -0.055451   4.335523    18.796759
+dim_5  -0.311197   3.999887    15.999093
+label        NaN        NaN          NaN
+
+Classes: 
+['badminton_smash' 'badminton_clear' 'squash_forehandboast'
+ 'squash_backhandboast'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 151
+Samples by Class:
+[badminton_clear]         43
+[badminton_smash]         39
+[squash_forehandboast]    35
+[squash_backhandboast]    34
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 152
+Samples by Class:
+[badminton_clear]         43
+[badminton_smash]         40
+[squash_forehandboast]    35
+[squash_backhandboast]    34
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for SelfRegulationSCP1
+Number of Classes:     => 2
+Number of Attributes:  => 8
+Number of Trajs:       => 561 total / 268 train + 293 test
+Number of Points:      => 502656 total / 240128 train + 262528 test
+Avg Size of Trajs:     => 896.00  / ± 0.0
+Longest Size:          => 896 train / 896 test
+Shortest Size:         => 896 train / 896 test
+Train / Test hold-out: => 268 - 47.77% .. 293 - 52.23%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'tid', 'label']
+
+Features Selection (by Variance): 
+             Mean    Std.Dev     Variance
+tid    133.500000  77.364559  5985.274925
+dim_5   25.289940  23.715740   562.436331
+dim_4   25.538735  23.600291   556.973724
+dim_3   25.788916  23.482512   551.428389
+dim_2   26.039613  23.361727   545.770267
+dim_1   26.290080  23.237202   539.967559
+dim_0   26.545433  23.096204   533.434621
+label         NaN        NaN          NaN
+
+Classes: 
+['negativity' 'positivity'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 268
+Samples by Class:
+[negativity]    135
+[positivity]    133
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 293
+Samples by Class:
+[negativity]    147
+[positivity]    146
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for SelfRegulationSCP2
+Number of Classes:     => 2
+Number of Attributes:  => 9
+Number of Trajs:       => 380 total / 200 train + 180 test
+Number of Points:      => 437760 total / 230400 train + 207360 test
+Avg Size of Trajs:     => 1152.00  / ± 0.0
+Longest Size:          => 1152 train / 1152 test
+Shortest Size:         => 1152 train / 1152 test
+Train / Test hold-out: => 200 - 52.63% .. 180 - 47.37%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'tid', 'label']
+
+Features Selection (by Variance): 
+            Mean    Std.Dev     Variance
+tid    99.500000  57.734431  3333.264467
+dim_6  17.073060  14.229549   202.480053
+dim_5  16.961132  14.122450   199.443598
+dim_4  16.845988  14.011939   196.334431
+dim_3  16.729768  13.899472   193.195335
+dim_2  16.613950  13.779989   189.888103
+dim_1  16.500845  13.660275   186.603120
+dim_0  16.385388  13.540836   183.354247
+label        NaN        NaN          NaN
+
+Classes: 
+['negativity' 'positivity'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 200
+Samples by Class:
+[negativity]    100
+[positivity]    100
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 180
+Samples by Class:
+[negativity]    90
+[positivity]    90
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6', 'channel_7']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for SpokenArabicDigits
+Number of Classes:     => 10
+Number of Attributes:  => 15
+Number of Trajs:       => 8798 total / 6599 train + 2199 test
+Number of Points:      => 350253 total / 263224 train + 87029 test
+Avg Size of Trajs:     => 39.81  / ± 53.18947488065469
+Longest Size:          => 93 train / 83 test
+Shortest Size:         => 4 train / 7 test
+Train / Test hold-out: => 6599 - 75.01% .. 2199 - 24.99%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'dim_7', 'dim_8', 'dim_9', 'dim_10', 'dim_11', 'dim_12', 'tid', 'label']
+
+Features Selection (by Variance): 
+               Mean      Std.Dev      Variance
+tid     3373.739887  1877.768843  3.526016e+06
+label      5.603387     2.830212  8.010099e+00
+dim_0      1.980133     2.750233  7.563783e+00
+dim_1     -3.079583     2.128015  4.528447e+00
+dim_2     -0.360290     1.736442  3.015229e+00
+dim_3     -1.146415     1.295984  1.679575e+00
+dim_4     -0.688572     1.071534  1.148184e+00
+dim_5     -0.617475     0.872253  7.608246e-01
+dim_7     -0.431555     0.835555  6.981530e-01
+dim_6     -0.281016     0.729409  5.320372e-01
+dim_8     -0.141126     0.649679  4.220831e-01
+dim_9     -0.398843     0.636296  4.048730e-01
+dim_10    -0.269780     0.629101  3.957683e-01
+dim_11    -0.166709     0.591822  3.502532e-01
+dim_12    -0.144232     0.539415  2.909682e-01
+
+Classes: 
+['1' '2' '3' '4' '5' '6' '7' '8' '9' '10'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 6599
+Samples by Class:
+[1]     660
+[2]     660
+[3]     660
+[4]     660
+[5]     660
+[6]     660
+[7]     660
+[8]     660
+[9]     660
+[10]    659
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 2199
+Samples by Class:
+[1]     220
+[2]     220
+[3]     220
+[4]     220
+[5]     220
+[6]     220
+[7]     220
+[8]     220
+[9]     220
+[10]    219
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6', 'channel_7', 'channel_8', 'channel_9', 'channel_10', 'channel_11', 'channel_12', 'channel_13']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for StandWalkJump
+Number of Classes:     => 3
+Number of Attributes:  => 6
+Number of Trajs:       => 27 total / 12 train + 15 test
+Number of Points:      => 67500 total / 30000 train + 37500 test
+Avg Size of Trajs:     => 2500.00  / ± 0.0
+Longest Size:          => 2500 train / 2500 test
+Shortest Size:         => 2500 train / 2500 test
+Train / Test hold-out: => 12 - 44.44% .. 15 - 55.56%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'tid', 'label']
+
+Features Selection (by Variance): 
+           Mean   Std.Dev   Variance
+tid    5.500000  3.452110  11.917064
+dim_1  0.006457  0.583916   0.340958
+dim_0  0.005682  0.553933   0.306842
+dim_2  0.014656  0.422233   0.178281
+dim_3  0.005186  0.418466   0.175114
+label       NaN       NaN        NaN
+
+Classes: 
+['standing' 'walking' 'jumping'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 12
+Samples by Class:
+[jumping]     4
+[standing]    4
+[walking]     4
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 15
+Samples by Class:
+[jumping]     5
+[standing]    5
+[walking]     5
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for UWaveGestureLibrary
+Number of Classes:     => 8
+Number of Attributes:  => 5
+Number of Trajs:       => 440 total / 120 train + 320 test
+Number of Points:      => 138600 total / 37800 train + 100800 test
+Avg Size of Trajs:     => 315.00  / ± 0.0
+Longest Size:          => 315 train / 315 test
+Shortest Size:         => 315 train / 315 test
+Train / Test hold-out: => 120 - 27.27% .. 320 - 72.73%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'tid', 'label']
+
+Features Selection (by Variance): 
+               Mean    Std.Dev     Variance
+tid    5.950000e+01  34.640272  1199.948411
+label  4.500000e+00   2.291318     5.250139
+dim_2  7.677249e-08   0.998425     0.996852
+dim_1 -3.407937e-07   0.998425     0.996852
+dim_0 -2.022487e-07   0.998424     0.996851
+
+Classes: 
+['1.0' '2.0' '3.0' '4.0' '5.0' '6.0' '7.0' '8.0'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 120
+Samples by Class:
+[1.0]    15
+[2.0]    15
+[3.0]    15
+[4.0]    15
+[5.0]    15
+[6.0]    15
+[7.0]    15
+[8.0]    15
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 320
+Samples by Class:
+[1.0]    40
+[2.0]    40
+[3.0]    40
+[4.0]    40
+[5.0]    40
+[6.0]    40
+[7.0]    40
+[8.0]    40
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3']
+---------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Descriptive Statistics for InsectWingbeat
+Number of Classes:     => 10
+Number of Attributes:  => 202
+Number of Trajs:       => 50000 total / 25000 train + 25000 test
+Number of Points:      => 335534 total / 167974 train + 167560 test
+Avg Size of Trajs:     => 6.71  / ± 15.28932
+Longest Size:          => 22 train / 22 test
+Shortest Size:         => 2 train / 2 test
+Train / Test hold-out: => 25000 - 50.00% .. 25000 - 50.00%
+
+--------------------------------------------------------------------
+Attributes: 
+['dim_0', 'dim_1', 'dim_2', 'dim_3', 'dim_4', 'dim_5', 'dim_6', 'dim_7', 'dim_8', 'dim_9', 'dim_10', 'dim_11', 'dim_12', 'dim_13', 'dim_14', 'dim_15', 'dim_16', 'dim_17', 'dim_18', 'dim_19', 'dim_20', 'dim_21', 'dim_22', 'dim_23', 'dim_24', 'dim_25', 'dim_26', 'dim_27', 'dim_28', 'dim_29', 'dim_30', 'dim_31', 'dim_32', 'dim_33', 'dim_34', 'dim_35', 'dim_36', 'dim_37', 'dim_38', 'dim_39', 'dim_40', 'dim_41', 'dim_42', 'dim_43', 'dim_44', 'dim_45', 'dim_46', 'dim_47', 'dim_48', 'dim_49', 'dim_50', 'dim_51', 'dim_52', 'dim_53', 'dim_54', 'dim_55', 'dim_56', 'dim_57', 'dim_58', 'dim_59', 'dim_60', 'dim_61', 'dim_62', 'dim_63', 'dim_64', 'dim_65', 'dim_66', 'dim_67', 'dim_68', 'dim_69', 'dim_70', 'dim_71', 'dim_72', 'dim_73', 'dim_74', 'dim_75', 'dim_76', 'dim_77', 'dim_78', 'dim_79', 'dim_80', 'dim_81', 'dim_82', 'dim_83', 'dim_84', 'dim_85', 'dim_86', 'dim_87', 'dim_88', 'dim_89', 'dim_90', 'dim_91', 'dim_92', 'dim_93', 'dim_94', 'dim_95', 'dim_96', 'dim_97', 'dim_98', 'dim_99', 'dim_100', 'dim_101', 'dim_102', 'dim_103', 'dim_104', 'dim_105', 'dim_106', 'dim_107', 'dim_108', 'dim_109', 'dim_110', 'dim_111', 'dim_112', 'dim_113', 'dim_114', 'dim_115', 'dim_116', 'dim_117', 'dim_118', 'dim_119', 'dim_120', 'dim_121', 'dim_122', 'dim_123', 'dim_124', 'dim_125', 'dim_126', 'dim_127', 'dim_128', 'dim_129', 'dim_130', 'dim_131', 'dim_132', 'dim_133', 'dim_134', 'dim_135', 'dim_136', 'dim_137', 'dim_138', 'dim_139', 'dim_140', 'dim_141', 'dim_142', 'dim_143', 'dim_144', 'dim_145', 'dim_146', 'dim_147', 'dim_148', 'dim_149', 'dim_150', 'dim_151', 'dim_152', 'dim_153', 'dim_154', 'dim_155', 'dim_156', 'dim_157', 'dim_158', 'dim_159', 'dim_160', 'dim_161', 'dim_162', 'dim_163', 'dim_164', 'dim_165', 'dim_166', 'dim_167', 'dim_168', 'dim_169', 'dim_170', 'dim_171', 'dim_172', 'dim_173', 'dim_174', 'dim_175', 'dim_176', 'dim_177', 'dim_178', 'dim_179', 'dim_180', 'dim_181', 'dim_182', 'dim_183', 'dim_184', 'dim_185', 'dim_186', 'dim_187', 'dim_188', 'dim_189', 'dim_190', 'dim_191', 'dim_192', 'dim_193', 'dim_194', 'dim_195', 'dim_196', 'dim_197', 'dim_198', 'dim_199', 'tid', 'label']
+
+Features Selection (by Variance): 
+                 Mean      Std.Dev      Variance
+tid      12462.634051  7314.516707  5.350215e+07
+dim_1        0.166717     4.402905  1.938558e+01
+dim_9       -0.002163     4.107820  1.687418e+01
+dim_10      -0.003040     3.807265  1.449527e+01
+dim_13      -0.005585     3.283720  1.078281e+01
+...               ...          ...           ...
+dim_197     -0.000144     0.032174  1.035149e-03
+dim_198      0.000038     0.031303  9.798681e-04
+dim_199      0.000038     0.031303  9.798681e-04
+dim_196      0.000001     0.031035  9.631970e-04
+label             NaN          NaN           NaN
+
+[202 rows x 3 columns]
+
+Classes: 
+['aedes_female' 'aedes_male' 'fruit_flies' 'house_flies' 'quinx_female'
+ 'quinx_male' 'stigma_female' 'stigma_male' 'tarsalis_female'
+ 'tarsalis_male'] 
+
+
+--------------------------------------------------------------------
+Statistics from TRAIN:
+Number of Samples: 25000
+Samples by Class:
+[aedes_female]       2500
+[aedes_male]         2500
+[fruit_flies]        2500
+[house_flies]        2500
+[quinx_female]       2500
+[quinx_male]         2500
+[stigma_female]      2500
+[stigma_male]        2500
+[tarsalis_female]    2500
+[tarsalis_male]      2500
+dtype: int64
+
+
+--------------------------------------------------------------------
+Statistics from TEST.:
+Number of Samples: 25000
+Samples by Class:
+[aedes_female]       2500
+[aedes_male]         2500
+[fruit_flies]        2500
+[house_flies]        2500
+[quinx_female]       2500
+[quinx_male]         2500
+[stigma_female]      2500
+[stigma_male]        2500
+[tarsalis_female]    2500
+[tarsalis_male]      2500
+dtype: int64
+
+Descriptor Dimensions: ['channel_1', 'channel_2', 'channel_3', 'channel_4', 'channel_5', 'channel_6', 'channel_7', 'channel_8', 'channel_9', 'channel_10', 'channel_11', 'channel_12', 'channel_13', 'channel_14', 'channel_15', 'channel_16', 'channel_17', 'channel_18', 'channel_19', 'channel_20', 'channel_21', 'channel_22', 'channel_23', 'channel_24', 'channel_25', 'channel_26', 'channel_27', 'channel_28', 'channel_29', 'channel_30', 'channel_31', 'channel_32', 'channel_33', 'channel_34', 'channel_35', 'channel_36', 'channel_37', 'channel_38', 'channel_39', 'channel_40', 'channel_41', 'channel_42', 'channel_43', 'channel_44', 'channel_45', 'channel_46', 'channel_47', 'channel_48', 'channel_49', 'channel_50', 'channel_51', 'channel_52', 'channel_53', 'channel_54', 'channel_55', 'channel_56', 'channel_57', 'channel_58', 'channel_59', 'channel_60', 'channel_61', 'channel_62', 'channel_63', 'channel_64', 'channel_65', 'channel_66', 'channel_67', 'channel_68', 'channel_69', 'channel_70', 'channel_71', 'channel_72', 'channel_73', 'channel_74', 'channel_75', 'channel_76', 'channel_77', 'channel_78', 'channel_79', 'channel_80', 'channel_81', 'channel_82', 'channel_83', 'channel_84', 'channel_85', 'channel_86', 'channel_87', 'channel_88', 'channel_89', 'channel_90', 'channel_91', 'channel_92', 'channel_93', 'channel_94', 'channel_95', 'channel_96', 'channel_97', 'channel_98', 'channel_99', 'channel_100', 'channel_101', 'channel_102', 'channel_103', 'channel_104', 'channel_105', 'channel_106', 'channel_107', 'channel_108', 'channel_109', 'channel_110', 'channel_111', 'channel_112', 'channel_113', 'channel_114', 'channel_115', 'channel_116', 'channel_117', 'channel_118', 'channel_119', 'channel_120', 'channel_121', 'channel_122', 'channel_123', 'channel_124', 'channel_125', 'channel_126', 'channel_127', 'channel_128', 'channel_129', 'channel_130', 'channel_131', 'channel_132', 'channel_133', 'channel_134', 'channel_135', 'channel_136', 'channel_137', 'channel_138', 'channel_139', 'channel_140', 'channel_141', 'channel_142', 'channel_143', 'channel_144', 'channel_145', 'channel_146', 'channel_147', 'channel_148', 'channel_149', 'channel_150', 'channel_151', 'channel_152', 'channel_153', 'channel_154', 'channel_155', 'channel_156', 'channel_157', 'channel_158', 'channel_159', 'channel_160', 'channel_161', 'channel_162', 'channel_163', 'channel_164', 'channel_165', 'channel_166', 'channel_167', 'channel_168', 'channel_169', 'channel_170', 'channel_171', 'channel_172', 'channel_173', 'channel_174', 'channel_175', 'channel_176', 'channel_177', 'channel_178', 'channel_179', 'channel_180', 'channel_181', 'channel_182', 'channel_183', 'channel_184', 'channel_185', 'channel_186', 'channel_187', 'channel_188', 'channel_189', 'channel_190', 'channel_191', 'channel_192', 'channel_193', 'channel_194', 'channel_195', 'channel_196', 'channel_197', 'channel_198', 'channel_199', 'channel_200']
+---------------------------------------------------------------------------------------------------
