@@ -1,0 +1,28 @@
+{
+   "input": {
+          "train": ["TRAIN"],
+          "test": ["TEST"],
+          "format": "TS",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 1,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 3,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 1,
+	          "type": "numeric",
+	          "text": "sequence",
+	          "comparator": {
+	            "distance": "difference"
+	          }
+	    }
+	]
+}
