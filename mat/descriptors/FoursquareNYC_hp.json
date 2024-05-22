@@ -1,0 +1,89 @@
+{
+   "input": {
+          "train": ["train"],
+          "test": ["test"],
+          "format": "CSV",
+          "loader": "interning"
+   },
+   "idFeature": {
+          "order": 9,
+          "type": "numeric",
+          "text": "tid"
+    },
+   "labelFeature": {
+          "order": 10,
+          "type": "nominal",
+          "text": "label"
+    },
+   "attributes": [
+	    {
+	          "order": 1,
+	          "type": "nominal",
+	          "text": "day",
+	          "comparator": {
+	            "distance": "equals",
+	            "maxValue": -1
+	          }
+	    },
+	    {
+	          "order": 2,
+	          "type": "time",
+	          "text": "hour",
+	          "comparator": {
+	            "distance": "difference",
+	            "maxValue": -1
+	          }
+	    },
+	    {
+	          "order": 3,
+	          "type": "nominal",
+	          "text": "poi",
+	          "comparator": {
+	            "distance": "equals"
+	          }
+	    },
+	    {
+	          "order": 4,
+	          "type": "nominal",
+	          "text": "category",
+	          "comparator": {
+	            "distance": "equals"
+	          }
+	    },
+	    {
+	          "order": 5,
+	          "type": "numeric",
+	          "text": "price",
+	          "comparator": {
+	            "distance": "diffnotneg",
+	            "maxValue": -1
+	          }
+	    },
+	    {
+	          "order": 6,
+	          "type": "numeric",
+	          "text": "rating",
+	          "comparator": {
+	            "distance": "diffnotneg",
+	            "maxValue": -1
+	          }
+	    },
+	    {
+	          "order": 7,
+	          "type": "nominal",
+	          "text": "weather",
+	          "comparator": {
+	            "distance": "equals"
+	          }
+	    },
+	    {
+	          "order": 8,
+	          "type": "space2d",
+	          "text": "space",
+	          "comparator": {
+	            "distance": "euclidean",
+	            "maxValue": -1
+	          }
+	    },
+	]
+}
