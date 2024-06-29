@@ -29,8 +29,8 @@ This respository contains public preprocessed datasets used in research experime
 - Clothing Alibaba: \[ [files](./data/sequential/ClothingAlibaba) \] **NEW**
 
 *Time Series:*
-- Univariate Time Seties: \[ [35 datasets](./data/uts/) \] **NEW**
-- Multivariate Time Seties: \[ [127 datasets](./data/mts/) \] **NEW**
+- Univariate Time Seties: \[ [127 datasets](./data/uts/) \] **NEW**
+- Multivariate Time Seties: \[ [35 datasets](./data/mts/) \] **NEW**
 
 *Event Log:*
 - BPI Challenge 2011: \[ [files](./data/log/BPI2011) \] **NEW**
@@ -48,8 +48,10 @@ This repository datasets are preprocessed for methods based on multiple aspect t
    - [MARC datasets](https://github.com/bigdata-ufsc/petry-2020-marc/tree/master/data) 
    - [MASTERMovelets/SUPERMovelets datasets](https://github.com/anfer86/dmkd_masterMovelets_results/tree/master/datasets)
    - [Movelets datasets](https://github.com/bigdata-ufsc/ferrero-2018-movelets/tree/master/datasets/ACMSAC2018)
-   - [http://www.timeseriesclassification.com/](http://www.timeseriesclassification.com/dataset.php)
+   - Time Series datasets [http://www.timeseriesclassification.com/](http://www.timeseriesclassification.com/dataset.php)
    - [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/)
+   - Weeplaces and Clothing Alibaba: [https://www.yongliu.org/datasets.html](https://www.yongliu.org/datasets.html)
+   - BPI Challenge: [https://icpmconference.org/](https://icpmconference.org/)
 
 
 ## Authors
