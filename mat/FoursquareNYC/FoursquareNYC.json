@@ -19,6 +19,7 @@
 	          "order": 1,
 	          "type": "space2d",
 	          "text": "space",
+              "dependency": "poi",
 	          "comparator": {
 	            "distance": "euclidean",
 	            "maxValue": -1
@@ -46,6 +47,7 @@
 	          "order": 4,
 	          "type": "nominal",
 	          "text": "poi",
+              "dependency": "poi",
 	          "comparator": {
 	            "distance": "equals"
 	          }
@@ -54,6 +56,7 @@
 	          "order": 5,
 	          "type": "nominal",
 	          "text": "type",
+              "dependency": "poi",
 	          "comparator": {
 	            "distance": "equals"
 	          }
@@ -62,6 +65,7 @@
 	          "order": 6,
 	          "type": "nominal",
 	          "text": "root_type",
+              "dependency": "poi",
 	          "comparator": {
 	            "distance": "equals"
 	          }
@@ -70,6 +74,8 @@
 	          "order": 7,
 	          "type": "numeric",
 	          "text": "rating",
+              "dependency": "poi",
+              "weight": 0.5,
 	          "comparator": {
 	            "distance": "diffnotneg",
 	            "maxValue": -1
