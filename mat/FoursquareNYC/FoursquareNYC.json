@@ -1,7 +1,8 @@
 {
    "input": {
-          "train": ["data"],
-          "format": "parquet",
+          "train": ["train"],
+          "test": ["test"],
+          "format": "CSV",
           "loader": "interning"
    },
    "idFeature": {
@@ -30,7 +31,7 @@
 	          "type": "time",
 	          "text": "time",
 	          "comparator": {
-	            "distance": "time",
+	            "distance": "difference",
 	            "maxValue": -1
 	          }
 	    },
